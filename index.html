@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#EDF0F2">
+  <meta name="description" content="Bornotoron – বাংলা লেখার সহজ পথ। Type in Banglish and get Bangla instantly. A private, free, browser-based phonetic keyboard.">
+  <title>বর্ণতরণ – বাংলা লেখার সহজ পথ</title>
+  <link id="site-favicon" rel="icon" type="image/png" href="assets/Favicon/favicon.png" data-source="assets/Favicon/favicon.png">
+  <link rel="apple-touch-icon" href="assets/Favicon/favicon.png">
+  <script>
+    try { const t = localStorage.getItem('bornotoron.theme'); document.documentElement.dataset.theme = t === 'dark' || t === 'light' ? t : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch (_) { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js/rules.js"></script>
+  <script defer src="js/dictionary.js"></script>
+  <script defer src="js/transliterate.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#banglish-input">Skip to writing</a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-7-2-10-1v15c3-1 7-1 10 1 3-2 7-2 10-1V4c-3-1-7-1-10 1v15"/></symbol>
+    <symbol id="i-history" viewBox="0 0 24 24"><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7m2-4v6l4 2"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 5v-4a3.5 3.5 0 0 0-1-3c3-.3 6-1.4 6-6a5 5 0 0 0-1.4-3.5A4.6 4.6 0 0 0 18.5 2S17.3 1.7 15 3a12 12 0 0 0-6 0C6.7 1.7 5.5 2 5.5 2a4.6 4.6 0 0 0-.1 3.5A5 5 0 0 0 4 9c0 4.6 3 5.7 6 6a3.5 3.5 0 0 0-1 3v4"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-13h-8l1-7Z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m15 4 5 5M4 20l5-1L21 7l-4-4L5 15l-1 5Z"/></symbol>
+  </svg>
+
+  <header id="site-header" class="site-header">
+    <nav class="nav-container" aria-label="প্রধান নেভিগেশন">
+      <a class="brand" href="./" aria-label="বর্ণতরণ — হোম">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/Logo/logo.png" alt="" width="1024" height="1024" decoding="async"></span>
+        <span>বর্ণতরণ<span class="brand-period">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="মেনু খুলুন" aria-expanded="false" aria-controls="navigation"><span class="hamburger-lines" aria-hidden="true"><span></span><span></span><span></span></span></button>
+      <div class="nav-panel" id="navigation"><div class="nav-panel-inner"><div class="nav-actions">
+        <button class="nav-link" id="rules-link" aria-expanded="false" aria-controls="cheat-content"><svg class="icon"><use href="#i-book"/></svg><span>নিয়ম</span></button>
+        <button class="nav-link" id="history-toggle" aria-expanded="false" aria-controls="history-content"><svg class="icon"><use href="#i-history"/></svg><span>ইতিহাস</span></button>
+        <span class="nav-divider"></span>
+        <a class="icon-button" id="nav-github" href="https://github.com/TajkirHossen-14/Bornotoron" target="_blank" rel="noopener noreferrer" aria-label="গিটহাব – নতুন ট্যাবে খুলুন" title="Bornotoron on GitHub"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span class="mobile-nav-label">গিটহাব</span></a>
+        <button class="icon-button theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" title="Switch theme"><svg class="icon moon-icon"><use href="#i-moon"/></svg><svg class="icon sun-icon"><use href="#i-sun"/></svg><span class="mobile-nav-label" id="theme-label">লাইট থিম</span></button>
+      </div></div></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <span class="eyebrow"><span class="status-dot"></span> YOUR WORDS. YOUR LANGUAGE.</span>
+      <h1 id="hero-title">বর্ণতরণ<span class="hero-dot">.</span></h1>
+      <h2>বাংলা লেখার সহজ পথ</h2>
+      <p>ভাবনা আপনার, অক্ষর বাংলার। <span class="hero-description">Type in Banglish. Watch it become Bangla.</span></p>
+      <div class="hero-flourish" aria-hidden="true"><span></span><svg class="icon"><use href="#i-spark"/></svg><span></span></div>
+    </section>
+
+    <section id="writing-workspace" class="workspace page-width" aria-label="Banglish to Bangla editor">
+      <div class="workspace-heading">
+        <p><span class="status-dot"></span><span>মনের কথা, বাংলার অক্ষরে</span><span class="live-label">LIVE TRANSLITERATION</span></p>
+        <label class="number-control" for="number-toggle"><span>বাংলা সংখ্যা</span><input type="checkbox" id="number-toggle" checked><span class="switch" aria-hidden="true"></span><span class="number-preview" aria-hidden="true">১২৩</span></label>
+      </div>
+      <div class="editor-grid">
+        <article class="editor-card input-card">
+          <header class="panel-heading"><div><span class="language-tile" aria-hidden="true">Aa</span><h3>আপনার লেখা <span>Banglish</span></h3></div><span class="panel-label">BANGLISH INPUT</span></header>
+          <label class="sr-only" for="banglish-input">এখানে Banglish এ লিখুন</label>
+          <textarea id="banglish-input" lang="en" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="এখানে Banglish এ লিখুন... (e.g. Ami banglay likhchi)">Ami banglay likhchi</textarea>
+          <footer class="panel-footer"><span class="input-hint"><svg class="icon"><use href="#i-spark"/></svg>Write naturally. We’ll handle the letters.</span><button class="icon-button" id="clear-button" aria-label="Clear text" title="Clear text"><svg class="icon"><use href="#i-trash"/></svg></button></footer>
+        </article>
+        <span class="conversion-bridge" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+        <article class="editor-card output-card">
+          <header class="panel-heading"><div><span class="language-tile bangla-tile" aria-hidden="true">অ</span><h3>বাংলায় আপনার কথা <span>Bangla</span></h3></div><span class="live-badge"><span class="status-dot"></span>LIVE</span></header>
+          <div class="output-scroll"><div id="bangla-output" class="bangla-output" role="region" aria-label="বাংলা আউটপুট। সংশোধন করতে শব্দে ক্লিক করুন।" tabindex="0"></div><span class="output-placeholder" id="output-placeholder" hidden>আপনার বাংলা লেখা এখানে ফুটে উঠবে...</span></div>
+          <footer class="panel-footer output-footer"><span class="output-count" id="output-counter">০ অক্ষর <span>·</span> ০ শব্দ</span><div class="output-actions"><button class="icon-button download-button" id="download-button" aria-label="Download Bangla as a text file" title="Download .txt"><svg class="icon"><use href="#i-download"/></svg></button><button class="copy-button" id="copy-button"><svg class="icon"><use href="#i-copy"/></svg><span>কপি করুন</span><span class="copy-tooltip" role="tooltip">Copied!</span></button></div></footer>
+        </article>
+      </div>
+      <div class="editor-underbar"><p><svg class="icon"><use href="#i-edit"/></svg> শব্দে ক্লিক করে বানান বদলান। <span class="underline-example">দাগ দেওয়া শব্দে</span> বিকল্প আছে।</p><span class="keyboard-hint"><kbd>Ctrl</kbd> + <kbd>Enter</kbd> to copy</span></div>
+      <div class="example-row"><span>একটু চেষ্টা করুন</span><button class="example-chip" data-example="Ami banglay likhchi">Ami banglay likhchi <svg class="icon"><use href="#i-arrow"/></svg></button><button class="example-chip" data-example="shubho shokal">shubho shokal <svg class="icon"><use href="#i-arrow"/></svg></button><button class="example-chip" data-example="amar bon bhalo ache">amar bon bhalo ache <svg class="icon"><use href="#i-arrow"/></svg></button></div>
+    </section>
+
+    <section class="benefits page-width" aria-label="Features">
+      <article><span class="feature-icon"><svg class="icon"><use href="#i-bolt"/></svg></span><div><h3>লিখুন, বাংলায় দেখুন</h3><p>Type in Banglish. Get Bangla instantly.</p></div></article>
+      <article><span class="feature-icon"><svg class="icon"><use href="#i-lock"/></svg></span><div><h3>আপনার লেখা, আপনার কাছেই</h3><p>Your words stay in your browser.</p></div></article>
+      <article><span class="feature-icon"><svg class="icon"><use href="#i-spark"/></svg></span><div><h3>পছন্দের বানান মনে রাখে</h3><p>Your preferred spellings, remembered.</p></div></article>
+    </section>
+
+    <section id="cheat-sheet" class="reference-section page-width reveal">
+      <button class="section-toggle" id="cheat-toggle" aria-expanded="false" aria-controls="cheat-content"><span class="section-title"><span class="section-icon"><svg class="icon"><use href="#i-book"/></svg></span><span><strong>লেখার ছোট্ট সহায়িকা</strong><small>A little guide to get you going</small></span></span><span class="section-toggle-right">Phonetic cheat sheet <svg class="icon chevron"><use href="#i-chevron"/></svg></span></button>
+      <div class="collapsible" id="cheat-content" inert><div class="collapse-inner"><div class="cheat-body"><p class="guide-intro">যেভাবে বলেন, সেভাবেই লিখুন। Uppercase matters: <code>o → অ</code>, <code>O → ও</code>. After a consonant, <code>o</code> uses its inherent vowel; <code>O</code> adds ো.</p><div class="cheat-tabs" role="tablist" aria-label="Phonetic categories"><button id="tab-vowels" role="tab" aria-selected="true" aria-controls="mapping-panel" data-category="vowels">স্বরবর্ণ <span>Vowels</span></button><button id="tab-consonants" role="tab" aria-selected="false" aria-controls="mapping-panel" tabindex="-1" data-category="consonants">ব্যঞ্জনবর্ণ <span>Consonants</span></button><button id="tab-special" role="tab" aria-selected="false" aria-controls="mapping-panel" tabindex="-1" data-category="special">যুক্তাক্ষর ও চিহ্ন</button></div><div id="mapping-panel" role="tabpanel" aria-labelledby="tab-vowels"><div id="mapping-grid" class="mapping-grid"></div></div><p class="guide-note">Try <code>kh</code> → খ, <code>sundor</code> → সুন্দর, <code>kO</code> → কো. <code>c</code> → চ, <code>ch</code> / <code>chh</code> → ছ. Everyday spellings are helped by a built-in dictionary. Banglish is flexible; click any output word to make it yours.</p></div></div></div>
+    </section>
+
+    <section id="recent-history" class="reference-section history-section page-width reveal">
+      <button class="section-toggle" id="history-section-toggle" aria-expanded="false" aria-controls="history-content"><span class="section-title"><span class="section-icon"><svg class="icon"><use href="#i-history"/></svg></span><span><strong>আপনার সাম্প্রতিক লেখা</strong><small>Pick up where you left off</small></span></span><span class="section-toggle-right"><span id="history-count">0 saved</span><svg class="icon chevron"><use href="#i-chevron"/></svg></span></button>
+      <div class="collapsible" id="history-content" inert><div class="collapse-inner"><div class="history-body"><div class="history-toolbar"><p>Last 10 conversions · saved only on this device</p><button class="text-button" id="clear-history">Clear history</button></div><div id="history-list"></div></div></div></div>
+    </section>
+
+    <section class="closing-note page-width"><span aria-hidden="true">অ</span><p>এক ভাষা থেকে আরেক ভাষায়, একটু সহজে।<small>A small bridge. A world of expression.</small></p></section>
+  </main>
+
+  <footer class="site-footer page-width" lang="en"><p>© 2026 Bornotoron. All Rights Reserved</p><nav class="footer-links" aria-label="Footer"><button class="text-button" id="privacy-button">Privacy &amp; Local Data</button><a href="#project-info">About</a><button class="text-button" id="report-button">Report an Issue</button><a class="footer-github" href="https://github.com/TajkirHossen-14/Bornotoron" target="_blank" rel="noopener noreferrer" aria-label="Bornotoron on GitHub – opens in a new tab"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></nav></footer>
+
+  <div id="word-popover" class="word-popover" role="dialog" aria-labelledby="popover-heading" hidden>
+    <header><span id="popover-heading">শব্দ বেছে নিন</span><button class="icon-button small" id="close-popover" aria-label="Close suggestions"><svg class="icon"><use href="#i-close"/></svg></button></header>
+    <p id="popover-source"></p><div id="word-options" class="word-options"></div>
+    <form id="correction-form"><label for="correction-input">নিজের বানান লিখুন <small>Edit this word</small></label><div class="correction-fields"><input id="correction-input" lang="bn" autocomplete="off" maxlength="100" required aria-label="Correct Bangla spelling"><button type="submit" class="apply-button" aria-label="Apply spelling"><svg class="icon"><use href="#i-check"/></svg></button></div></form>
+    <div class="remember-prompt" id="remember-prompt" hidden><p>মনে রাখব? <small>Use this spelling next time?</small></p><button id="remember-button">মনে রাখুন</button><button id="forget-button" class="text-button">Not now</button></div>
+  </div>
+
+  <dialog id="privacy-dialog" class="info-dialog"><form method="dialog"><button class="icon-button dialog-close" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button></form><span class="dialog-kicker">PRIVATE BY DESIGN</span><h2>আপনার লেখা, আপনার কাছেই।</h2><p>Your text is converted entirely in this browser. No accounts, no analytics, and no text sent to a server.</p><p>Drafts, the last 10 conversions, your number preference, and learned spellings are stored locally. Google Fonts is the only external request; system fonts work offline.</p><div class="local-data-row"><span id="learned-count">0 learned spellings</span><button id="clear-learned" class="text-button">Forget learned spellings</button></div><button id="clear-local" class="danger-button">Delete all local data & reset</button><p class="small-print">Local browser data is not encrypted. Avoid saving sensitive information on shared devices.</p></dialog>
+  <dialog id="about-dialog" class="info-dialog"><form method="dialog"><button class="icon-button dialog-close" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button></form><span class="dialog-kicker">A BRIDGE BETWEEN SCRIPTS</span><h2>Meet Bornotoron<span class="accent">.</span></h2><p>বর্ণ means letter. তরণ means crossing. A little bridge from the way you speak to the script you love.</p><p>A free, client-side phonetic tool inspired by Avro. This is an independent implementation, not the official Avro engine. Suggestions give you the final say on spelling.</p><p id="dictionary-size"></p><a class="repo-placeholder" href="https://github.com/TajkirHossen-14/Bornotoron" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>View Bornotoron on GitHub ↗</a></dialog>
+  <dialog id="report-dialog" class="info-dialog" aria-labelledby="report-heading" lang="en"><form method="dialog"><button class="icon-button dialog-close" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button></form><span class="dialog-kicker">HELP MAKE IT BETTER</span><h2 id="report-heading">Report an Issue<span class="accent">.</span></h2><p>Found a bug or a spelling we can improve? Open an issue in the Bornotoron repository. GitHub may ask you to sign in. Nothing is submitted until you send it there.</p><a class="repo-placeholder" id="github-issues" href="https://github.com/TajkirHossen-14/Bornotoron/issues/new" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>Open GitHub Issues ↗</a><p>Prefer to prepare a report first? Write it below and download a local copy to share.</p><label class="report-label" for="issue-details">What happened?</label><textarea id="issue-details" rows="5" maxlength="5000" placeholder="Steps to reproduce…&#10;Expected result…&#10;Actual result…"></textarea><button class="copy-button report-download" id="download-report"><svg class="icon"><use href="#i-download"/></svg>Download report</button><p class="small-print">Your editor text and saved history are not included. Please avoid adding private information.</p></dialog>
+  <p id="status-message" class="toast" role="status" aria-live="polite"></p>
+  <noscript><div class="noscript-note">Please enable JavaScript to use Bornotoron's local transliteration engine.</div></noscript>
+</body>
+</html>
