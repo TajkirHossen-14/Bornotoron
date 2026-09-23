@@ -1,0 +1,109 @@
+/* Pure conversion engine: no DOM, network, or storage dependencies.
+ * API: new BornotoronEngine(personalOverrides).convert(text, bengaliDigits)
+ * A word's case is ignored ONLY for dictionary lookup, not phonetic matching. */
+(function () {
+  'use strict';
+  const rules = window.BornotoronRules;
+  const dictionary = window.BornotoronDictionary;
+  const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
+  // Sort once. Aspirates, diphthongs and conjunct patterns win over prefixes.
+  const patterns = Object.keys({ ...rules.vowels, ...rules.consonants, ...rules.symbols })
+    .sort((a, b) => b.length - a.length);
+
+  function phonetic(word) {
+    let output = '', consonantPending = false;
+    // A small morphological boundary rule prevents false conjuncts in future
+    // verbs (kor+bo), without breaking genuine clusters such as sorbo → সর্ব.
+    const futureStem = rules.futureStems.find(stem => word.startsWith(stem) && rules.futureSuffixes.includes(word.slice(stem.length)));
+    for (let i = 0; i < word.length;) {
+      if (futureStem && i === futureStem.length) consonantPending = false;
+      const pattern = patterns.find(p => word.startsWith(p, i));
+      if (!pattern) {
+        const char = word[i];
+        // Ordinary uppercase letters are accepted without erasing T/D/N/O/I/U.
+        output += /[A-Z]/.test(char) ? phonetic(char.toLowerCase()) : char;
+        consonantPending = /[A-Z]/.test(char);
+        i++;
+        continue;
+      }
+      if (own(rules.vowels, pattern)) {
+        const [independent, kar] = rules.vowels[pattern];
+        // o after a consonant closes its inherent vowel, without adding ো.
+        output += consonantPending ? kar : independent;
+        consonantPending = false;
+      } else if (own(rules.consonants, pattern)) {
+        let letter = rules.consonants[pattern];
+        if (letter === 'ং') {
+          output += letter;
+          consonantPending = false;
+        } else {
+          // y is য-ফলা after a consonant, and য় elsewhere.
+          if (pattern === 'y' && consonantPending) letter = 'য';
+          output += (consonantPending ? '্' : '') + letter;
+          consonantPending = letter !== 'ও';
+        }
+      } else {
+        output += rules.symbols[pattern];
+        consonantPending = false;
+      }
+      i += pattern.length;
+    }
+    return output;
+  }
+
+  class BornotoronEngine {
+    constructor(personal = {}) {
+      this.cache = new Map();
+      this.tokens = [];
+      this.nextId = 0;
+      this.setPersonal(personal);
+    }
+    setPersonal(personal) {
+      this.personal = Object.assign(Object.create(null), personal);
+      this.cache.clear();
+      this.tokens = [];
+    }
+    resolve(word) {
+      if (this.cache.has(word)) return this.cache.get(word);
+      const key = word.toLowerCase();
+      let result;
+      // Priority: personal learning → curated spelling → ambiguity → rules.
+      if (own(this.personal, key)) result = { text: this.personal[key], source: 'personal' };
+      else if (own(dictionary.overrides, key)) result = { text: dictionary.overrides[key], source: 'dictionary' };
+      else if (own(dictionary.homophones, key)) {
+        result = { text: dictionary.homophones[key][0], source: 'ambiguous', options: dictionary.homophones[key] };
+      } else result = { text: phonetic(word), source: 'phonetic' };
+      if (this.cache.size > 12000) this.cache.clear();
+      this.cache.set(word, result);
+      return result;
+    }
+    convert(text, bengaliDigits = true) {
+      const parts = text.match(/[A-Za-z^`]+|[0-9]+|[^A-Za-z^`0-9]+/g) || [];
+      const old = this.tokens;
+      let prefix = 0, suffix = 0;
+      const same = (token, raw) => token && token.raw === raw && token.digits === bengaliDigits;
+      while (prefix < parts.length && same(old[prefix], parts[prefix])) prefix++;
+      while (suffix < parts.length - prefix && suffix < old.length - prefix &&
+        same(old[old.length - 1 - suffix], parts[parts.length - 1 - suffix])) suffix++;
+      // Unchanged prefix/suffix tokens retain IDs and occurrence-specific choices.
+      this.tokens = parts.map((raw, index) => {
+        if (index < prefix) return old[index];
+        if (index >= parts.length - suffix) return old[old.length - (parts.length - index)];
+        const isWord = /^[A-Za-z^`]+$/.test(raw);
+        const result = isWord ? this.resolve(raw) : {
+          text: bengaliDigits ? raw.replace(/[0-9]/g, n => rules.digits[Number(n)]) : raw,
+          source: 'separator'
+        };
+        return { raw, isWord, id: ++this.nextId, digits: bengaliDigits, ...result };
+      });
+      return this.tokens;
+    }
+    text() { return this.tokens.map(token => token.text).join(''); }
+    choose(id, value) {
+      const token = this.tokens.find(item => item.id === id);
+      if (token && token.isWord) token.text = value;
+    }
+  }
+  window.BornotoronEngine = BornotoronEngine;
+  window.BornotoronPhonetic = phonetic;
+})();
