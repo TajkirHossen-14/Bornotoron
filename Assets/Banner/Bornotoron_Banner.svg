@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Bornotoron – বাংলা লেখার সহজ পথ</title>
+  <desc id="desc">A silver-water and forest-green banner for Bornotoron, with a typographic wordmark and a visual crossing from Roman letters to Bangla. Private, instant, and framework-free.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#f5f8fa"/><stop offset=".55" stop-color="#edf0f2"/><stop offset="1" stop-color="#dbe3e8"/></linearGradient>
+    <linearGradient id="glass" x1="940" y1="120" x2="1300" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#ffffff" stop-opacity=".96"/><stop offset="1" stop-color="#f5f8fa" stop-opacity=".7"/></linearGradient>
+    <pattern id="stitch" x="0" y="0" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M36 24 48 36 36 48 24 36Z M36 6v5M36 61v5M6 36h5M61 36h5" stroke="#236340" stroke-opacity=".065"/><circle cx="36" cy="36" r="3" stroke="#236340" stroke-opacity=".065"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#253743" flood-opacity=".08"/></filter>
+    <clipPath id="bounds"><rect width="1500" height="500" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1500" height="500" fill="url(#silver)"/>
+    <rect x="810" width="690" height="500" fill="url(#stitch)"/>
+    <circle cx="1308" cy="241" r="284" stroke="#c4d0d5" stroke-opacity=".55"/>
+    <circle cx="1308" cy="241" r="221" stroke="#c4d0d5" stroke-opacity=".45"/>
+    <path d="M-70 431C271 348 487 535 877 456S1347 414 1537 483" stroke="#c4d0d5" stroke-width="1.5" stroke-opacity=".6"/>
+    <text x="81" y="81" fill="#236340" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3">YOUR WORDS.</text>
+    <text x="81" y="102" fill="#59646b" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="3">YOUR LANGUAGE.</text>
+    <text x="76" y="231" fill="#236340" font-family="Inter, Arial, sans-serif" font-size="85" font-weight="700" letter-spacing="-4">Bornotoron<tspan fill="#578368">.</tspan></text>
+    <text x="81" y="290" fill="#283338" font-family="Noto Sans Bengali, Hind Siliguri, sans-serif" font-size="30" font-weight="500">বাংলা লেখার সহজ পথ</text>
+    <text x="81" y="333" fill="#59646b" font-family="Inter, Arial, sans-serif" font-size="18">Type in Banglish. Watch it become Bangla.</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.4" fill="#236340">
+      <rect x="80" y="382" width="110" height="33" rx="16.5" stroke="#c9d6ce" fill="#f5f8fa"/><text x="99" y="403">INSTANT</text>
+      <rect x="201" y="382" width="112" height="33" rx="16.5" stroke="#c9d6ce" fill="#f5f8fa"/><text x="220" y="403">PRIVATE</text>
+      <rect x="324" y="382" width="190" height="33" rx="16.5" stroke="#c9d6ce" fill="#f5f8fa"/><text x="344" y="403">NO INSTALLATION</text>
+    </g>
+    <g transform="rotate(-7 1037 225)" filter="url(#shadow)">
+      <rect x="906" y="105" width="227" height="235" rx="25" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+      <text x="936" y="144" fill="#69777e" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.4">BANGLISH</text>
+      <text x="940" y="264" fill="#67787e" font-family="Inter, Arial, sans-serif" font-size="88" font-weight="500" letter-spacing="-4">Aa</text>
+      <path d="M939 301h123" stroke="#d5dfe3" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="rotate(6 1265 290)" filter="url(#shadow)">
+      <rect x="1136" y="163" width="235" height="237" rx="25" fill="#236340"/>
+      <text x="1166" y="202" fill="#c5e0cd" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.4">BANGLA</text>
+      <text x="1186" y="324" fill="#f6fbf8" font-family="Noto Sans Bengali, Hind Siliguri, sans-serif" font-size="101" font-weight="500">অ</text>
+      <path d="M1169 361h135" stroke="#659576" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g filter="url(#shadow)"><circle cx="1135" cy="255" r="31" fill="#fafcfd" stroke="#d2dadd"/><path d="M1121 255h27m-10-10 10 10-10 10" stroke="#236340" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <path d="m1391 105 4 11 11 4-11 4-4 11-4-11-11-4 11-4Z" stroke="#236340" stroke-opacity=".5" stroke-width="1.5"/>
+    <text x="1054" y="452" fill="#687980" font-family="Inter, Arial, sans-serif" font-size="10" letter-spacing="2.2">A SMALL BRIDGE. A WORLD OF EXPRESSION.</text>
+  </g>
+</svg>
