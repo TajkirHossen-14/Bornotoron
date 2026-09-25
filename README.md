@@ -1,10 +1,10 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Bornotoron – a small bridge from Banglish to Bangla" width="100%">
+  <img src="Assets/Banner/Bornotoron_Banner.svg" alt="Bornotoron – a small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# 🌉 [Bornotoron](https://github.com/TajkirHossen-14/Bornotoron) · বর্ণতরণ
+# [Bornotoron](https://github.com/TajkirHossen-14/Bornotoron) · বর্ণতরণ
 
 ### বাংলা লেখার সহজ পথ
 
@@ -13,9 +13,7 @@ Type in Banglish. Watch it become Bangla.
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Frameworks](https://img.shields.io/badge/Frameworks-Zero-236340?style=flat-square)
-![Privacy](https://img.shields.io/badge/Privacy-Browser_only-236340?style=flat-square)
-![Rights](https://img.shields.io/badge/License-All_Rights_Reserved-555555?style=flat-square)
+
 
 **583 spelling entries. Zero frameworks. Your words stay yours.**
 
@@ -65,7 +63,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 <a id="why-bornotoron"></a>
 ## 💡 Why Bornotoron?
 
-| | A basic transliteration box | 🌉 Bornotoron |
+| | A basic transliteration box | Bornotoron |
 |---|---|---|
 | **Spelling** | One phonetic rule for everything | Dictionary-first spelling with greedy-rule fallback |
 | **Ambiguity** | Silently chooses one spelling | Dotted words offer genuine alternatives |
@@ -202,24 +200,29 @@ Then open `http://localhost:8000`. This is optional static-file serving, not an 
 ## 📁 Project Structure
 
 ```text
-bornotoron/
+Bornotoron/
+│
 ├── index.html              # App, image logo/favicon links, dialogs
+│
 ├── style.css               # Themes, responsive layout, motion
+│
 ├── js/
 │   ├── rules.js            # Phonetic and boundary-rule data
 │   ├── dictionary.js       # Overrides, homophones, regression data
 │   ├── transliterate.js    # Pure conversion engine
 │   ├── main.js             # UI, menu, local persistence and exports
 │   └── tests.js            # Engine/UI/contrast regression suite
-├── assets/
+│
+├── Assets/
 │   ├── Logo/
-│   │   └── logo.png        # Transparent PNG logo
+│   │   └── logo.png        
 │   ├── Favicon/
-│   │   └── favicon.png     # Matching transparent PNG favicon
-│   └── banner.svg          # 3:1 typographic brand banner
-├── images/
-│   └── bornotoron-logo.png # Preserved original upload (source only)
-├── tests.html              # Test runner + banner preview
+│   │   └── favicon.png     
+│   └── Banner/ 
+│       └──Bornotoron_Banner.svg          
+│
+├── tests.html              
+│
 └── README.md
 ```
 
