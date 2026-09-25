@@ -177,6 +177,7 @@ window.BornotoronDictionary = Object.freeze({
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
+    koi: ['কৈ', 'কই'],
     kul: ['কুল', 'কূল'], din: ['দিন', 'দীন'], tir: ['তির', 'তীর'],
     shur: ['সুর', 'শূর'], shor: ['সর', 'স্বর'],
     bol: ['বল', 'বোল'], jor: ['জড়', 'জোর', 'জ্বর'],
