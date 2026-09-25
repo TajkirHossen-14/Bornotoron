@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="Assets/Banner/Bornotoron_Banner.svg" alt="Bornotoron – a small bridge from Banglish to Bangla" width="100%">
+  <img src="Assets/Banner/Bornotoron_Banner_2.svg" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
 # [Bornotoron]() · বর্ণতরণ
