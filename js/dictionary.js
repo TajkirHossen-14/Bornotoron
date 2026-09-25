@@ -173,11 +173,13 @@ window.BornotoronDictionary = Object.freeze({
     majhe: 'মাঝে', majher: 'মাঝের', majhemajhe: 'মাঝে মাঝে',
     chotto: 'ছোট্ট', chhotto: 'ছোট্ট', chotobela: 'ছোটবেলা',
     chhotobela: 'ছোটবেলা', chotobelar: 'ছোটবেলার',
-    chotoo: 'ছোটও', boroder: 'বড়দের', chotoder: 'ছোটদের'
+    chotoo: 'ছোটও', boroder: 'বড়দের', chotoder: 'ছোটদের',
+    jatiyo: 'জাতীয়', jatio: 'জাতীয়', jatyo: 'জাতীয়',
+    vasha: 'ভাষা', ektu: 'একটু'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
-    koi: ['কৈ', 'কই'],
+    koi: ['কই', 'কৈ'],
     kul: ['কুল', 'কূল'], din: ['দিন', 'দীন'], tir: ['তির', 'তীর'],
     shur: ['সুর', 'শূর'], shor: ['সর', 'স্বর'],
     bol: ['বল', 'বোল'], jor: ['জড়', 'জোর', 'জ্বর'],
