@@ -38,7 +38,7 @@
     'kh gh ch chh jh Th Dh th dh ph bh': 'খ ঘ ছ ছ ঝ ঠ ঢ থ ধ ফ ভ',
     'T D N Sh R Rh': 'ট ড ণ ষ ড় ঢ়',
     'a i I u U e oi ou rri': 'আ ই ঈ উ ঊ এ ঐ ঔ ঋ',
-    'ka ki kI ku kU ke koi kou krri': 'কা কি কী কু কূ কে কৈ কৌ কৃ',
+    'ka ki kI ku kU ke koi kou krri': 'কা কি কী কু কূ কে কই কৌ কৃ',
     'kkh kSh gg ng Ng H ^': 'ক্ষ ক্ষ জ্ঞ ং ঙ ঃ ঁ',
     'nd tr kr ky': 'ন্দ ত্র ক্র ক্য', 't`': 'ৎ',
     'ami,\n\ttomake! 123 বাংলা 💚': 'আমি,\n\tতোমাকে! ১২৩ বাংলা 💚',
