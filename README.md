@@ -149,10 +149,9 @@ The editor arrow occupies its own grid column on desktop and its own row on mobi
 
 ### Brand files
 
-- **Banner:** [`assets/banner.svg`](assets/banner.svg), 1500 × 500, exactly 3:1.
-- **Logo:** [`assets/Logo/logo.png`](assets/Logo/logo.png) – background-removed PNG derived from the user's original artwork, not redrawn.
-- **Favicon:** [`assets/Favicon/favicon.png`](assets/Favicon/favicon.png) – the same transparent mark, also used as the touch icon.
-- **Original source:** [`images/bornotoron-logo.png`](images/bornotoron-logo.png) – the unmodified upload is retained for future editing; the website does not display this white-background source.
+- **Banner:** [`Assets/Banner/Bornotoron_Banner.svg`](Assets/Banner/Bornotoron_Banner.svg), 1500 × 500, exactly 3:1.
+- **Logo:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – background-removed PNG derived from the user's original artwork, not redrawn.
+- **Favicon:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – the same transparent mark, also used as the touch icon.
 - **Pattern:** tileable SVG data URI in `style.css`.
 
 The header logo frame is **32px on desktop / 30px on mobile**, balanced against the Bangla wordmark. Its container has **no white fill**, and the PNG has genuine alpha transparency, including its inner triangular cutout. CSS only crops surplus transparent margins; it does not redraw the mark. The favicon retains the source artwork's transparent outer margin.
