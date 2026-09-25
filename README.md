@@ -52,7 +52,7 @@ Type in Banglish. Watch it become Bangla.
 Ami banglay likhchi    →  আমি বাংলায় লিখছি
 shubho shokal          →  শুভ সকাল
 amar bon bhalo ache    →  আমার বন ভালো আছে
-                                 ↳ choose বোন if you mean “sister”
+                                 ↳ Choose বোন if you mean “Sister”
 ```
 
 **বর্ণ** means letter. **তরণ** means crossing. Bornotoron is a small bridge between the way you type and the script you love.
