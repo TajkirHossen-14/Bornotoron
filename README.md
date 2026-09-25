@@ -4,7 +4,7 @@
   <img src="Assets/Banner/Bornotoron_Banner.svg" alt="Bornotoron – a small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# [Bornotoron](https://github.com/TajkirHossen-14/Bornotoron) · বর্ণতরণ
+# [Bornotoron]() · বর্ণতরণ
 
 ### বাংলা লেখার সহজ পথ
 
@@ -19,7 +19,7 @@ Type in Banglish. Watch it become Bangla.
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 ## 📌 Table of Contents
 
@@ -36,11 +36,11 @@ Type in Banglish. Watch it become Bangla.
 - [🧪 Tests & Accessibility](#tests)
 - [🌐 Routes & Deployment](#deployment)
 - [🗺️ Known Limits & Next Steps](#roadmap)
-- [🤝 Contributing](#contributing)
+- [🤝🏼 Contributing](#contributing)
 - [📜 License](#license)
 - [⭐ Support](#support)
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="overview"></a>
 ## 📑 Overview
@@ -58,7 +58,7 @@ amar bon bhalo ache    →  আমার বন ভালো আছে
 
 It combines phonetic rules, a bundled spelling dictionary, explicit homophone choices, and your own learned corrections. This is an **independent Avro-inspired implementation**, not the official Avro engine or a translation service.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="why-bornotoron"></a>
 ## 💡 Why Bornotoron?
@@ -73,7 +73,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 | **Design** | Fixed theme or cramped controls | Silver-water light theme, neutral dark theme, mobile navigation |
 | **Setup** | Install a keyboard or app | Open `index.html` – no installation or build step |
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="key-features"></a>
 ## ✨ Key Features
@@ -105,7 +105,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 - 🪡 **Subtle alpona-inspired texture** – SVG pattern, not a raster image.
 - 🐛 **Local issue-report preparation** – write a report and download it; no silent upload or false submission confirmation.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="built-with"></a>
 ## 🛠️ Built With
@@ -126,7 +126,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 
 **No React, Vue, Tailwind, Bootstrap, npm, bundler, backend, database, API key, or analytics.**
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="theming"></a>
 ## 🌗 Theming & Brand
@@ -158,7 +158,7 @@ The header logo frame is **32px on desktop / 30px on mobile**, balanced against 
 
 The obsolete bridge logo has been removed from the banner. The banner is an editable typographic vector illustration, with no embedded raster images or external asset requests. Text uses system-font fallbacks, so its exact letterforms can vary by viewer. The application does not load the README banner at runtime.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="getting-started"></a>
 ## 🚀 Getting Started
@@ -193,7 +193,7 @@ Then open `http://localhost:8000`. This is optional static-file serving, not an 
 
 > Local file storage and clipboard permissions vary by browser. For predictable persistence and deployment behavior, use a static HTTP/HTTPS origin.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="project-structure"></a>
 ## 📁 Project Structure
@@ -220,14 +220,15 @@ Bornotoron/
 │   └── Banner/ 
 │       └──Bornotoron_Banner.svg          
 │
-├── tests.html              
+├── tests.html 
 │
+├── LICENSE
 └── README.md
 ```
 
 Redundant quick-start/asset-only README files and temporary dark-mode/navigation preview helpers have been removed. Only application files, required brand assets, the preserved source artwork, this documentation, and the regression runner remain.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="engine"></a>
 ## 🧠 How the Engine Works
@@ -286,7 +287,7 @@ engine.setPersonal({ bon: 'বোন' }); // Replace preferences and clear cache
 - **MediaQueryList** – theme and navigation respond to system/viewport changes.
 - **WCAG relative luminance** – numerical contrast verification, not visual guesswork.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="phonetic-reference"></a>
 ## ⌨️ Phonetic Quick Reference
@@ -311,7 +312,7 @@ engine.setPersonal({ bon: 'বোন' }); // Replace preferences and clear cache
 
 Click any output word to correct it. The output is read-only by default; word-level editing happens in the suggestion popover.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="local-storage"></a>
 ## 💾 Privacy & Local Storage
@@ -336,7 +337,7 @@ No text is sent to a transliteration API. There is no server-side persistence, T
 
 **External resources:** the app optionally requests Google Fonts from `fonts.googleapis.com` and `fonts.gstatic.com`. README badges separately use Shields.io; they are not part of the application. Font requests do not contain your editor text.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="tests"></a>
 ## 🧪 Tests & Accessibility
@@ -414,9 +415,9 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 | **Vercel** | Static/Other preset, no build command; output directory `.` |
 | **Project editor** | Use the **Publish tab** to obtain the live URL |
 
-Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `assets/Logo/` and `assets/Favicon/`. The original upload in `images/` is retained as a source asset, not loaded by the application. The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
+Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `Assets/Logo/` and `Assets/Favicon/`.  The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="roadmap"></a>
 ## 🗺️ Known Limits & Next Steps
@@ -440,10 +441,10 @@ Relative paths support repository subdirectories. No rewrite rules are needed. T
 5. Add versioned learned-dictionary import/export and storage migrations if needed.
 6. Consider licensed local fonts and a tested service worker only if installable offline use becomes a requirement.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="contributing"></a>
-## 🤝 Contributing
+## 🤝🏼 Contributing
 
 Have a better spelling, a reproducible bug, or an accessibility improvement?
 
@@ -455,14 +456,15 @@ Have a better spelling, a reproducible bug, or an accessibility improvement?
 
 Visit [the repository](https://github.com/TajkirHossen-14/Bornotoron) to propose a patch, or [open an issue](https://github.com/TajkirHossen-14/Bornotoron/issues/new) with reproduction steps. The footer's **Report an Issue** dialog also offers a local report download; the app itself does not upload your data.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
+
 
 <a id="license"></a>
 ## 📜 License
 
-**© 2026 Bornotoron. All Rights Reserved.**
+This project is licensed under the [MIT License](LICENSE).
 
-No open-source license has been assigned. The MIT badge from the example README has deliberately **not** been copied: an example's license does not license this project. Obtain the rights holder's permission for reuse beyond applicable law. Third-party fonts retain their own licenses.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
 <a id="support"></a>
 ## ⭐ Support
@@ -473,6 +475,5 @@ If Bornotoron helps you write more naturally, share it, send useful spelling or 
 
 **এক ভাষা থেকে আরেক ভাষায়, একটু সহজে।**
 
-A small bridge. A world of expression.
 
 </div>
