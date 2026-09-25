@@ -304,10 +304,15 @@
     content.classList.toggle('is-open', open); content.inert = !open;
     const toggle = name === 'cheat' ? $('cheat-toggle') : $('history-section-toggle');
     toggle.setAttribute('aria-expanded', String(open));
-    if (name === 'history') $('history-toggle').setAttribute('aria-expanded', String(open));
+    const navToggle = name === 'cheat' ? $('rules-link') : $('history-toggle');
+    navToggle.setAttribute('aria-expanded', String(open));
   }
   $('cheat-toggle').addEventListener('click', () => setSection('cheat', $('cheat-toggle').getAttribute('aria-expanded') !== 'true'));
-  $('rules-link').addEventListener('click', () => { setSection('cheat', true); });
+  $('rules-link').addEventListener('click', () => {
+    const open = $('rules-link').getAttribute('aria-expanded') !== 'true';
+    setSection('cheat', open);
+    if (open) $('cheat-sheet').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  });
   $('history-section-toggle').addEventListener('click', () => setSection('history', $('history-toggle').getAttribute('aria-expanded') !== 'true'));
   $('history-toggle').addEventListener('click', () => {
     const open = $('history-toggle').getAttribute('aria-expanded') !== 'true';
@@ -489,6 +494,42 @@
     cancelAnimationFrame(renderFrame); convert();
     if (historyTimer) saveDraft();
   });
+  // Crop transparent margins from the existing PNG, not the artwork itself.
+  // A PNG Blob fills more of the browser's fixed favicon slot without base64.
+  async function enhanceFavicon() {
+    const link = $('site-favicon');
+    if (!link) return;
+    try {
+      const image = new Image(); image.src = link.dataset.source; await image.decode();
+      const source = document.createElement('canvas');
+      source.width = image.naturalWidth; source.height = image.naturalHeight;
+      const ctx = source.getContext('2d', { willReadFrequently: true });
+      ctx.drawImage(image, 0, 0);
+      const pixels = ctx.getImageData(0, 0, source.width, source.height).data;
+      let left = source.width, top = source.height, right = -1, bottom = -1;
+      for (let y = 0; y < source.height; y++) for (let x = 0; x < source.width; x++) {
+        if (pixels[(y * source.width + x) * 4 + 3] > 12) {
+          left = Math.min(left, x); right = Math.max(right, x);
+          top = Math.min(top, y); bottom = Math.max(bottom, y);
+        }
+      }
+      if (right < left) return;
+      const width = right - left + 1, height = bottom - top + 1;
+      const icon = document.createElement('canvas'); icon.width = icon.height = 64;
+      const target = icon.getContext('2d'); target.imageSmoothingQuality = 'high';
+      const scale = 60 / Math.max(width, height);
+      target.drawImage(image, left, top, width, height, (64 - width * scale) / 2, (64 - height * scale) / 2, width * scale, height * scale);
+      const blob = await new Promise(resolve => icon.toBlob(resolve, 'image/png'));
+      if (!blob) return;
+      link.href = URL.createObjectURL(blob); link.setAttribute('sizes', '64x64');
+      link.dataset.enhanced = 'true';
+      // Keep the object URL alive until document disposal, including bfcache.
+    } catch (_) {
+      // file:// privacy policies may block pixel reads; retain the PNG fallback.
+      link.dataset.enhanced = 'fallback';
+    }
+  }
+  enhanceFavicon();
   convert(); if (draft) restoreChoices(draft.choices);
   renderHistory(); showMappings('vowels'); updateThemeLabel();
   if (location.hash === '#cheat-sheet') setSection('cheat', true);
