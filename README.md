@@ -277,16 +277,16 @@ engine.setPersonal({ bon: 'বোন' }); // Replace preferences and clear cache
 
 ### JavaScript concepts worth a look
 
-- **Classes & closures** – pure conversion state isolated from the DOM.
-- **Maps & memoization** – cached phonetic/dictionary results.
-- **Greedy matching** – longest patterns resolve first.
-- **Stable token identity** – preserve edits through unchanged suffixes.
-- **Event delegation** – dynamic word controls and mobile navigation.
-- **Debouncing** – history saves after a pause instead of on every keystroke.
-- **Async/await** – clipboard handling with explicit failure fallback.
-- **Blob lifecycle** – browser-only downloads and delayed URL revocation.
-- **MediaQueryList** – theme and navigation respond to system/viewport changes.
-- **WCAG relative luminance** – numerical contrast verification, not visual guesswork.
+- **Classes & closures** – Pure conversion state isolated from the DOM.
+- **Maps & memoization** – Cached phonetic/dictionary results.
+- **Greedy matching** – Longest patterns resolve first.
+- **Stable token identity** – Preserve edits through unchanged suffixes.
+- **Event delegation** – Dynamic word controls and mobile navigation.
+- **Debouncing** – History saves after a pause instead of on every keystroke.
+- **Async/await** – Clipboard handling with explicit failure fallback.
+- **Blob lifecycle** – Browser-only downloads and delayed URL revocation.
+- **MediaQueryList** – Theme and navigation respond to system/viewport changes.
+- **WCAG relative luminance** – Numerical contrast verification, not visual guesswork.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
@@ -401,11 +401,11 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 
 ### Public URLs
 
-- **Production:** no deployment URL has been assigned in this project.
+- **Production:** No deployment URL has been assigned in this project yet.
 - **GitHub repository:** https://github.com/TajkirHossen-14/Bornotoron
 - **Issue tracker:** https://github.com/TajkirHossen-14/Bornotoron/issues
 - **New issue:** https://github.com/TajkirHossen-14/Bornotoron/issues/new (GitHub sign-in and repository permissions may apply).
-- **Application API endpoints:** none.
+- **Application API endpoints:** None.
 
 ### Static hosting
 
@@ -470,7 +470,7 @@ This project is licensed under the [MIT License](LICENSE).
 <a id="support"></a>
 ## ⭐ Support
 
-If Bornotoron helps you write more naturally, share it, send useful spelling or usability feedback, and consider giving [the repository a star ⭐](https://github.com/TajkirHossen-14/Bornotoron).
+If Bornotoron helps you write more naturally, share it, send useful spelling or usability feedback, and consider giving the [repository](https://github.com/TajkirHossen-14/Bornotoron) a star ⭐.
 
 <div align="center">
 
