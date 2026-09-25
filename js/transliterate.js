@@ -90,8 +90,9 @@
         if (index < prefix) return old[index];
         if (index >= parts.length - suffix) return old[old.length - (parts.length - index)];
         const isWord = /^[A-Za-z^`]+$/.test(raw);
+        const isDecimalDot = raw === '.' && /^[0-9]+$/.test(parts[index - 1]) && /^[0-9]+$/.test(parts[index + 1]);
         const result = isWord ? this.resolve(raw) : {
-          text: bengaliDigits ? raw.replace(/[0-9]/g, n => rules.digits[Number(n)]) : raw,
+          text: (isDecimalDot ? raw : raw.replace(/\./g, '।')).replace(bengaliDigits ? /[0-9]/g : /(?!)/g, n => rules.digits[Number(n)]),
           source: 'separator'
         };
         return { raw, isWord, id: ++this.nextId, digits: bengaliDigits, ...result };
