@@ -4,7 +4,7 @@
   <img src="Assets/Banner/Bornotoron_Banner_2.svg" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# [Bornotoron]() · বর্ণতরণ
+# Bornotoron · [বর্ণতরণ]()
 
 ### বাংলা লেখার সহজ পথ
 
@@ -13,6 +13,7 @@ Type in Banglish. Watch it become Bangla.
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
 
 **583 spelling entries. Zero frameworks. Your words stay yours.**
@@ -80,30 +81,30 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 
 ### ✍️ Write naturally
 
-- ⚡ **Live conversion** – updates as you type, with no submit button.
-- 📚 **583 spelling entries** – frequent words, inflections, and common Banglish aliases; more than 323 differ from the raw phonetic fallback.
-- 🔀 **14 ambiguity groups** – including `bon → বন / বোন` and `bhor → ভর / ভোর`.
-- 🧠 **Learned corrections** – click an output word, edit its Bangla spelling, and choose whether to remember it.
-- 🔢 **Bangla digits** – optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
-- 🧩 **Unicode support** – vowels, kar, aspirates, conjuncts, diacritics, and preserved whitespace, punctuation, existing Bangla, and emoji.
+- ⚡ **Live conversion** – Updates as you type, with no submit button.
+- 📚 **583 spelling entries** – Frequent words, inflections, and common Banglish aliases; more than 323 differ from the raw phonetic fallback.
+- 🔀 **14 ambiguity groups** – Including `bon → বন / বোন` and `bhor → ভর / ভোর`.
+- 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
+- 🔢 **Bangla digits** – Optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
+- 🧩 **Unicode support** – Vowels, kar, aspirates, conjuncts, diacritics, and preserved whitespace, punctuation, existing Bangla, and emoji.
 
 ### 🧰 Keep your flow
 
-- 📋 **Copy** – success animation and `Ctrl/Cmd + Enter` from the input; fallback when clipboard permission is unavailable.
-- 📄 **Download** – browser-generated UTF-8 `.txt` output. No server endpoint.
-- 🧹 **Clear** – reset the current input without deleting your saved history.
-- 💾 **History & drafts** – restore the last 10 conversions and recover your draft on reload.
-- 📊 **Live counts** – grapheme-aware character counts where supported, plus word counts.
-- 📖 **Phonetic guide** – collapsible, keyboard-navigable reference tabs.
+- 📋 **Copy** – Success animation and `Ctrl/Cmd + Enter` from the input; fallback when clipboard permission is unavailable.
+- 📄 **Download** – Browser-generated UTF-8 `.txt` output. No server endpoint.
+- 🧹 **Clear** – Reset the current input without deleting your saved history.
+- 💾 **History & drafts** – Restore the last 10 conversions and recover your draft on reload.
+- 📊 **Live counts** – Grapheme-aware character counts where supported, plus word counts.
+- 📖 **Phonetic guide** – Collapsible, keyboard-navigable reference tabs.
 
 ### 🎨 A considered interface
 
-- 🌗 **Two complete themes** – forest green on silver-grey in light mode; GitHub-inspired near-black/slate with green text/icons in dark mode.
-- 📱 **Responsive navigation** – a smooth animated hamburger contains নিয়ম, ইতিহাস, গিটহাব, and the theme switch on mobile.
-- ♿ **Accessible controls** – labels, visible focus, keyboard navigation, inert closed-menu content, Escape/outside-click dismissal, and reduced-motion support.
-- 🌿 **User-supplied Bengali logo** – the original green mark, with its white background removed to real transparent PNG, for the navbar and favicon; plus a self-contained **1500 × 500 (3:1) SVG banner**.
+- 🌗 **Two complete themes** – Forest green on silver-grey in light mode; GitHub-inspired near-black/slate with green text/icons in dark mode.
+- 📱 **Responsive navigation** – A smooth animated hamburger contains নিয়ম, ইতিহাস, গিটহাব, and the theme switch on mobile.
+- ♿ **Accessible controls** – Labels, visible focus, keyboard navigation, inert closed-menu content, Escape/outside-click dismissal, and reduced-motion support.
+- 🌿 **User-supplied Bengali logo** – The original green mark, with its white background removed to real transparent PNG, for the navbar and favicon; plus a self-contained **1500 × 500 (3:1) SVG banner**.
 - 🪡 **Subtle alpona-inspired texture** – SVG pattern, not a raster image.
-- 🐛 **Local issue-report preparation** – write a report and download it; no silent upload or false submission confirmation.
+- 🐛 **Local issue-report preparation** – Write a report and download it; no silent upload or false submission confirmation.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
