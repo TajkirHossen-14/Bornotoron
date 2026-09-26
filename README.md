@@ -46,7 +46,7 @@ Type in Banglish. Watch it become Bangla.
 <a id="overview"></a>
 ## 📑 Overview
 
-**Bornotoron** is a static, framework-free English-to-Bangla phonetic writing tool. Write the way you speak, and receive Bangla Unicode in real time:
+**Bornotoron** is a static, framework-free Banglish-to-Bangla phonetic writing tool. Write the way you speak, and receive Bangla Unicode in real time:
 
 ```text
 Ami banglay likhchi    →  আমি বাংলায় লিখছি
