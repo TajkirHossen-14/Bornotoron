@@ -177,7 +177,46 @@ window.BornotoronDictionary = Object.freeze({
     jatiyo: 'জাতীয়', jatio: 'জাতীয়', jatyo: 'জাতীয়',
     vasha: 'ভাষা', ektu: 'একটু',
     kivabe: 'কীভাবে', kevabe: 'কীভাবে', kibhabe: 'কীভাবে', kebhabe: 'কীভাবে',
-    konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ'
+    konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ',
+    // Pronouns & Basics
+    i: 'আই', you: 'ইউ', he: 'হি', she: 'শি', we: 'উই', they: 'দে', it: 'ইট',
+    this: 'দিস', that: 'দ্যাট', these: 'দিজ', those: 'দোজ', here: 'হিয়ার',
+    there: 'দেয়ার', what: 'হোয়াট', who: 'হু', where: 'হোয়্যার', when: 'হোয়েন',
+    why: 'হোয়াই', how: 'হাউ', which: 'হুইচ',
+    // Daily Verbs
+    be: 'বি', have: 'হ্যাভ', do: 'ডু', say: 'সে', get: 'গেট', make: 'মেইক',
+    go: 'গো', know: 'নো', take: 'টেক', see: 'সি', come: 'কাম', think: 'থিংক',
+    look: 'লুক', want: 'ওয়ান্ট', give: 'গিভ', use: 'ইউজ', find: 'ফাইন্ড',
+    tell: 'টেল', ask: 'আস্ক', work: 'ওয়ার্ক', feel: 'ফিল', try: 'ট্রাই',
+    leave: 'লিভ', call: 'কল', keep: 'কিপ', let: 'লেট', begin: 'বিগিন',
+    help: 'হেল্প', show: 'শো', hear: 'হিয়ার', play: 'প্লে', run: 'রান',
+    move: 'মুভ', live: 'লিভ', believe: 'বিলিভ', bring: 'ব্রিং', happen: 'হ্যাপেন',
+    // Time & Days
+    time: 'টাইম', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
+    afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমরো', yesterday: 'ইয়েস্টারডে',
+    week: 'উইক', month: 'মান্থ', year: 'ইয়ার', now: 'নাউ', then: 'দেন',
+    always: 'অলওয়েজ', never: 'নেভার', sometimes: 'সামটাইমস', early: 'আর্লি', late: 'লেট',
+    // Adjectives & States
+    good: 'গুড', bad: 'ব্যাড', new: 'নিউ', old: 'ওল্ড', first: 'ফার্স্ট',
+    last: 'লাস্ট', long: 'লং', short: 'শর্ট', great: 'গ্রেট', little: 'লিটল',
+    big: 'বিগ', small: 'স্মল', high: 'হাই', low: 'লো', happy: 'হ্যাপি',
+    sad: 'স্যাড', angry: 'অ্যাংরি', tired: 'টায়ার্ড', ready: 'রেডি', hot: 'হট',
+    cold: 'কোল্ড', easy: 'ইজি', hard: 'হার্ড', right: 'রাইট', wrong: 'রং',
+    true: 'ট্রু', false: 'ফলস', full: 'ফুল', empty: 'এম্পটি',
+    // People & Relations
+    man: 'ম্যান', woman: 'ওম্যান', boy: 'বয়', girl: 'গার্ল', child: 'চাইল্ড',
+    friend: 'ফ্রেন্ড', family: 'ফ্যামিলি', father: 'ফাদার', mother: 'মাদার',
+    brother: 'ব্রাদার', sister: 'সিস্টার',
+    // Objects & Places
+    water: 'ওয়াটার', food: 'ফুড', book: 'বুক', pen: 'পেন',
+    car: 'কার', bus: 'বাস', home: 'হোম', house: 'হাউস', room: 'রুম',
+    door: 'ডোর', window: 'উইন্ডো', road: 'রোড', shop: 'শপ', market: 'মার্কেট',
+    money: 'মানি', school: 'স্কুল', office: 'অফিস',
+    // Prepositions & Conjunctions
+    in: 'ইন', on: 'অন', at: 'অ্যাট', by: 'বাই', with: 'উইথ', about: 'অ্যাবাউট',
+    between: 'বিটুইন', into: 'ইনটু', through: 'থ্রু', before: 'বিফোর',
+    after: 'আফটার', above: 'অ্যাবাভ', below: 'বিলো', from: 'ফ্রম', up: 'আপ',
+    down: 'ডাউন', and: 'অ্যান্ড', but: 'বাট', or: 'অর', if: 'ইফ', because: 'বিকজ'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
