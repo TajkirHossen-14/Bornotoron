@@ -22,8 +22,8 @@
     check(`Latin lowercase key ${key}`, /^[a-z]+$/.test(key));
     check(`not a shadowed homophone ${key}`, Object.hasOwn(dict.homophones, key), false);
   });
-  check('substantially expanded dictionary', Object.keys(dict.overrides).length >= 323);
-  check('at least 323 spellings differ from phonetic fallback', Object.entries(dict.overrides).filter(([key, value]) => BornotoronPhonetic(key) !== value).length >= 323);
+  check('substantially expanded dictionary', Object.keys(dict.overrides).length >= 740);
+  check('at least 590 spellings differ from phonetic fallback', Object.entries(dict.overrides).filter(([key, value]) => BornotoronPhonetic(key) !== value).length >= 590);
   Object.entries(dict.homophones).forEach(([key, options]) => {
     const e = new BornotoronEngine(); const tokens = e.convert(key);
     check(`ambiguous ${key}`, tokens[0].source, 'ambiguous');
