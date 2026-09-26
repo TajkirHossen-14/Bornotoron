@@ -216,7 +216,42 @@ window.BornotoronDictionary = Object.freeze({
     in: 'ইন', on: 'অন', at: 'অ্যাট', by: 'বাই', with: 'উইথ', about: 'অ্যাবাউট',
     between: 'বিটুইন', into: 'ইনটু', through: 'থ্রু', before: 'বিফোর',
     after: 'আফটার', above: 'অ্যাবাভ', below: 'বিলো', from: 'ফ্রম', up: 'আপ',
-    down: 'ডাউন', and: 'অ্যান্ড', but: 'বাট', or: 'অর', if: 'ইফ', because: 'বিকজ'
+    down: 'ডাউন', and: 'অ্যান্ড', but: 'বাট', or: 'অর', if: 'ইফ', because: 'বিকজ',
+    // Technology & Gadgets
+    charger: 'চার্জার', chargerer: 'চার্জারের', chargere: 'চার্জারে',
+    battery: 'ব্যাটারি', batteryer: 'ব্যাটারির', batterye: 'ব্যাটারিতে',
+    password: 'পাসওয়ার্ড', message: 'মেসেজ',
+    online: 'অনলাইন', offline: 'অফলাইন', link: 'লিংক', app: 'অ্যাপ',
+    video: 'ভিডিও', photo: 'ফটো', screen: 'স্ক্রিন',
+    // Office, Education & Career
+    university: 'ইউনিভার্সিটি', college: 'কলেজ', class: 'ক্লাস',
+    exam: 'এক্সাম', result: 'রেজাল্ট', meeting: 'মিটিং', boss: 'বস',
+    job: 'জব', salary: 'স্যালারি', file: 'ফাইল', pdf: 'পিডিএফ',
+    assignment: 'অ্যাসাইনমেন্ট', presentation: 'প্রেজেন্টেশন',
+    // Transport & Travel
+    train: 'ট্রেন', ticket: 'টিকিট', station: 'স্টেশন',
+    airport: 'এয়ারপোর্ট', airporte: 'এয়ারপোর্টে', driver: 'ড্রাইভার',
+    bike: 'বাইক', cycle: 'সাইকেল', traffic: 'ট্রাফিক',
+    location: 'লোকেশন', map: 'ম্যাপ',
+    // Health & Medical
+    doctor: 'ডাক্তার', doctorer: 'ডাক্তারের', doctore: 'ডাক্তারে',
+    hospital: 'হাসপাতাল', clinic: 'ক্লিনিক', medicine: 'মেডিসিন',
+    ambulance: 'অ্যাম্বুলেন্স', emergency: 'ইমার্জেন্সি', report: 'রিপোর্ট',
+    operation: 'অপারেশন', patient: 'পেশেন্ট',
+    // Food & Dining
+    restaurant: 'রেস্টুরেন্ট', bill: 'বিল', menu: 'মেন্যু', order: 'অর্ডার',
+    tea: 'টি', icecream: 'আইসক্রিম', pizza: 'পিজ্জা', burger: 'বার্গার', juice: 'জুস',
+    // Household & Lifestyle
+    fan: 'ফ্যান', light: 'লাইট', tv: 'টিভি', ac: 'এসি', fridge: 'ফ্রিজ',
+    table: 'টেবিল', chair: 'চেয়ার', bed: 'বেড', sofa: 'সোফা',
+    glass: 'গ্লাস', plate: 'প্লেট', mirror: 'মিরর',
+    soap: 'সোপ', shampoo: 'শ্যাম্পু',
+    // Shopping & Daily Words
+    price: 'প্রাইস', discount: 'ডিসকাউন্ট', offer: 'অফার', shopping: 'শপিং',
+    problem: 'প্রবলেম', solution: 'সলিউশন', idea: 'আইডিয়া', date: 'ডেট',
+    confirm: 'কনফার্ম', cancel: 'ক্যান্সেল', thanks: 'থ্যাংকস',
+    // Short Forms / Abbreviations
+    sim: 'সিম', atm: 'এটিএম', wifi: 'ওয়াইফাই', bluetooth: 'ব্লুটুথ'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
