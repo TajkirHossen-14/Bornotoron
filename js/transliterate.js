@@ -51,6 +51,38 @@
     return output;
   }
 
+  function resolveSuffix(word) {
+    const suffixRules = [
+      { suffix: 'gulote', replacement: 'গুলোতে' },
+      { suffix: 'guloke', replacement: 'গুলোকে' },
+      { suffix: 'gulor', replacement: 'গুলোর' },
+      { suffix: 'gulai', replacement: 'গুলোই' },
+      { suffix: 'gulo', replacement: 'গুলো' },
+      { suffix: 'take', replacement: 'টাকে' },
+      { suffix: 'toke', replacement: 'টাকে' },
+      { suffix: 'tate', replacement: 'টাতে' },
+      { suffix: 'tote', replacement: 'টোতে' },
+      { suffix: 'tar', replacement: 'টার' },
+      { suffix: 'ter', replacement: 'টির' },
+      { suffix: 'ta', replacement: 'টা' },
+      { suffix: 'ti', replacement: 'টি' },
+      { suffix: 'ke', replacement: 'কে' },
+      { suffix: 'e', replacement: 'ে' },
+      { suffix: 'er', replacement: 'ের' },
+      { suffix: 'ar', replacement: 'ার' },
+      { suffix: 'or', replacement: 'োর' },
+    ];
+    for (const rule of suffixRules) {
+      if (word.length > rule.suffix.length && word.endsWith(rule.suffix)) {
+        let base = word.slice(0, -rule.suffix.length).replace(/-$/, '');
+        if (own(dictionary.overrides, base)) {
+          return { text: dictionary.overrides[base] + rule.replacement, source: 'dictionary' };
+        }
+      }
+    }
+    return null;
+  }
+
   class BornotoronEngine {
     constructor(personal = {}) {
       this.cache = new Map();
@@ -67,18 +99,21 @@
       if (this.cache.has(word)) return this.cache.get(word);
       const key = word.toLowerCase();
       let result;
-      // Priority: personal learning → curated spelling → ambiguity → rules.
+      // Priority: personal learning → curated spelling → ambiguity → suffix → rules.
       if (own(this.personal, key)) result = { text: this.personal[key], source: 'personal' };
       else if (own(dictionary.overrides, key)) result = { text: dictionary.overrides[key], source: 'dictionary' };
       else if (own(dictionary.homophones, key)) {
         result = { text: dictionary.homophones[key][0], source: 'ambiguous', options: dictionary.homophones[key] };
-      } else result = { text: phonetic(word), source: 'phonetic' };
+      } else {
+        const suffixed = resolveSuffix(key);
+        result = suffixed || { text: phonetic(word), source: 'phonetic' };
+      }
       if (this.cache.size > 12000) this.cache.clear();
       this.cache.set(word, result);
       return result;
     }
     convert(text, bengaliDigits = true) {
-      const parts = text.match(/[A-Za-z^`]+|[0-9]+|[^A-Za-z^`0-9]+/g) || [];
+      const parts = text.match(/[A-Za-z^`]+(?:-[A-Za-z^`]+)*|[0-9]+|[^A-Za-z^`0-9]+/g) || [];
       const old = this.tokens;
       let prefix = 0, suffix = 0;
       const same = (token, raw) => token && token.raw === raw && token.digits === bengaliDigits;
@@ -89,7 +124,7 @@
       this.tokens = parts.map((raw, index) => {
         if (index < prefix) return old[index];
         if (index >= parts.length - suffix) return old[old.length - (parts.length - index)];
-        const isWord = /^[A-Za-z^`]+$/.test(raw);
+        const isWord = /^[A-Za-z^`]+(?:-[A-Za-z^`]+)*$/.test(raw);
         const isDecimalDot = raw === '.' && /^[0-9]+$/.test(parts[index - 1]) && /^[0-9]+$/.test(parts[index + 1]);
         const result = isWord ? this.resolve(raw) : {
           text: (isDecimalDot ? raw : raw.replace(/\./g, '।')).replace(bengaliDigits ? /[0-9]/g : /(?!)/g, n => rules.digits[Number(n)]),
