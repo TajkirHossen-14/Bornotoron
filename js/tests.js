@@ -44,6 +44,8 @@
     'ami,\n\ttomake! 123 বাংলা 💚': 'আমি,\n\tতোমাকে! ১২৩ বাংলা 💚',
     '0123456789': '০১২৩৪৫৬৭৮৯', 'ami  123.45': 'আমি  ১২৩.৪৫',
     'ami.': 'আমি।', 'ami. tumi': 'আমি। তুমি', 'kori.kori': 'করি।করি',
+    'mobile-ta': 'মোবাইলটা', 'doctor-er': 'ডাক্তারের', 'office-e': 'অফিসে',
+    'khabar-er': 'খাবারের', 'bhalo-ta': 'ভালোটা',
     '': '', 'বাংলা — 💚': 'বাংলা — 💚'
   };
   Object.entries(cases).forEach(([key, value]) => check(`conversion ${key}`, text(key), value));
