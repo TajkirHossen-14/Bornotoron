@@ -267,8 +267,8 @@ The text tokenizer preserves separators, including periods and decimal points. A
 
 ```javascript
 const engine = new BornotoronEngine({ bon: 'বোন' });
-const tokens = engine.convert('ami tomake bhalobashi. 2026', true);
-console.log(engine.text()); // আমি তোমাকে ভালোবাসি. ২০২৬
+const tokens = engine.convert('ami banglay likhchi. 2026', true);
+console.log(engine.text()); // আমি বাংলায় লিখছি. ২০২৬
 
 const word = tokens.find(token => token.isWord);
 engine.choose(word.id, 'আমিই');  // One occurrence only
@@ -343,7 +343,7 @@ No text is sent to a transliteration API. There is no server-side persistence, T
 <a id="tests"></a>
 ## 🧪 Tests & Accessibility
 
-Open **`tests.html`** to run the browser suite. Latest completed run: **2,554 passed · 0 failed**.
+Open **`tests.html`** to run the browser suite. 
 
 ### What's covered
 
@@ -393,9 +393,9 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/index.html#recent-history` | Opens history |
 | `/index.html#navigation` | Opens the hamburger at mobile widths |
 | `/tests.html` | Regression suite and banner preview |
-| `/assets/banner.svg` | Standalone 3:1 vector banner |
-| `/assets/Logo/logo.png` | Transparent brand logo |
-| `/assets/Favicon/favicon.png` | Transparent favicon / touch icon |
+| `/Assets/Banner/Bornotoron_Banner.svg` | Standalone 3:1 vector banner |
+| `/Assets/Logo/logo.png` | Transparent brand logo |
+| `/Assets/Favicon/favicon.png` | Transparent favicon / touch icon |
 
 Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, footer, and About GitHub links open the actual repository in a new tab with `noopener noreferrer`. The report dialog links to GitHub's new-issue page and also offers an optional local report download. Submission happens on GitHub, not silently inside this app.
 
@@ -414,7 +414,6 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 | **GitHub Pages** | Deployment branch, source `/ (root)` |
 | **Netlify** | No build command; publish directory `.` |
 | **Vercel** | Static/Other preset, no build command; output directory `.` |
-| **Project editor** | Use the **Publish tab** to obtain the live URL |
 
 Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `Assets/Logo/` and `Assets/Favicon/`.  The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
 
@@ -455,7 +454,7 @@ Have a better spelling, a reproducible bug, or an accessibility improvement?
 4. Keep dark surfaces free of green tint and verify both themes at mobile and desktop widths.
 5. Include a short explanation and test results when sharing a proposed patch with the maintainer.
 
-Visit [the repository](https://github.com/TajkirHossen-14/Bornotoron) to propose a patch, or [open an issue](https://github.com/TajkirHossen-14/Bornotoron/issues/new) with reproduction steps. The footer's **Report an Issue** dialog also offers a local report download; the app itself does not upload your data.
+Visit the [repository](https://github.com/TajkirHossen-14/Bornotoron) to propose a patch, or [open an issue](https://github.com/TajkirHossen-14/Bornotoron/issues/new) with reproduction steps. The footer's **Report an Issue** dialog also offers a local report download; the app itself does not upload your data.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
