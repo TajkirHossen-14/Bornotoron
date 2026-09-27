@@ -409,7 +409,24 @@ window.BornotoronDictionary = Object.freeze({
     chatgpt: 'চ্যাটজিপিটি', gmail: 'জিমেইল',
     drive: 'ড্রাইভ', maps: 'ম্যাপস', playstore: 'প্লে স্টোর',
     appstore: 'অ্যাপ স্টোর', zoom: 'জুম', teams: 'টিমস',
-    netflix: 'নেটফ্লিক্স', spotify: 'স্পটিফাই'
+    netflix: 'নেটফ্লিক্স', spotify: 'স্পটিফাই',
+    // Team & Members
+    team: 'টিম', member: 'মেম্বার', leader: 'লিডার', teammate: 'টিমমেট',
+    captain: 'ক্যাপ্টেন', squad: 'স্কোয়াড', crew: 'ক্রু', player: 'প্লেয়ার',
+    panel: 'প্যানেল', committee: 'কমিটি', staff: 'স্টাফ',
+    // Roles & Management
+    coordinator: 'কোঅর্ডিনেটর', executive: 'এক্সিকিউটিভ',
+    director: 'ডিরেক্টর', founder: 'ফাউন্ডার', cofounder: 'কো-ফাউন্ডার',
+    mentor: 'মেন্টর', assistant: 'অ্যাসিস্ট্যান্ট',
+    // Teamwork & Activities
+    teamwork: 'টিমওয়ার্ক', discussion: 'ডিসকাশন',
+    brainstorming: 'ব্রেইনস্টর্মিং', task: 'টাস্ক', role: 'রোল',
+    duty: 'ডিউটি', target: 'টার্গেট', goal: 'গোল',
+    strategy: 'স্ট্র্যাটেজি', performance: 'পারফর্মেন্স',
+    support: 'সাপোর্ট', contribution: 'কন্ট্রিবিউশন',
+    // Structure & Channels
+    department: 'ডিপার্টমেন্ট', unit: 'ইউনিট', branch: 'ব্রাঞ্চ',
+    desk: 'ডেস্ক', groupchat: 'গ্রুপ চ্যাট'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
