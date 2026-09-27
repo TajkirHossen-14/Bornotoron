@@ -377,7 +377,23 @@ window.BornotoronDictionary = Object.freeze({
     inbox: 'ইনবক্স', outbox: 'আউটবক্স',
     // Shapes, Borders & Frames
     square: 'স্কয়ার', border: 'বর্ডার', frame: 'ফ্রেম',
-    grid: 'গ্রিড', section: 'সেকশন', column: 'কলাম', row: 'রো'
+    grid: 'গ্রিড', section: 'সেকশন', column: 'কলাম', row: 'রো',
+    // Student & Staff
+    student: 'স্টুডেন্ট', teacher: 'টিচার', sir: 'স্যার', madam: 'ম্যাডাম',
+    guardian: 'গার্ডিয়ান', principal: 'প্রিন্সিপাল',
+    // Study & Academics
+    study: 'স্টাডি', subject: 'সাবজেক্ট', syllabus: 'সিলেবাস',
+    routine: 'রুটিন', lecture: 'লেকচার', topic: 'টপিক', chapter: 'চ্যাপ্টার',
+    homework: 'হোমওয়ার্ক', project: 'প্রজেক্ট', batch: 'ব্যাচ', semester: 'সেমিস্টার',
+    // Exams & Results
+    examination: 'এক্সামিনেশন', quiz: 'কুইজ', mark: 'মার্ক',
+    grade: 'গ্রেড', pass: 'পাস', fail: 'ফেল', certificate: 'সার্টিফিকেট',
+    scholarship: 'স্কলারশিপ',
+    // Admission & Campus
+    admission: 'এডমিশন', apply: 'অ্যাপ্লাই', application: 'অ্যাপ্লিকেশন',
+    form: 'ফর্ম', roll: 'রোল', registration: 'রেজিস্ট্রেশন',
+    fee: 'ফি', notice: 'নোটিশ', campus: 'ক্যাম্পাস', library: 'লাইব্রেরি',
+    hostel: 'হোস্টেল', coaching: 'কোচিং', private: 'প্রাইভেট', tuition: 'টিউশন'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
