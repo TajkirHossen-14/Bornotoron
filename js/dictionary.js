@@ -316,7 +316,36 @@ window.BornotoronDictionary = Object.freeze({
     // Media & Privacy Controls
     hide: 'হাইড', unhide: 'আনহাইড', mute: 'মিউট', unmute: 'আনমিউট',
     connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
-    pause: 'পজ', record: 'রেকর্ড'
+    pause: 'পজ', record: 'রেকর্ড',
+    // Language Names
+    language: 'ল্যাঙ্গুয়েজ', bangla: 'বাংলা', bengali: 'বাংলা',
+    english: 'ইংলিশ', banglish: 'বাংলিশ', arabic: 'অ্যারাবিক',
+    hindi: 'হিন্দি', urdu: 'উর্দু', french: 'ফ্রেঞ্চ', spanish: 'স্প্যানিশ',
+    german: 'জার্মান',
+    // Typing & Conversion
+    type: 'টাইপ', typing: 'টাইপিং', convert: 'কনভার্ট',
+    converter: 'কনভার্টার', conversion: 'কনভার্সন', translate: 'ট্রান্সলেট',
+    translation: 'ট্রান্সলেশন', translator: 'ট্রান্সলেটর',
+    phonetic: 'ফোনেটিক', unicode: 'ইউনিকোড', keyboard: 'কীবোর্ড',
+    key: 'কী', layout: 'লেআউট', input: 'ইনপুট', output: 'আউটপুট',
+    // Text & Script Terms
+    text: 'টেক্সট', word: 'ওয়ার্ড', letter: 'লেটার',
+    character: 'ক্যারেক্টার', sentence: 'সেন্টেন্স', paragraph: 'প্যারাগ্রাফ',
+    line: 'লাইন', script: 'স্ক্রিপ্ট', font: 'ফন্ট',
+    alphabet: 'আলফাবেট', vowel: 'ভাওয়েল', consonant: 'কনসোনেন্ট',
+    // Grammar & Phonetics
+    grammar: 'গ্রামার', spelling: 'স্পেলিং',
+    pronunciation: 'প্রোনাউনসিয়েশন', vocabulary: 'ভোকাবুলারি',
+    dictionary: 'ডিকশনারি', meaning: 'মিনিং', accent: 'অ্যাকসেন্ট',
+    voice: 'ভয়েস', speech: 'স্পিচ',
+    // Text Formatting & Style
+    bold: 'বোল্ড', italic: 'ইটালিক', underline: 'আন্ডারলাইন',
+    capital: 'ক্যাপিটাল', small: 'স্মল', uppercase: 'আপারকেস',
+    lowercase: 'লোয়ারকেস', style: 'স্টাইল', align: 'অ্যালাইন',
+    // Programming Languages & Code
+    code: 'কোড', coding: 'কোডিং', programming: 'প্রোগ্রামিং',
+    html: 'এইচটিএমএল', css: 'সিএসএস', javascript: 'জাভাস্ক্রিপ্ট',
+    python: 'পাইথন', php: 'পিএইচপি', 'c++': 'সি প্লাস প্লাস', java: 'জাভা'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
