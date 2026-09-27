@@ -251,7 +251,42 @@ window.BornotoronDictionary = Object.freeze({
     problem: 'প্রবলেম', solution: 'সলিউশন', idea: 'আইডিয়া', date: 'ডেট',
     confirm: 'কনফার্ম', cancel: 'ক্যান্সেল', thanks: 'থ্যাংকস',
     // Short Forms / Abbreviations
-    sim: 'সিম', atm: 'এটিএম', wifi: 'ওয়াইফাই', bluetooth: 'ব্লুটুথ'
+    sim: 'সিম', atm: 'এটিএম', wifi: 'ওয়াইফাই', bluetooth: 'ব্লুটুথ',
+    // Social Media & Online
+    post: 'পোস্ট', share: 'শেয়ার', comment: 'কমেন্ট', like: 'লাইক',
+    block: 'ব্লক', profile: 'প্রোফাইল', account: 'অ্যাকাউন্ট',
+    status: 'স্ট্যাটাস', story: 'স্টোরি', group: 'গ্রুপ', page: 'পেজ',
+    notification: 'নোটিফিকেশন',
+    // Banking & Finance
+    bank: 'ব্যাংক', cash: 'ক্যাশ', card: 'কার্ড', payment: 'পেমেন্ট',
+    balance: 'ব্যালেন্স', deposit: 'ডিপোজিট', transfer: 'ট্রান্সফার',
+    loan: 'লোন', receipt: 'রিসিট', pin: 'পিন',
+    // Vehicles & Mechanics
+    auto: 'অটো', engine: 'ইঞ্জিন', switch: 'সুইচ', meter: 'মিটার',
+    sensor: 'সেন্সর', parking: 'পার্কিং', speed: 'স্পিড', horn: 'হর্ন',
+    gear: 'গিয়ার', brake: 'ব্রেক', signal: 'সিগন্যাল',
+    // E-commerce & Delivery
+    delivery: 'ডেলিভারি', product: 'প্রোডাক্ট', stock: 'স্টক',
+    quality: 'কোয়ালিটি', brand: 'ব্র্যান্ড', size: 'সাইজ',
+    parcel: 'পার্সেল', exchange: 'এক্সচেঞ্জ', return: 'রিটার্ন',
+    customer: 'কাস্টমার',
+    // Entertainment & Media
+    movie: 'মুভি', serial: 'সিরিয়াল', game: 'গেম', party: 'পার্টি',
+    concert: 'কনসার্ট', episode: 'এপিসোড', channel: 'চ্যানেল',
+    music: 'মিউজিক', singer: 'সিঙ্গার',
+    // Adjectives & States
+    normal: 'নরমাল', special: 'স্পেশাল', serious: 'সিরিয়াস',
+    simple: 'সিম্পল', smart: 'স্মার্ট', tension: 'টেনশন', chance: 'চান্স',
+    important: 'ইম্পর্টেন্ট', direct: 'ডাইরেক্ট', extra: 'এক্সট্রা',
+    final: 'ফাইনাল', total: 'টোটাল', perfect: 'পারফেক্ট', real: 'রিয়েল',
+    fake: 'ফেক',
+    // Medical & Pharmacy
+    tablet: 'ট্যাবলেট', syrup: 'সিরাপ', test: 'টেস্ট', mask: 'মাস্ক',
+    injection: 'ইনজেকশন', dose: 'ডোজ', icu: 'আইসিইউ', oxygen: 'অক্সিজেন',
+    // Actions & Behaviors
+    adjust: 'অ্যাডজাস্ট', control: 'কন্ট্রোল', manage: 'ম্যানেজ',
+    focus: 'ফোকাস', handle: 'হ্যান্ডেল', ignore: 'ইগনোর',
+    enjoy: 'এনজয়', disturb: 'ডিস্টার্ব', trust: 'ট্রাস্ট'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
