@@ -393,10 +393,26 @@ window.BornotoronDictionary = Object.freeze({
     admission: 'এডমিশন', apply: 'অ্যাপ্লাই', application: 'অ্যাপ্লিকেশন',
     form: 'ফর্ম', roll: 'রোল', registration: 'রেজিস্ট্রেশন',
     fee: 'ফি', notice: 'নোটিশ', campus: 'ক্যাম্পাস', library: 'লাইব্রেরি',
-    hostel: 'হোস্টেল', coaching: 'কোচিং', private: 'প্রাইভেট', tuition: 'টিউশন'
+    hostel: 'হোস্টেল', coaching: 'কোচিং', private: 'প্রাইভেট', tuition: 'টিউশন',
+    // Browsers & Search Engines
+    google: 'গুগল', opera: 'অপেরা', chrome: 'ক্রোম', firefox: 'ফায়ারফক্স',
+    safari: 'সাফারি', edge: 'এজ', bing: 'বিং', yahoo: 'ইয়াহু', brave: 'ব্রেভ',
+    // Tech Companies & OS
+    microsoft: 'মাইক্রোসফট', windows: 'উইন্ডোজ', android: 'অ্যান্ড্রয়েড',
+    ios: 'আইওএস', apple: 'অ্যাপল', linux: 'লিনাক্স', mac: 'ম্যাক', macos: 'ম্যাকওএস',
+    // Social Media & Popular Apps
+    facebook: 'ফেসবুক', messenger: 'মেসেঞ্জার', whatsapp: 'হোয়াটসঅ্যাপ',
+    instagram: 'ইনস্টাগ্রাম', telegram: 'টেলিগ্রাম', twitter: 'টুইটার',
+    x: 'এক্স', tiktok: 'টিকটক', linkedin: 'লিংকডইন', snapchat: 'স্ন্যাপচ্যাট',
+    youtube: 'ইউটিউব',
+    // Cloud, AI & Digital Services
+    chatgpt: 'চ্যাটজিপিটি', gmail: 'জিমেইল',
+    drive: 'ড্রাইভ', maps: 'ম্যাপস', playstore: 'প্লে স্টোর',
+    appstore: 'অ্যাপ স্টোর', zoom: 'জুম', teams: 'টিমস',
+    netflix: 'নেটফ্লিক্স', spotify: 'স্পটিফাই'
   }),
   homophones: Object.freeze({
-    bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
+    gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
     koi: ['কই', 'কৈ'],
     kul: ['কুল', 'কূল'], din: ['দিন', 'দীন'], tir: ['তির', 'তীর'],
     shur: ['সুর', 'শূর'], shor: ['সর', 'স্বর'],
