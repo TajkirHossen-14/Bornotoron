@@ -345,7 +345,25 @@ window.BornotoronDictionary = Object.freeze({
     // Programming Languages & Code
     code: 'কোড', coding: 'কোডিং', programming: 'প্রোগ্রামিং',
     html: 'এইচটিএমএল', css: 'সিএসএস', javascript: 'জাভাস্ক্রিপ্ট',
-    python: 'পাইথন', php: 'পিএইচপি', 'c++': 'সি প্লাস প্লাস', java: 'জাভা'
+    python: 'পাইথন', php: 'পিএইচপি', 'c++': 'সি প্লাস প্লাস', java: 'জাভা',
+    // Dictionary & Search Terms
+    synonym: 'সিনোনিম', antonym: 'অ্যান্টনিম', lookup: 'লুকআপ',
+    query: 'কোয়েরি', suggestion: 'সাজেশন', autocomplete: 'অটো-কমপ্লিট',
+    details: 'ডিটেইলস',
+    // Meaning, Pronunciation & Usage
+    explanation: 'এক্সপ্লেনেশন', example: 'এক্সাম্পল', usage: 'ইউসেজ',
+    context: 'কনটেক্সট', audio: 'অডিও', sound: 'সাউন্ড',
+    origin: 'অরিজিন', root: 'রুট',
+    // Grammar & Parts of Speech
+    noun: 'নাউন', pronoun: 'প্রোনাউন', verb: 'ভার্ব',
+    adjective: 'অ্যাডজেক্টিভ', adverb: 'অ্যাডভার্ব',
+    preposition: 'প্রিপজিশন', conjunction: 'কনজাংশন',
+    interjection: 'ইন্টারজেকশন', prefix: 'প্রিফিক্স', suffix: 'সাফিক্স',
+    singular: 'সিঙ্গুলার', plural: 'প্লুরাল', tense: 'টেন্স',
+    // History, Saved & Lists
+    history: 'হিস্ট্রি', recent: 'রিসেন্ট', favorite: 'ফেভারিট',
+    bookmark: 'বুকমার্ক', index: 'ইনডেক্স', category: 'ক্যাটাগরি',
+    list: 'লিস্ট', related: 'রিলেটেড', similar: 'সিমিলার'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
