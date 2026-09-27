@@ -286,7 +286,8 @@ window.BornotoronDictionary = Object.freeze({
     // Actions & Behaviors
     adjust: 'অ্যাডজাস্ট', control: 'কন্ট্রোল', manage: 'ম্যানেজ',
     focus: 'ফোকাস', handle: 'হ্যান্ডেল', ignore: 'ইগনোর',
-    enjoy: 'এনজয়', disturb: 'ডিস্টার্ব', trust: 'ট্রাস্ট'
+    enjoy: 'এনজয়', disturb: 'ডিস্টার্ব', trust: 'ট্রাস্ট',
+    automatic: 'অটোম্যাটিক'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
