@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="Assets/Banner/Bornotoron_Banner_2.svg" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
+  <img src="Assets/Banner/Bornotoron_Banner_3.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
 # Bornotoron · [বর্ণতরণ]()
@@ -214,12 +214,9 @@ Bornotoron/
 │   └── tests.js            # Engine/UI/contrast regression suite
 │
 ├── Assets/
-│   ├── Logo/
-│   │   └── logo.png        
-│   ├── Favicon/
-│   │   └── favicon.png     
-│   └── Banner/ 
-│       └──Bornotoron_Banner.svg          
+│   ├── Logo/      
+│   ├── Favicon/    
+│   └── Banner/        
 │
 ├── tests.html 
 │
@@ -393,7 +390,7 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/index.html#recent-history` | Opens history |
 | `/index.html#navigation` | Opens the hamburger at mobile widths |
 | `/tests.html` | Regression suite and banner preview |
-| `/Assets/Banner/Bornotoron_Banner.svg` | Standalone 3:1 vector banner |
+| `/Assets/Banner/Bornotoron_Banner_3.png` | Standalone 3:1 PNG banner |
 | `/Assets/Logo/logo.png` | Transparent brand logo |
 | `/Assets/Favicon/favicon.png` | Transparent favicon / touch icon |
 
