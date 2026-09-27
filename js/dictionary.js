@@ -363,7 +363,21 @@ window.BornotoronDictionary = Object.freeze({
     // History, Saved & Lists
     history: 'হিস্ট্রি', recent: 'রিসেন্ট', favorite: 'ফেভারিট',
     bookmark: 'বুকমার্ক', index: 'ইনডেক্স', category: 'ক্যাটাগরি',
-    list: 'লিস্ট', related: 'রিলেটেড', similar: 'সিমিলার'
+    list: 'লিস্ট', related: 'রিলেটেড', similar: 'সিমিলার',
+    // UI & Text Boxes
+    box: 'বক্স', textbox: 'টেক্সটবক্স', searchbox: 'সার্চবক্স',
+    checkbox: 'চেকবক্স', messagebox: 'মেসেজ বক্স', dialogbox: 'ডায়ালগ বক্স',
+    alertbox: 'অ্যালার্ট বক্স', commentbox: 'কমেন্ট বক্স',
+    inputbox: 'ইনপুট বক্স', dropdown: 'ড্রপডাউন', combobox: 'কম্বো বক্স',
+    modal: 'মোডাল',
+    // General Boxes & Containers
+    container: 'কনটেইনার', carton: 'কার্টন', packet: 'প্যাকেট',
+    package: 'প্যাকেজ', giftbox: 'গিফট বক্স', toolbox: 'টুল বক্স',
+    cashbox: 'ক্যাশ বক্স', lunchbox: 'টিফিন বক্স', matchbox: 'ম্যাচবক্স',
+    inbox: 'ইনবক্স', outbox: 'আউটবক্স',
+    // Shapes, Borders & Frames
+    square: 'স্কয়ার', border: 'বর্ডার', frame: 'ফ্রেম',
+    grid: 'গ্রিড', section: 'সেকশন', column: 'কলাম', row: 'রো'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
