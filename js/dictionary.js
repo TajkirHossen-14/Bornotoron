@@ -287,7 +287,36 @@ window.BornotoronDictionary = Object.freeze({
     adjust: 'অ্যাডজাস্ট', control: 'কন্ট্রোল', manage: 'ম্যানেজ',
     focus: 'ফোকাস', handle: 'হ্যান্ডেল', ignore: 'ইগনোর',
     enjoy: 'এনজয়', disturb: 'ডিস্টার্ব', trust: 'ট্রাস্ট',
-    automatic: 'অটোম্যাটিক'
+    automatic: 'অটোম্যাটিক',
+    // Text & File Operations
+    copy: 'কপি', paste: 'পেস্ট', cut: 'কাট', delete: 'ডিলিট',
+    select: 'সিলেক্ট', selectall: 'সিলেক্ট অল', save: 'সেভ', saveas: 'সেভ এজ',
+    edit: 'এডিট', undo: 'আনডু', redo: 'রিডু', clear: 'ক্লিয়ার',
+    rename: 'রিনেম', replace: 'রিপ্লেস', search: 'সার্চ', print: 'প্রিন্ট',
+    // Navigation & Screen Controls
+    open: 'ওপেন', close: 'ক্লোজ', exit: 'এক্সিট', next: 'নেক্সট',
+    back: 'ব্যাক', previous: 'প্রিভিয়াস', minimize: 'মিনিমাইজ',
+    maximize: 'ম্যাক্সিমাইজ', scroll: 'স্ক্রল', click: 'ক্লিক',
+    tap: 'ট্যাপ', press: 'প্রেস', swipe: 'সোয়াইপ',
+    // Account & Authentication
+    login: 'লগইন', logout: 'লগআউট', signin: 'সাইন ইন', signup: 'সাইন আপ',
+    register: 'রেজিস্টার', verify: 'ভেরিফাই', submit: 'সাবমিট',
+    // App & File Management
+    download: 'ডাউনলোড', upload: 'আপলোড', install: 'ইনস্টল',
+    uninstall: 'আনইনস্টল', update: 'আপডেট', upgrade: 'আপগ্রেড',
+    backup: 'ব্যাকআপ', restore: 'রিস্টোর', format: 'ফরম্যাট',
+    scan: 'স্ক্যান', import: 'ইম্পোর্ট', export: 'এক্সপোর্ট',
+    // System & Power Actions
+    refresh: 'রিফ্রেশ', restart: 'রিস্টার্ট', reset: 'রিসেট',
+    reboot: 'রিবুট', lock: 'লক', unlock: 'আনলক',
+    poweroff: 'পাওয়ার অফ', turnon: 'টার্ন অন', turnoff: 'টার্ন অফ',
+    // Options & Confirmations
+    accept: 'অ্যাকসেপ্ট', reject: 'রিজেক্ট', decline: 'ডিক্লাইন',
+    allow: 'অ্যালাউ', deny: 'ডিনাই', skip: 'স্কিপ', continue: 'কন্টিনিউ',
+    // Media & Privacy Controls
+    hide: 'হাইড', unhide: 'আনহাইড', mute: 'মিউট', unmute: 'আনমিউট',
+    connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
+    pause: 'পজ', record: 'রেকর্ড'
   }),
   homophones: Object.freeze({
     bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
