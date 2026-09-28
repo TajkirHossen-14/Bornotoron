@@ -16,7 +16,7 @@ Type in Banglish. Watch it become Bangla.
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
 
-**1200+ spelling entries. Zero frameworks. Your words stay yours.**
+**1350+ spelling entries. Zero frameworks. Your words stay yours.**
 
 </div>
 
@@ -82,7 +82,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 ### ✍️ Write naturally
 
 - ⚡ **Live conversion** – Updates as you type, with no submit button.
-- 📚 **1200+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 800+ differ from the raw phonetic fallback.
+- 📚 **1350+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 800+ differ from the raw phonetic fallback.
 - 🔀 **15 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
 - 🔢 **Bangla digits** – Optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
