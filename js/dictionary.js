@@ -426,7 +426,16 @@ window.BornotoronDictionary = Object.freeze({
     support: 'সাপোর্ট', contribution: 'কন্ট্রিবিউশন',
     // Structure & Channels
     department: 'ডিপার্টমেন্ট', unit: 'ইউনিট', branch: 'ব্রাঞ্চ',
-    desk: 'ডেস্ক', groupchat: 'গ্রুপ চ্যাট'
+    desk: 'ডেস্ক', groupchat: 'গ্রুপ চ্যাট',
+    // Hardware & Interface
+    hardware: 'হার্ডওয়্যার', software: 'সফটওয়্যার', device: 'ডিভাইস',
+    port: 'পোর্ট', cable: 'ক্যাবল', usb: 'ইউএসবি', display: 'ডিসপ্লে',
+    touchscreen: 'টাচস্ক্রিন', plug: 'প্লাগ', socket: 'সকেট',
+    // Data & Processing
+    data: 'ডাটা', connection: 'কানেকশন', network: 'নেটওয়ার্ক',
+    process: 'প্রসেস', processing: 'প্রসেসিং', processor: 'প্রসেসর',
+    storage: 'স্টোরেজ', memory: 'মেমোরি', buffer: 'বাফার',
+    source: 'সোর্স', destination: 'ডেস্টিনেশন', entry: 'এন্ট্রি'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
