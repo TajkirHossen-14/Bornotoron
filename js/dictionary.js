@@ -435,7 +435,25 @@ window.BornotoronDictionary = Object.freeze({
     data: 'ডাটা', connection: 'কানেকশন', network: 'নেটওয়ার্ক',
     process: 'প্রসেস', processing: 'প্রসেসিং', processor: 'প্রসেসর',
     storage: 'স্টোরেজ', memory: 'মেমোরি', buffer: 'বাফার',
-    source: 'সোর্স', destination: 'ডেস্টিনেশন', entry: 'এন্ট্রি'
+    source: 'সোর্স', destination: 'ডেস্টিনেশন', entry: 'এন্ট্রি',
+    // Education
+    classroom: 'ক্লাসরুম', classmate: 'ক্লাসমেট', batchmate: 'ব্যাচমেট',
+    roommate: 'রুমমেট', headsir: 'হেড স্যার', vicechancellor: 'ভাইস চ্যান্সেলর',
+    professor: 'প্রফেসর', lecturer: 'লেকচারার', viva: 'ভাইভা',
+    marks: 'মার্কস', gpa: 'জিপিএ', cgpa: 'সিজিপিএ', merit: 'মেরিট',
+    topper: 'টপার', question: 'কোশ্চেন', paper: 'পেপার', course: 'কোর্স',
+    credit: 'ক্রেডিট', faculty: 'ফ্যাকাল্টি', admitcard: 'অ্যাডমিট কার্ড',
+    idcard: 'আইডি কার্ড', marksheet: 'মার্কশিট', transcript: 'ট্রান্সক্রিপ্ট',
+    degree: 'ডিগ্রি', diploma: 'ডিপ্লোমা', honours: 'অনার্স',
+    masters: 'মাস্টার্স', thesis: 'থিসিস', lab: 'ল্যাব', practical: 'প্র্যাকটিক্যাল',
+    seminar: 'সেমিনার', workshop: 'ওয়ার্কশপ', training: 'ট্রেনিং',
+    convocation: 'কনভোকেশন', attendance: 'অ্যাটেনডেন্স', canteen: 'ক্যান্টিন',
+    hall: 'হল', mess: 'মেস', uniform: 'ইউনিফর্ম', assembly: 'অ্যাসেম্বলি',
+    break: 'ব্রেক', bell: 'বেল', bench: 'বেঞ্চ', blackboard: 'ব্ল্যাকবোর্ড',
+    whiteboard: 'হোয়াইটবোর্ড', marker: 'মার্কার', duster: 'ডাস্টার',
+    notebook: 'নোটবুক', pencil: 'পেন্সিল', rubber: 'রাবার', scale: 'স্কেল',
+    compass: 'কম্পাস', geometrybox: 'জিওমেট্রি বক্স', bag: 'ব্যাগ',
+    tiffin: 'টিফিন', fresher: 'ফ্রেশার', senior: 'সিনিয়র', junior: 'জুনিয়র'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
