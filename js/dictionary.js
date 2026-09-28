@@ -453,7 +453,27 @@ window.BornotoronDictionary = Object.freeze({
     whiteboard: 'হোয়াইটবোর্ড', marker: 'মার্কার', duster: 'ডাস্টার',
     notebook: 'নোটবুক', pencil: 'পেন্সিল', rubber: 'রাবার', scale: 'স্কেল',
     compass: 'কম্পাস', geometrybox: 'জিওমেট্রি বক্স', bag: 'ব্যাগ',
-    tiffin: 'টিফিন', fresher: 'ফ্রেশার', senior: 'সিনিয়র', junior: 'জুনিয়র'
+    tiffin: 'টিফিন', fresher: 'ফ্রেশার', senior: 'সিনিয়র', junior: 'জুনিয়র',
+    // Technology & Internet
+    iphone: 'আইফোন', smartphone: 'স্মার্টফোন', email: 'ইমেইল',
+    username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব',
+    dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল', live: 'লাইভ',
+    follow: 'ফলো', follower: 'ফলোয়ার', subscribe: 'সাবস্ক্রাইব',
+    friendrequest: 'ফ্রেন্ড রিকোয়েস্ট', add: 'অ্যাড', tag: 'ট্যাগ',
+    hashtag: 'হ্যাশট্যাগ', emoji: 'ইমোজি', sticker: 'স্টিকার', meme: 'মিম',
+    troll: 'ট্রল', viral: 'ভাইরাল', trending: 'ট্রেন্ডিং',
+    videocall: 'ভিডিও কল', screenshare: 'স্ক্রিন শেয়ার', camera: 'ক্যামেরা',
+    selfie: 'সেলফি', screenshot: 'স্ক্রিনশট', charge: 'চার্জ',
+    powerbank: 'পাওয়ার ব্যাংক', headphone: 'হেডফোন', earphone: 'ইয়ারফোন',
+    speaker: 'স্পিকার', mike: 'মাইক', touch: 'টাচ', flash: 'ফ্ল্যাশ',
+    memorycard: 'মেমরি কার্ড', pendrive: 'পেনড্রাইভ', harddisk: 'হার্ড ডিস্ক',
+    mouse: 'মাউস', monitor: 'মনিটর', printer: 'প্রিন্টার', scanner: 'স্ক্যানার',
+    router: 'রাউটার', hotspot: 'হটস্পট', ping: 'পিং', lag: 'ল্যাগ',
+    hang: 'হ্যাং', bug: 'বাগ', hacker: 'হ্যাকার', hack: 'হ্যাক',
+    virus: 'ভাইরাস', antivirus: 'অ্যান্টিভাইরাস', cloud: 'ক্লাউড',
+    setting: 'সেটিং', photocopy: 'ফটোকপি', fingerprint: 'ফিঙ্গারপ্রিন্ট',
+    wallpaper: 'ওয়ালপেপার', ringtone: 'রিংটোন', silent: 'সাইলেন্ট',
+    gaming: 'গেমিং', freelancing: 'ফ্রিল্যান্সিং'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
