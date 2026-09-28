@@ -563,7 +563,26 @@ window.BornotoronDictionary = Object.freeze({
     brush: 'ব্রাশ', towel: 'তোয়ালে', handwash: 'হ্যান্ডওয়াশ',
     detergent: 'ডিটারজেন্ট', washingmachine: 'ওয়াশিং মেশিন',
     dustbin: 'ডাস্টবিন', cleaner: 'ক্লিনার', mop: 'মপ', spray: 'স্প্রে',
-    fanspeed: 'ফ্যান স্পিড'
+    fanspeed: 'ফ্যান স্পিড',
+    // Fashion
+    tshirt: 'টি-শার্ট', pant: 'প্যান্ট', jeans: 'জিন্স', halfpant: 'হাফ প্যান্ট',
+    coat: 'কোট', blazer: 'ব্লেজার', suit: 'স্যুট', tie: 'টাই', belt: 'বেল্ট',
+    jacket: 'জ্যাকেট', sweater: 'সোয়েটার', hoodie: 'হুডি', muffler: 'মাফলার',
+    scarf: 'স্কার্ফ', gloves: 'গ্লাভস', cap: 'ক্যাপ', hat: 'হ্যাট',
+    shoes: 'জুতা', sandal: 'স্যান্ডেল', slipper: 'স্লিপার', socks: 'মোজা',
+    blouse: 'ব্লাউজ', petticoat: 'পেটিকোট', threepiece: 'থ্রি-পিস',
+    kurti: 'কুর্তি', frock: 'ফ্রক', skirt: 'স্কার্ট', readymade: 'রেডিমেড',
+    fitting: 'ফিটিং', tailor: 'দর্জি', design: 'ডিজাইন', fashion: 'ফ্যাশন',
+    collection: 'কালেকশন', boutique: 'বুটিক', showroom: 'শোরুম',
+    sunglasses: 'সানগ্লাস', watch: 'ঘড়ি', wallet: 'ওয়ালেট', purse: 'পার্স',
+    ring: 'রিং', locket: 'লকেট', chain: 'চেইন', bracelet: 'ব্রেসলেট',
+    earring: 'ইয়ারিং', makeup: 'মেকআপ', lipstick: 'লিপস্টিক',
+    nailpolish: 'নেইল পলিশ', foundation: 'ফাউন্ডেশন', facewash: 'ফেসওয়াশ',
+    lotion: 'লোশন', powder: 'পাউডার', perfume: 'পারফিউম',
+    deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার',
+    salon: 'সেলুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
+    trimmer: 'ট্রিমার', razor: 'রেজার', blade: 'ব্লেড', gel: 'জেল',
+    comb: 'চিরুনি'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
