@@ -579,7 +579,7 @@ window.BornotoronDictionary = Object.freeze({
     earring: 'ইয়ারিং', makeup: 'মেকআপ', lipstick: 'লিপস্টিক',
     nailpolish: 'নেইল পলিশ', foundation: 'ফাউন্ডেশন', facewash: 'ফেসওয়াশ',
     lotion: 'লোশন', powder: 'পাউডার', perfume: 'পারফিউম',
-    deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার',
+    deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার', parlor: 'পার্লার'
     salon: 'সেলুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
     trimmer: 'ট্রিমার', razor: 'রেজার', blade: 'ব্লেড', gel: 'জেল',
     comb: 'চিরুনি'
