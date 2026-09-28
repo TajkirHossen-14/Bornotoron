@@ -16,7 +16,7 @@ Type in Banglish. Watch it become Bangla.
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
 
-**1600+ spelling entries. Zero frameworks. Your words stay yours.**
+**1700+ spelling entries. Zero frameworks. Your words stay yours.**
 
 </div>
 
@@ -82,7 +82,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 ### ✍️ Write naturally
 
 - ⚡ **Live conversion** – Updates as you type, with no submit button.
-- 📚 **1600+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 1200+ differ from the raw phonetic fallback.
+- 📚 **1700+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 1200+ differ from the raw phonetic fallback.
 - 🔀 **16 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
 - 🔢 **Bangla digits** – Optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
@@ -150,7 +150,7 @@ The editor arrow occupies its own grid column on desktop and its own row on mobi
 
 ### Brand files
 
-- **Banner:** [`Assets/Banner/Bornotoron_Banner.svg`](Assets/Banner/Bornotoron_Banner.svg), 1500 × 500, exactly 3:1.
+- **Banner:** [`Assets/Banner/Bornotoron_Banner_3.png`](Assets/Banner/Bornotoron_Banner_3.png), exactly 3:1.
 - **Logo:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – background-removed PNG derived from the user's original artwork, not redrawn.
 - **Favicon:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – the same transparent mark, also used as the touch icon.
 - **Pattern:** tileable SVG data URI in `style.css`.
