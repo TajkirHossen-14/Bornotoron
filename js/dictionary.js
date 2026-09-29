@@ -603,7 +603,15 @@ window.BornotoronDictionary = Object.freeze({
     budget: 'বাজেট', startup: 'স্টার্টআপ', agent: 'এজেন্ট',
     supplier: 'সাপ্লায়ার', wholesale: 'হোলসেল', retail: 'রিটেইল',
     contract: 'কন্ট্রাক্ট', agreement: 'অ্যাগ্রিমেন্ট', tender: 'টেন্ডার',
-    stapler: 'স্টেপলার', fax: 'ফ্যাক্স'
+    stapler: 'স্টেপলার', fax: 'ফ্যাক্স',
+    // Shopping
+    supermarket: 'সুপারমার্কেট', shoppingmall: 'শপিং মল', sale: 'সেল',
+    bargain: 'বার্গেইন', changemoney: 'চেঞ্জ', original: 'অরিজিনাল',
+    colour: 'কালার', secondhand: 'সেকেন্ড হ্যান্ড', cashondelivery: 'ক্যাশ অন ডেলিভারি',
+    onlineorder: 'অনলাইন অর্ডার', cart: 'কার্ট', coupon: 'কুপন',
+    cashback: 'ক্যাশব্যাক', freedelivery: 'ফ্রি ডেলিভারি', preorder: 'প্রি-অর্ডার',
+    stockout: 'স্টক আউট', refund: 'রিফান্ড', warranty: 'ওয়ারেন্টি',
+    guarantee: 'গ্যারান্টি', stall: 'স্টল', fair: 'ফেয়ার'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
