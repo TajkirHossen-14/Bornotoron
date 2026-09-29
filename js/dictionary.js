@@ -579,10 +579,31 @@ window.BornotoronDictionary = Object.freeze({
     earring: 'ইয়ারিং', makeup: 'মেকআপ', lipstick: 'লিপস্টিক',
     nailpolish: 'নেইল পলিশ', foundation: 'ফাউন্ডেশন', facewash: 'ফেসওয়াশ',
     lotion: 'লোশন', powder: 'পাউডার', perfume: 'পারফিউম',
-    deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার', parlor: 'পার্লার'
+    deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার', parlor: 'পার্লার',
     salon: 'সেলুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
     trimmer: 'ট্রিমার', razor: 'রেজার', blade: 'ব্লেড', gel: 'জেল',
-    comb: 'চিরুনি'
+    comb: 'চিরুনি',
+    // Office, Business & Bank
+    chairman: 'চেয়ারম্যান', officer: 'অফিসার', employee: 'এমপ্লয়ি',
+    company: 'কোম্পানি', business: 'বিজনেস', client: 'ক্লায়েন্ট',
+    interview: 'ইন্টারভিউ', cv: 'সিভি', resume: 'রিজিউম',
+    appointment: 'অ্যাপয়েন্টমেন্ট', joining: 'জয়েনিং', resignation: 'রিজাইন',
+    bonus: 'বোনাস', increment: 'ইনক্রিমেন্ট', promotion: 'প্রমোশন',
+    shift: 'শিফট', overtime: 'ওভারটাইম', folder: 'ফোল্ডার',
+    deadline: 'ডেডলাইন', sign: 'সাইন', signature: 'সিগনেচার',
+    stamp: 'স্ট্যাম্প', seal: 'সিল', circular: 'সার্কুলার', diary: 'ডায়েরি',
+    marketing: 'মার্কেটিং', sales: 'সেলস', courier: 'কুরিয়ার',
+    profit: 'প্রফিট', loss: 'লস', tax: 'ট্যাক্স', vat: 'ভ্যাট',
+    tradelicence: 'ট্রেড লাইসেন্স', voucher: 'ভাউচার', cashmemo: 'ক্যাশ মেমো',
+    creditcard: 'ক্রেডিট কার্ড', debitcard: 'ডেবিট কার্ড', booth: 'বুথ',
+    withdraw: 'উইথড্র', cheque: 'চেক', interest: 'ইন্টারেস্ট',
+    installment: 'ইনস্টলমেন্ট', dps: 'ডিপিএস', fdr: 'এফডিআর',
+    mobilebanking: 'মোবাইল ব্যাংকিং', cashout: 'ক্যাশ আউট', cashin: 'ক্যাশ ইন',
+    sendmoney: 'সেন্ড মানি', dollar: 'ডলার', remittance: 'রেমিট্যান্স',
+    budget: 'বাজেট', startup: 'স্টার্টআপ', agent: 'এজেন্ট',
+    supplier: 'সাপ্লায়ার', wholesale: 'হোলসেল', retail: 'রিটেইল',
+    contract: 'কন্ট্রাক্ট', agreement: 'অ্যাগ্রিমেন্ট', tender: 'টেন্ডার',
+    stapler: 'স্টেপলার', fax: 'ফ্যাক্স'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
