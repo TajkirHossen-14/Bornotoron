@@ -611,7 +611,18 @@ window.BornotoronDictionary = Object.freeze({
     onlineorder: 'অনলাইন অর্ডার', cart: 'কার্ট', coupon: 'কুপন',
     cashback: 'ক্যাশব্যাক', freedelivery: 'ফ্রি ডেলিভারি', preorder: 'প্রি-অর্ডার',
     stockout: 'স্টক আউট', refund: 'রিফান্ড', warranty: 'ওয়ারেন্টি',
-    guarantee: 'গ্যারান্টি', stall: 'স্টল', fair: 'ফেয়ার'
+    guarantee: 'গ্যারান্টি', stall: 'স্টল', fair: 'ফেয়ার',
+    // Telecom
+    simcard: 'সিম কার্ড', recharge: 'রিচার্জ', minutes: 'মিনিট',
+    mb: 'এমবি', gb: 'জিবি', datapack: 'ডেটা প্যাক',
+    internetpack: 'ইন্টারনেট প্যাক', tower: 'টাওয়ার',
+    missedcall: 'মিসড কল', callrate: 'কল রেট', sms: 'এসএমএস',
+    roaming: 'রোমিং', prepaid: 'প্রিপেইড', postpaid: 'পোস্টপেইড',
+    operator: 'অপারেটর', broadband: 'ব্রডব্যান্ড', fiber: 'ফাইবার',
+    isp: 'আইএসপি', modem: 'মডেম', dishline: 'ডিশ লাইন',
+    cableline: 'ক্যাবল লাইন', biometric: 'বায়োমেট্রিক',
+    simregistration: 'সিম রেজিস্ট্রেশন', helpline: 'হেল্পলাইন',
+    customercare: 'কাস্টমার কেয়ার', hello: 'হ্যালো'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
