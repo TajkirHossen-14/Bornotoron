@@ -643,7 +643,24 @@ window.BornotoronDictionary = Object.freeze({
     microphone: 'মাইক্রোফোন', blockade: 'ব্লকেড', strike: 'স্ট্রাইক',
     protest: 'প্রটেস্ট', curfew: 'কার্ফিউ', corruption: 'করাপশন',
     quota: 'কোটা', reform: 'রিফর্ম', constitution: 'কনস্টিটিউশন',
-    law: "ল'", policy: 'পলিসি'
+    law: "ল'", policy: 'পলিসি', out: 'আউট', ground: 'গ্রাউন্ড', tiger: 'টাইগার',
+    // Sports
+    cricket: 'ক্রিকেট', football: 'ফুটবল', badminton: 'ব্যাডমিন্টন',
+    tennis: 'টেনিস', volleyball: 'ভলিবল', basketball: 'বাস্কেটবল',
+    hockey: 'হকি', carrom: 'ক্যারাম', ludo: 'লুডু', chess: 'দাবা',
+    match: 'ম্যাচ', bowler: 'বোলার', batsman: 'ব্যাটসম্যান',
+    wicket: 'উইকেট', boundary: 'বাউন্ডারি', four: 'ফোর',
+    six: 'ছক্কা', notout: 'নট আউট', catch: 'ক্যাচ',
+    umpire: 'আম্পায়ার', stadium: 'স্টেডিয়াম', pitch: 'পিচ',
+    tournament: 'টুর্নামেন্ট', league: 'লিগ', semifinal: 'সেমিফাইনাল',
+    worldcup: 'ওয়ার্ল্ড কাপ', series: 'সিরিজ', goalkeeper: 'গোলকিপার',
+    referee: 'রেফারি', penalty: 'পেনাল্টি', corner: 'কর্নার',
+    foul: 'ফাউল', offside: 'অফসাইড', substitute: 'সাবস্টিটিউট',
+    jersey: 'জার্সি', supporter: 'সাপোর্টার', ranking: 'র‍্যাংকিং',
+    medal: 'মেডেল', gold: 'গোল্ড', silver: 'সিলভার', bronze: 'ব্রোঞ্জ',
+    trophy: 'ট্রফি', champion: 'চ্যাম্পিয়ন', win: 'উইন', draw: 'ড্র',
+    livescore: 'লাইভ স্কোর', highlights: 'হাইলাইটস',
+    videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
