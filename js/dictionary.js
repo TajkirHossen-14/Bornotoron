@@ -660,7 +660,27 @@ window.BornotoronDictionary = Object.freeze({
     medal: 'মেডেল', gold: 'গোল্ড', silver: 'সিলভার', bronze: 'ব্রোঞ্জ',
     trophy: 'ট্রফি', champion: 'চ্যাম্পিয়ন', win: 'উইন', draw: 'ড্র',
     livescore: 'লাইভ স্কোর', highlights: 'হাইলাইটস',
-    videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার'
+    videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার',
+    // Entertainment & Travel
+    cinema: 'সিনেমা', film: 'ফিল্ম', hero: 'হিরো', heroine: 'হিরোইন',
+    villain: 'ভিলেন', actor: 'অ্যাক্টর', actress: 'অ্যাক্ট্রেস',
+    drama: 'ড্রামা', webseries: 'ওয়েব সিরিজ', trailer: 'ট্রেইলার',
+    review: 'রিভিউ', comedy: 'কমেডি', action: 'অ্যাকশন',
+    romantic: 'রোমান্টিক', horror: 'হরর', thriller: 'থ্রিলার',
+    cartoon: 'কার্টুন', animation: 'অ্যানিমেশন', anime: 'অ্যানিমে',
+    news: 'নিউজ', talkshow: 'টক শো', song: 'সং', band: 'ব্যান্ড',
+    dance: 'ড্যান্স', dj: 'ডিজে', picnic: 'পিকনিক', tour: 'ট্যুর',
+    trip: 'ট্রিপ', camping: 'ক্যাম্পিং', resort: 'রিসোর্ট',
+    guesthouse: 'গেস্ট হাউস', booking: 'বুকিং', roomrent: 'রুম রেন্ট',
+    checkin: 'চেক-ইন', checkout: 'চেক-আউট', packagetour: 'প্যাকেজ ট্যুর',
+    guide: 'গাইড', luggage: 'লাগেজ', sightseeing: 'সাইটসিয়িং',
+    adventure: 'অ্যাডভেঞ্চার', beach: 'বিচ', hilltracts: 'হিল ট্র্যাক্টস',
+    zoo: 'জু', museum: 'মিউজিয়াম', fun: 'ফান', holiday: 'হলিডে',
+    vacation: 'ভ্যাকেশন', weekend: 'উইকেন্ড', eidgreeting: 'ঈদ মোবারক',
+    programme: 'প্রোগ্রাম', event: 'ইভেন্ট', festival: 'ফেস্টিভ্যাল',
+    celebration: 'সেলিব্রেশন', surprise: 'সারপ্রাইজ', birthday: 'বার্থডে',
+    anniversary: 'অ্যানিভার্সারি', wedding: 'ওয়েডিং', honeymoon: 'হানিমুন',
+    photography: 'ফটোগ্রাফি', photographer: 'ফটোগ্রাফার', studio: 'স্টুডিও'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
