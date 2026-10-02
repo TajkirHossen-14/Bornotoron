@@ -696,7 +696,19 @@ window.BornotoronDictionary = Object.freeze({
     interior: 'ইন্টিরিয়র', furniture: 'ফার্নিচার', decoration: 'ডেকোরেশন',
     shifting: 'শিফটিং', packing: 'প্যাকিং', moving: 'মুভিং',
     address: 'অ্যাড্রেস', security: 'সিকিউরিটি', land: 'ল্যান্ড',
-    plan: 'প্ল্যান', engineer: 'ইঞ্জিনিয়ার'
+    plan: 'প্ল্যান', engineer: 'ইঞ্জিনিয়ার',
+    // People & Relationships
+    bestfriend: 'বেস্ট ফ্রেন্ড', boyfriend: 'বয়ফ্রেন্ড', girlfriend: 'গার্লফ্রেন্ড',
+    couple: 'কাপল', love: 'লাভ', propose: 'প্রপোজ', breakup: 'ব্রেকআপ',
+    relationship: 'রিলেশনশিপ', crush: 'ক্রাশ', sweetheart: 'সুইটহার্ট',
+    fiance: 'ফিয়াঁসে', engagement: 'এনগেজমেন্ট', uncle: 'আঙ্কেল',
+    aunty: 'আন্টি', cousin: 'কাজিন', bro: 'ব্রো', sis: 'সিস',
+    mom: 'মম', mummy: 'মামি', dad: 'ড্যাড', papa: 'পাপা',
+    baby: 'বেবি', kid: 'কিড', lady: 'লেডি', gentleman: 'জেন্টলম্যান', guest: 'গেস্ট',
+    neighbour: 'নেইবার', mate: 'মেট', partner: 'পার্টনার',
+    colleague: 'কলিগ', relative: 'রিলেটিভ', vip: 'ভিআইপি',
+    star: 'স্টার', celebrity: 'সেলিব্রিটি', volunteer: 'ভলান্টিয়ার',
+    owner: 'ওনার', maid: 'মেইড'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
