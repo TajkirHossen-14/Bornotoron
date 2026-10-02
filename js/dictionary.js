@@ -680,7 +680,23 @@ window.BornotoronDictionary = Object.freeze({
     programme: 'প্রোগ্রাম', event: 'ইভেন্ট', festival: 'ফেস্টিভ্যাল',
     celebration: 'সেলিব্রেশন', surprise: 'সারপ্রাইজ', birthday: 'বার্থডে',
     anniversary: 'অ্যানিভার্সারি', wedding: 'ওয়েডিং', honeymoon: 'হানিমুন',
-    photography: 'ফটোগ্রাফি', photographer: 'ফটোগ্রাফার', studio: 'স্টুডিও'
+    photography: 'ফটোগ্রাফি', photographer: 'ফটোগ্রাফার', studio: 'স্টুডিও',
+    // Housing & Construction
+    flat: 'ফ্ল্যাট', apartment: 'অ্যাপার্টমেন্ট', building: 'বিল্ডিং',
+    floor: 'ফ্লোর', groundfloor: 'গ্রাউন্ড ফ্লোর', lift: 'লিফট',
+    stairs: 'স্টেয়ার্স', roof: 'রুফ', rooftop: 'রুফটপ', basement: 'বেজমেন্ট',
+    tolet: 'টু-লেট', rent: 'রেন্ট', advance: 'অ্যাডভান্স',
+    servicecharge: 'সার্ভিস চার্জ', landlord: 'ল্যান্ডলর্ড',
+    tenant: 'টেন্যান্ট', sublet: 'সাবলেট', bachelor: 'ব্যাচেলর',
+    guard: 'গার্ড', cctv: 'সিসিটিভি', intercom: 'ইন্টারকম',
+    plot: 'প্লট', developer: 'ডেভেলপার', architect: 'আর্কিটেক্ট',
+    contractor: 'কন্ট্রাক্টর', cement: 'সিমেন্ট', tiles: 'টাইলস',
+    paint: 'পেইন্ট', putty: 'পুটি', grill: 'গ্রিল', pipe: 'পাইপ',
+    plumber: 'প্লাম্বার', electrician: 'ইলেকট্রিশিয়ান',
+    interior: 'ইন্টিরিয়র', furniture: 'ফার্নিচার', decoration: 'ডেকোরেশন',
+    shifting: 'শিফটিং', packing: 'প্যাকিং', moving: 'মুভিং',
+    address: 'অ্যাড্রেস', security: 'সিকিউরিটি', land: 'ল্যান্ড',
+    plan: 'প্ল্যান', engineer: 'ইঞ্জিনিয়ার'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
