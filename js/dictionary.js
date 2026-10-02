@@ -708,7 +708,21 @@ window.BornotoronDictionary = Object.freeze({
     neighbour: 'নেইবার', mate: 'মেট', partner: 'পার্টনার',
     colleague: 'কলিগ', relative: 'রিলেটিভ', vip: 'ভিআইপি',
     star: 'স্টার', celebrity: 'সেলিব্রিটি', volunteer: 'ভলান্টিয়ার',
-    owner: 'ওনার', maid: 'মেইড'
+    owner: 'ওনার', maid: 'মেইড',
+    // Time, Numbers & Units
+    minute: 'মিনিট', second: 'সেকেন্ড', hour: 'আওয়ার', am: 'এএম', pm: 'পিএম',
+    sharp: 'শার্প', schedule: 'শিডিউল', zero: 'জিরো', hundred: 'হান্ড্রেড',
+    thousand: 'থাউজ্যান্ড', million: 'মিলিয়ন', billion: 'বিলিয়ন',
+    percent: 'পারসেন্ট', number: 'নাম্বার', point: 'পয়েন্ট', half: 'হাফ',
+    quarter: 'কোয়ার্টার', double: 'ডাবল', triple: 'ট্রিপল', single: 'সিঙ্গেল',
+    average: 'অ্যাভারেজ', plus: 'প্লাস', minus: 'মাইনাস', kilo: 'কেজি',
+    gram: 'গ্রাম', litre: 'লিটার', feet: 'ফিট', inch: 'ইঞ্চি',
+    centimetre: 'সেন্টিমিটার', kilometre: 'কিলোমিটার', mile: 'মাইল',
+    dozen: 'ডজন', pair: 'পেয়ার', piece: 'পিস', sack: 'বস্তা',
+    bundle: 'বান্ডিল', can: 'ক্যান', celsius: 'সেলসিয়াস',
+    temperature: 'টেম্পারেচার', height: 'হাইট', weather: 'ওয়েদার',
+    forecast: 'ফোরকাস্ট', cyclone: 'সাইক্লোন', alert: 'অ্যালার্ট',
+    warning: 'ওয়ার্নিং', flood: 'ফ্লাড', earthquake: 'আর্থকোয়েক'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
