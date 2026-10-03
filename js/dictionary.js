@@ -586,7 +586,7 @@ window.BornotoronDictionary = Object.freeze({
     // Office, Business & Bank
     chairman: 'চেয়ারম্যান', officer: 'অফিসার', employee: 'এমপ্লয়ি',
     company: 'কোম্পানি', business: 'বিজনেস', client: 'ক্লায়েন্ট',
-    interview: 'ইন্টারভিউ', cv: 'সিভি', resume: 'রিজিউম',
+    interview: 'ইন্টারভিউ', cv: 'সিভি', 
     appointment: 'অ্যাপয়েন্টমেন্ট', joining: 'জয়েনিং', resignation: 'রিজাইন',
     bonus: 'বোনাস', increment: 'ইনক্রিমেন্ট', promotion: 'প্রমোশন',
     shift: 'শিফট', overtime: 'ওভারটাইম', folder: 'ফোল্ডার',
