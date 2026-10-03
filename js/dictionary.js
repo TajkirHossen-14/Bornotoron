@@ -722,7 +722,24 @@ window.BornotoronDictionary = Object.freeze({
     bundle: 'বান্ডিল', can: 'ক্যান', celsius: 'সেলসিয়াস',
     temperature: 'টেম্পারেচার', height: 'হাইট', weather: 'ওয়েদার',
     forecast: 'ফোরকাস্ট', cyclone: 'সাইক্লোন', alert: 'অ্যালার্ট',
-    warning: 'ওয়ার্নিং', flood: 'ফ্লাড', earthquake: 'আর্থকোয়েক'
+    warning: 'ওয়ার্নিং', flood: 'ফ্লাড', earthquake: 'আর্থকোয়েক',
+    // Everyday Expressions
+    sorry: 'স্যরি', thankyou: 'থ্যাংক ইউ', please: 'প্লিজ',
+    welcome: 'ওয়েলকাম', hi: 'হাই', byebye: 'বাই-বাই',
+    excuseme: 'এক্সকিউজ মি', yes: 'ইয়েস', no: 'নো',
+    goodmorning: 'গুড মর্নিং', goodnight: 'গুড নাইট',
+    goodluck: 'গুড লাক', bestofluck: 'বেস্ট অব লাক',
+    congratulation: 'কনগ্র্যাচুলেশন', happybirthday: 'হ্যাপি বার্থডে',
+    happynewyear: 'হ্যাপি নিউ ইয়ার', takecare: 'টেক কেয়ার',
+    seeyou: 'সি ইউ', anyway: 'এনিওয়ে', bytheway: 'বাই দ্য ওয়ে',
+    actually: 'অ্যাকচুয়ালি', basically: 'বেসিক্যালি', exactly: 'এক্স্যাক্টলি',
+    really: 'রিয়েলি', just: 'জাস্ট', maybe: 'মেবি', correct: 'কারেক্ট',
+    mind: 'মাইন্ড', mistake: 'মিসটেক', program: 'প্রোগ্রাম',
+    timepass: 'টাইমপাস', life: 'লাইফ', mood: 'মুড', feeling: 'ফিলিং',
+    attitude: 'অ্যাটিটিউড', hint: 'হিন্ট', tip: 'টিপস',
+    shortcut: 'শর্টকাট', system: 'সিস্টেম', fixing: 'ফিক্সিং',
+    cheating: 'চিটিং', name: 'নেম', age: 'এজ', busy: 'বিজি',
+    free: 'ফ্রি', surething: 'শিওর থিং'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
