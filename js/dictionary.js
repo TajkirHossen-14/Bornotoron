@@ -739,7 +739,20 @@ window.BornotoronDictionary = Object.freeze({
     attitude: 'অ্যাটিটিউড', hint: 'হিন্ট', tip: 'টিপস',
     shortcut: 'শর্টকাট', system: 'সিস্টেম', fixing: 'ফিক্সিং',
     cheating: 'চিটিং', name: 'নেম', age: 'এজ', busy: 'বিজি',
-    free: 'ফ্রি', surething: 'শিওর থিং'
+    free: 'ফ্রি', surething: 'শিওর থিং',
+    // Adjectives & Adverbs
+    nice: 'নাইস', super: 'সুপার', superb: 'সুপার্ব', wow: 'ওয়াও',
+    cool: 'কুল', fine: 'ফাইন', best: 'বেস্ট', worst: 'ওয়ার্স্ট',
+    fast: 'ফাস্ট', slow: 'স্লো', regular: 'রেগুলার', urgent: 'আর্জেন্ট',
+    handsome: 'হ্যান্ডসাম', cute: 'কিউট', beautiful: 'বিউটিফুল',
+    fit: 'ফিট', slim: 'স্লিম', fat: 'ফ্যাট', tall: 'টল',
+    strong: 'স্ট্রং', weak: 'উইক', safe: 'সেফ', danger: 'ডেঞ্জার',
+    dangerous: 'ডেঞ্জারাস', risk: 'রিস্ক', secret: 'সিক্রেট',
+    public: 'পাবলিক', personal: 'পার্সোনাল', foreign: 'ফরেন',
+    modern: 'মডার্ন', latest: 'লেটেস্ট', perfectly: 'পারফেক্টলি',
+    immediately: 'ইমিডিয়েটলি', manual: 'ম্যানুয়াল', digital: 'ডিজিটাল',
+    official: 'অফিশিয়াল', formal: 'ফর্মাল', casual: 'ক্যাজুয়াল',
+    confirmed: 'কনফার্মড', lazy: 'লেজি', rich: 'রিচ', poor: 'পুওর'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
