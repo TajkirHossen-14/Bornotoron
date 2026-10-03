@@ -752,7 +752,22 @@ window.BornotoronDictionary = Object.freeze({
     modern: 'মডার্ন', latest: 'লেটেস্ট', perfectly: 'পারফেক্টলি',
     immediately: 'ইমিডিয়েটলি', manual: 'ম্যানুয়াল', digital: 'ডিজিটাল',
     official: 'অফিশিয়াল', formal: 'ফর্মাল', casual: 'ক্যাজুয়াল',
-    confirmed: 'কনফার্মড', lazy: 'লেজি', rich: 'রিচ', poor: 'পুওর'
+    confirmed: 'কনফার্মড', lazy: 'লেজি', rich: 'রিচ', poor: 'পুওর',
+    // Abbreviations
+    mms: 'এমএমএস', dvd: 'ডিভিডি', cd: 'সিডি', jpg: 'জেপিজি',
+    png: 'পিএনজি', gps: 'জিপিএস', lcd: 'এলসিডি', pc: 'পিসি',
+    cpu: 'সিপিইউ', ram: 'র‍্যাম', rom: 'রম', ssd: 'এসএসডি',
+    url: 'ইউআরএল', ict: 'আইসিটি', cse: 'সিএসই', eee: 'ইইই',
+    bba: 'বিবিএ', mba: 'এমবিএ', mbbs: 'এমবিবিএস',
+    bsc: 'বিএসসি', msc: 'এমএসসি', phd: 'পিএইচডি',
+    ssc: 'এসএসসি', hsc: 'এইচএসসি', hr: 'এইচআর',
+    md: 'এমডি', ceo: 'সিইও', gm: 'জিএম', pa: 'পিএ',
+    tin: 'টিআইএন', ngo: 'এনজিও', un: 'ইউএন',
+    unicef: 'ইউনিসেফ', buet: 'বুয়েট', du: 'ডিইউ',
+    nsu: 'এনএসইউ', brta: 'বিএআরটিএ', btrc: 'বিটিআরসি',
+    btv: 'বিটিভি', desco: 'ডেসকো', wasa: 'ওয়াসা', rajuk: 'রাজউক',
+    bp: 'বিপি', fb: 'এফবি', btw: 'বিটিডব্লিউ',
+    asap: 'এএসএপি', fyi: 'এফওয়াইআই', ps: 'পিএস'
   }),
   homophones: Object.freeze({
     gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
