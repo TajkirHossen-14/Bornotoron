@@ -866,6 +866,7 @@ window.BornotoronDictionary = Object.freeze({
     machinelearning: 'মেশিন লার্নিং', deeplearning: 'ডিপ লার্নিং',
     neuralnetwork: 'নিউরাল নেটওয়ার্ক', dataset: 'ডেটাসেট', model: 'মডেল',
     prediction: 'প্রেডিকশন', chatbot: 'চ্যাটবট', claude: 'ক্লড',
+    antigravity: 'অ্যান্টিগ্র্যাভিটি',
     prompt: 'প্রম্পট', datascience: 'ডেটা সায়েন্স', bigdata: 'বিগ ডেটা',
     blockchain: 'ব্লকচেইন', crypto: 'ক্রিপ্টো', bitcoin: 'বিটকয়েন',
     iot: 'আইওটি', ar: 'এআর', vr: 'ভিআর',
