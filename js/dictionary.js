@@ -347,7 +347,7 @@ window.BornotoronDictionary = Object.freeze({
     html: 'এইচটিএমএল', css: 'সিএসএস', javascript: 'জাভাস্ক্রিপ্ট',
     python: 'পাইথন', php: 'পিএইচপি', 'c++': 'সি প্লাস প্লাস', java: 'জাভা',
     // Dictionary & Search Terms
-    synonym: 'সিনোনিম', antonym: 'অ্যান্টনিম', lookup: 'লুকআপ',
+    synonym: 'সিনোনিম', antonym: 'অ্যান্টোনিম', lookup: 'লুকআপ',
     query: 'কোয়েরি', suggestion: 'সাজেশন', autocomplete: 'অটো-কমপ্লিট',
     details: 'ডিটেইলস',
     // Meaning, Pronunciation & Usage
@@ -677,7 +677,7 @@ window.BornotoronDictionary = Object.freeze({
     adventure: 'অ্যাডভেঞ্চার', beach: 'বিচ', hilltracts: 'হিল ট্র্যাক্টস',
     zoo: 'জু', museum: 'মিউজিয়াম', fun: 'ফান', holiday: 'হলিডে',
     vacation: 'ভ্যাকেশন', weekend: 'উইকেন্ড', eidgreeting: 'ঈদ মোবারক',
-    programme: 'প্রোগ্রাম', event: 'ইভেন্ট', festival: 'ফেস্টিভ্যাল',
+    programme: 'প্রোগ্রাম', program: 'প্রোগ্রাম',event: 'ইভেন্ট', festival: 'ফেস্টিভ্যাল',
     celebration: 'সেলিব্রেশন', surprise: 'সারপ্রাইজ', birthday: 'বার্থডে',
     anniversary: 'অ্যানিভার্সারি', wedding: 'ওয়েডিং', honeymoon: 'হানিমুন',
     photography: 'ফটোগ্রাফি', photographer: 'ফটোগ্রাফার', studio: 'স্টুডিও',
