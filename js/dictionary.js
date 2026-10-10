@@ -840,7 +840,7 @@ shonibar: 'শনিবার', sonibar: 'শনিবার', robibar: 'রব�
     rajnoitik: 'রাজনৈতিক', balti: 'বালতি', kolsi: 'কলসি',
     khelna: 'খেলনা', chalna: 'চালনা', dhakna: 'ঢাকনা', jolpai: 'জলপাই',
     namta: 'নামটা', kolkata: 'কলকাতা',
-    amio: 'আমিও', ekta: 'একটা', daktar: 'ডাক্তার', foot: 'ফুট', milbe: 'মিলবে',
+    amio: 'আমিও', ekta: 'একটা', daktar: 'ডাক্তার', foot: 'ফুট', milbe: 'মিলবে', asmani: 'আসমানি',
     together: 'টুগেদার', natural: 'ন্যাচারাল', naturally: 'ন্যাচারালি', chewinggum: 'চুইং গাম', shorisha: 'সোরিষা', sorisha: 'সোরিষা',
     porte: 'পড়তে', porchi: 'পরছি',
     cholbo: 'চলবো', cholte: 'চলতে', cholchi: 'চলছি',
