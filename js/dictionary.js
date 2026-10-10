@@ -4,6 +4,8 @@
  * Keep doNotOverride out of overrides; tests enforce this boundary. */
 window.BornotoronDictionary = Object.freeze({
   overrides: Object.freeze({
+    // "ami" is explicit so the -ও join also works: ami-o → আমিও (not আমিঅ).
+    ami: 'আমি',
     tomake: 'তোমাকে', tomar: 'তোমার', tomay: 'তোমায়', tomader: 'তোমাদের',
     sona: 'সোনা', sonar: 'সোনার', golap: 'গোলাপ', bhalo: 'ভালো',
     bhalobasha: 'ভালোবাসা', bhalobasi: 'ভালোবাসি', bhalobashi: 'ভালোবাসি',
@@ -11,6 +13,13 @@ window.BornotoronDictionary = Object.freeze({
     shono: 'শোনো', chokh: 'চোখ', koro: 'করো', bolo: 'বলো', cholo: 'চলো',
     oke: 'ওকে', ora: 'ওরা', oder: 'ওদের',
     // Pronouns, determiners, time, and connecting words.
+    // "apni/apnar" needs explicit entries: the phonetic engine treats pn as a
+    // conjunct (আপ্নার), but Bangla writes আপনার with no হসন্ত — unlike স্বপ্ন.
+    apni: 'আপনি', apnar: 'আপনার', apnay: 'আপনায়', apnake: 'আপনাকে',
+    apnakei: 'আপনাকেই', apnader: 'আপনাদের', apnaderke: 'আপনাদেরকে',
+    apnike: 'আপনাকে', apnira: 'আপনারা', apnider: 'আপনাদের',
+    apniderke: 'আপনাদেরকে', apnijana: 'আপনিজন', apnara: 'আপনারা',
+    jonno: 'জন্য',
     tumi: 'তুমি', tomra: 'তোমরা', tomaderke: 'তোমাদেরকে', tomadero: 'তোমাদেরও',
     tomakeo: 'তোমাকেও', tomaro: 'তোমারও', tomari: 'তোমারই', tomrai: 'তোমরাই',
     tomarai: 'তোমরাই', tomaderi: 'তোমাদেরই', uni: 'উনি', onake: 'ওনাকে',
@@ -169,7 +178,7 @@ window.BornotoronDictionary = Object.freeze({
     jogajoger: 'যোগাযোগের', sujog: 'সুযোগ', shujog: 'সুযোগ',
     sohoj: 'সহজ', shohoj: 'সহজ', sohoje: 'সহজে', shohoje: 'সহজে',
     kothin: 'কঠিন', druto: 'দ্রুত', taratari: 'তাড়াতাড়ি',
-    dhire: 'ধীরে', dhireo: 'ধীরেও', aste: 'আস্তে',
+    dhire: 'ধীরে', dhireo: 'ধীরেও',
     majhe: 'মাঝে', majher: 'মাঝের', majhemajhe: 'মাঝে মাঝে',
     chotto: 'ছোট্ট', chhotto: 'ছোট্ট', chotobela: 'ছোটবেলা',
     chhotobela: 'ছোটবেলা', chotobelar: 'ছোটবেলার',
@@ -179,7 +188,8 @@ window.BornotoronDictionary = Object.freeze({
     kivabe: 'কীভাবে', kevabe: 'কীভাবে', kibhabe: 'কীভাবে', kebhabe: 'কীভাবে',
     konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ',
     // Pronouns & Basics
-    i: 'আই', you: 'ইউ', he: 'হি', she: 'শি', we: 'উই', they: 'দে', it: 'ইট',
+    // "i"/"I" are left to the phonetic rules: ই and ঈ respectively.
+    you: 'ইউ', he: 'হি', she: 'শি', we: 'উই', they: 'দে', it: 'ইট',
     this: 'দিস', that: 'দ্যাট', these: 'দিজ', those: 'দোজ', here: 'হিয়ার',
     there: 'দেয়ার', what: 'হোয়াট', who: 'হু', where: 'হোয়্যার', when: 'হোয়েন',
     why: 'হোয়াই', how: 'হাউ', which: 'হুইচ',
@@ -190,7 +200,7 @@ window.BornotoronDictionary = Object.freeze({
     tell: 'টেল', ask: 'আস্ক', work: 'ওয়ার্ক', feel: 'ফিল', try: 'ট্রাই',
     leave: 'লিভ', call: 'কল', keep: 'কিপ', let: 'লেট', begin: 'বিগিন',
     help: 'হেল্প', show: 'শো', hear: 'হিয়ার', play: 'প্লে', run: 'রান',
-    move: 'মুভ', live: 'লিভ', believe: 'বিলিভ', bring: 'ব্রিং', happen: 'হ্যাপেন',
+    move: 'মুভ', believe: 'বিলিভ', bring: 'ব্রিং', happen: 'হ্যাপেন',
     // Time & Days
     time: 'টাইম', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
     afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমরো', yesterday: 'ইয়েস্টারডে',
@@ -234,7 +244,7 @@ window.BornotoronDictionary = Object.freeze({
     bike: 'বাইক', cycle: 'সাইকেল', traffic: 'ট্রাফিক',
     location: 'লোকেশন', map: 'ম্যাপ',
     // Health & Medical
-    doctor: 'ডাক্তার', doctorer: 'ডাক্তারের', doctore: 'ডাক্তারে',
+    doctor: 'ডক্টর', doctorer: 'ডক্টরের', 
     hospital: 'হাসপাতাল', clinic: 'ক্লিনিক', medicine: 'মেডিসিন',
     ambulance: 'অ্যাম্বুলেন্স', emergency: 'ইমার্জেন্সি', report: 'রিপোর্ট',
     operation: 'অপারেশন', patient: 'পেশেন্ট',
@@ -345,7 +355,7 @@ window.BornotoronDictionary = Object.freeze({
     // Programming Languages & Code
     code: 'কোড', coding: 'কোডিং', programming: 'প্রোগ্রামিং',
     html: 'এইচটিএমএল', css: 'সিএসএস', javascript: 'জাভাস্ক্রিপ্ট',
-    python: 'পাইথন', php: 'পিএইচপি', 'c++': 'সি প্লাস প্লাস', java: 'জাভা',
+    python: 'পাইথন', php: 'পিএইচপি', cpp: 'সি প্লাস প্লাস', java: 'জাভা',
     // Dictionary & Search Terms
     synonym: 'সিনোনিম', antonym: 'অ্যান্টোনিম', lookup: 'লুকআপ',
     query: 'কোয়েরি', suggestion: 'সাজেশন', autocomplete: 'অটো-কমপ্লিট',
@@ -458,7 +468,7 @@ window.BornotoronDictionary = Object.freeze({
     // Technology & Internet
     iphone: 'আইফোন', smartphone: 'স্মার্টফোন', email: 'ইমেইল',
     username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব',
-    dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল', live: 'লাইভ',
+    dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল',
     follow: 'ফলো', follower: 'ফলোয়ার', subscribe: 'সাবস্ক্রাইব',
     friendrequest: 'ফ্রেন্ড রিকোয়েস্ট', add: 'অ্যাড', tag: 'ট্যাগ',
     hashtag: 'হ্যাশট্যাগ', emoji: 'ইমোজি', sticker: 'স্টিকার', meme: 'মিম',
@@ -482,7 +492,7 @@ window.BornotoronDictionary = Object.freeze({
     motorcycle: 'মোটরসাইকেল', scooter: 'স্কুটার', ridesharing: 'রাইড শেয়ারিং',
     uber: 'উবার', platform: 'প্ল্যাটফর্ম', metrorail: 'মেট্রোরেল',
     busstand: 'বাস স্ট্যান্ড', busstop: 'বাস স্টপ', terminal: 'টার্মিনাল',
-    launch: 'লঞ্চ', steamer: 'স্টিমার', ferry: 'ফেরি', ship: 'শিপ',
+    launch: 'লঞ্চ', launchpad: 'লঞ্চপ্যাড', steamer: 'স্টিমার', ferry: 'ফেরি', ship: 'শিপ',
     flight: 'ফ্লাইট', plane: 'প্লেন', helicopter: 'হেলিকপ্টার',
     counter: 'কাউন্টার', seat: 'সিট', seatbelt: 'সিট বেল্ট',
     reserve: 'রিজার্ভ', local: 'লোকাল', express: 'এক্সপ্রেস',
@@ -733,7 +743,7 @@ window.BornotoronDictionary = Object.freeze({
     quarter: 'কোয়ার্টার', double: 'ডাবল', triple: 'ট্রিপল', single: 'সিঙ্গেল',
     average: 'অ্যাভারেজ', plus: 'প্লাস', minus: 'মাইনাস', kilo: 'কেজি',
     gram: 'গ্রাম', litre: 'লিটার', feet: 'ফিট', inch: 'ইঞ্চি',
-    centimetre: 'সেন্টিমিটার', kilometre: 'কিলোমিটার', mile: 'মাইল',
+    centimetre: 'সেন্টিমিটার', kilometre: 'কিলোমিটার',
     dozen: 'ডজন', pair: 'পেয়ার', piece: 'পিস', sack: 'বস্তা',
     bundle: 'বান্ডিল', can: 'ক্যান', celsius: 'সেলসিয়াস',
     temperature: 'টেম্পারেচার', height: 'হাইট', weather: 'ওয়েদার',
@@ -788,7 +798,7 @@ window.BornotoronDictionary = Object.freeze({
     atom: 'অ্যাটম', electron: 'ইলেকট্রন', proton: 'প্রোটন',
     neutron: 'নিউট্রন', nucleus: 'নিউক্লিয়াস', molecule: 'মলিকিউল',
     element: 'এলিমেন্ট', compound: 'কম্পাউন্ড', mixture: 'মিক্সচার',
-    acid: 'অ্যাসিড', base: 'বেস', alkali: 'অ্যালকালি', ph: 'পিএইচ',
+    acid: 'অ্যাসিড', base: 'বেস', alkali: 'অ্যালকালি',
     reaction: 'রিঅ্যাকশন', formula: 'ফর্মুলা', equation: 'ইকুয়েশন',
     hydrogen: 'হাইড্রোজেন', carbon: 'কার্বন',
     carbondioxide: 'কার্বন ডাই-অক্সাইড', nitrogen: 'নাইট্রোজেন',
@@ -817,6 +827,44 @@ window.BornotoronDictionary = Object.freeze({
     solarpanel: 'সোলার প্যানেল', fuel: 'ফুয়েল', machine: 'মেশিন',
     function: 'ফাংশন', structure: 'স্ট্রাকচার', analysis: 'অ্যানালাইসিস',
     analog: 'অ্যানালগ',
+    // Tadbhava & compound words where র keeps its inherent vowel instead of
+    // forming a conjunct (সরকার not সর্কার, একবার not এক্বার), plus place names.
+    sorkar: 'সরকার', dorkar: 'দরকার', dorja: 'দরজা', tarpor: 'তারপর',
+    porpor: 'পরপর', ghorbari: 'ঘরবাড়ি', shorbot: 'শরবত', khorcha: 'খরচ',
+    ekbar: 'একবার', tinbar: 'তিনবার', ekdin: 'একদিন', ekdom: 'একদম',
+    ekjon: 'একজন', tinjon: 'তিনজন', eksathe: 'একসাথে',
+    kajkormo: 'কাজকর্ম', dinkal: 'দিনকাল', rajniti: 'রাজনীতি',
+    rajnoitik: 'রাজনৈতিক', balti: 'বালতি', kolsi: 'কলসি',
+    khelna: 'খেলনা', chalna: 'চালনা', dhakna: 'ঢাকনা', jolpai: 'জলপাই',
+    namta: 'নামটা', kolkata: 'কলকাতা',
+    amio: 'আমিও', ekta: 'একটা', daktar: 'ডাক্তার', foot: 'ফুট', milbe: 'মিলবে',
+    together: 'টুগেদার', natural: 'ন্যাচারাল', naturally: 'ন্যাচারালি', chewinggum: 'চুইং গাম', shorisha: 'সোরিষা', sorisha: 'সোরিষা',
+    porte: 'পড়তে', porchi: 'পরছি',
+    cholbo: 'চলবো', cholte: 'চলতে', cholchi: 'চলছি',
+    nachbo: 'নাচবো', nachte: 'নাচতে', nachle: 'নাচলে',
+    // ash- spellings of the আস verb: sh is just how আস is often typed.
+    ashbe: 'আসবে', ashben: 'আসবেন', ashbi: 'আসবি',
+    ashlam: 'আসলাম', ashle: 'আসলে', ashlo: 'আসলো',
+    ashche: 'আসছে', ashchis: 'আসছিস', ashchen: 'আসছেন',
+    ashchilo: 'আসছিল', ashchile: 'আসছিলে', asche: 'আসছে',
+    asben: 'আসবেন', asbi: 'আসবি', aschis: 'আসছিস',
+    aschen: 'আসছেন', aschilo: 'আসছিল', aschile: 'আসছিলে',
+    // eshe- spellings of এসেছে: the s/sh pair is typed either way.
+    esheche: 'এসেছে', eshechi: 'এসেছি',
+    eshechis: 'এসেছিস', eshechen: 'এসেছেন',
+    eshechilo: 'এসেছিল', eshechile: 'এসেছিলে',
+    // itihas family: ইতিহাস, with the -ছশ/-ছ forms written either way.
+    itihas: 'ইতিহাস', itihash: 'ইতিহাস', itihaser: 'ইতিহাসের', itihasher: 'ইতিহাসের',
+    // Places: Dhaka areas and districts
+    mirpur: 'মিরপুর', mohammadpur: 'মোহাম্মদপুর', azimpur: 'আজিমপুর',
+    rampura: 'রামপুরা', tejgaon: 'তেজগাঁও', shahbag: 'শাহবাগ',
+    gabtoli: 'গাবতলী', komlapur: 'কমলাপুর', lalbag: 'লালবাগ',
+    khilgaon: 'খিলগাঁও', rajshahi: 'রাজশাহী', sherpur: 'শেরপুর',
+    dinajpur: 'দিনাজপুর', nilphamari: 'নীলফামারী', thakurgaon: 'ঠাকুরগাঁও',
+    lalmonirhat: 'লালমনিরহাট', joypurhat: 'জয়পুরহাট', bagerhat: 'বাগেরহাট',
+    norsingdi: 'নরসিংদী', rajbari: 'রাজবাড়ি', moulvibazar: 'মৌলভীবাজার',
+    borguna: 'বরগুনা', pirojpur: 'পিরোজপুর', kishorganj: 'কিশোরগঞ্জ',
+    sirajganj: 'সিরাজগঞ্জ', jamalpur: 'জামালপুর', foridpur: 'ফরিদপুর',
     // Programming Languages
     typescript: 'টাইপস্ক্রিপ্ট', c: 'সি', csharp: 'সি শার্প',
     golang: 'গোল্যাং', rust: 'রাস্ট', kotlin: 'কটলিন', swift: 'সুইফট',
@@ -896,7 +944,12 @@ window.BornotoronDictionary = Object.freeze({
     ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস'
   }),
   homophones: Object.freeze({
-    gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
+    // "aste" is genuinely ambiguous: আসতে (to come) or আস্তে (slowly).
+    aste: ['আসতে', 'আস্তে'],     // ksh normally resolves to ক্ষ, but কষ / কশ are also
+    // written when the conjunct is deliberately avoided (older Avro too).
+        // fute: ফুটে is the usual reading, ফুতে is also written.
+        // live: লাইভ for streaming/broadcast, লিভ for "alive".
+    live: ['লাইভ', 'লিভ'], mile: ['মিলে', 'মাইল'], fute: ['ফুটে', 'ফুতে'], ksh: ['ক্ষ', 'কষ', 'কশ'], gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
     koi: ['কই', 'কৈ'],
     kul: ['কুল', 'কূল'], din: ['দিন', 'দীন'], tir: ['তির', 'তীর'],
     shur: ['সুর', 'শূর'], shor: ['সর', 'স্বর'],
@@ -908,7 +961,7 @@ window.BornotoronDictionary = Object.freeze({
   }),
   doNotOverride: Object.freeze({
     kor: 'কর', mon: 'মন', bosen: 'বসেন', hobe: 'হবে', kotha: 'কথা',
-    kolom: 'কলম', notun: 'নতুন', korbo: 'করব', mojar: 'মজার',
+    kolom: 'কলম', notun: 'নতুন', korbo: 'করবো', mojar: 'মজার',
     sokal: 'সকাল', gorom: 'গরম', sundor: 'সুন্দর', bochor: 'বছর', mone: 'মনে'
   })
 });
