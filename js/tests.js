@@ -46,6 +46,19 @@
     'ami.': 'আমি।', 'ami. tumi': 'আমি। তুমি', 'kori.kori': 'করি।করি',
     'mobile-ta': 'মোবাইলটা', 'doctor-er': 'ডাক্তারের', 'office-e': 'অফিসে',
     'khabar-er': 'খাবারের', 'bhalo-ta': 'ভালোটা',
+    // Conjunct traps: র / clusters must keep their inherent vowel.
+    'apnar': 'আপনার', 'apnara': 'আপনারা', 'apnar jonno': 'আপনার জন্য',
+    'sorkar': 'সরকার', 'dorkar': 'দরকার', 'dorja': 'দরজা', 'tarpor': 'তারপর',
+    'porpor': 'পরপর', 'khorcha': 'খরচ', 'ekbar': 'একবার', 'ekta': 'একটা',
+    'rajniti': 'রাজনীতি', 'dhakna': 'ঢাকনা', 'kolkata': 'কলকাতা',
+    'daktar': 'ডাক্তার', 'Daktar': 'ডাক্তার',
+    // Verb suffixes sit on a syllable boundary, not a conjunct.
+    'korbo': 'করবো', 'korbe': 'কरবে', 'korte': 'করতে', 'korlam': 'করলাম',
+    'korchi': 'করছি', 'korchen': 'করছেন', 'porte': 'পড়তে', 'parbe': 'পারবে',
+    'bolte': 'বলতে', 'likhte': 'লিখতে', 'dekhte': 'দেখতে', 'thakte': 'থাকতে',
+    'shunte': 'শুনতে', 'jante': 'জানতে', 'bujhte': 'বুঝতে', 'nambe': 'নামবে',
+    // Vowels and ফ are covered by the rows above; these lock the hyphen join.
+    'tumi-o': 'তুমিও', 'ami-o': 'আমিও',
     '': '', 'বাংলা — 💚': 'বাংলা — 💚'
   };
   Object.entries(cases).forEach(([key, value]) => check(`conversion ${key}`, text(key), value));
