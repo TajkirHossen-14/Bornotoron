@@ -25,6 +25,23 @@ window.BornotoronRules = Object.freeze({
   // Capitals-only acronyms. These are matched case-sensitively BEFORE the
   // lowercase lookup, so "ph" stays the consonant ফ while "PH" is পিএইচ.
   uppercaseForms: { PH: 'পিএইচ' },
+  // Abbreviations keep their stop: a known "X." is one token, so the stop stays
+  // a stop instead of becoming দাঁড়ি (।). Dr. is ambiguous (doctorate vs physician).
+  abbreviations: Object.freeze({
+    'Dr.': ['ড.', 'ডা.'],
+    'Md.': 'মো.',
+    'Mst.': 'মোসা.',
+    'Mr.': 'মি.',
+    'Mrs.': 'মিসেস',
+    'Ms.': 'মিস',
+    'Engr.': 'ইঞ্জি.',
+    'Adv.': 'অ্যাড.',
+    'Lt.': 'লে.',
+    'No.': 'নং',
+    'Ltd.': 'লি.',
+    'Pvt.': 'প্রা.',
+    'Co.': 'কোং'
+  }),
   digits: '০১২৩৪৫৬৭৮৯',
   // Verb suffixes sit on a syllable boundary, not a conjunct:
   // kor + bo → করবো, kor + te → করতে, kor + lam → করলাম, kor + chi → করছি;
