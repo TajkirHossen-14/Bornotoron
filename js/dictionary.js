@@ -204,7 +204,9 @@ window.BornotoronDictionary = Object.freeze({
     // Time & Days
     time: 'টাইম', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
     afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমরো', yesterday: 'ইয়েস্টারডে',
-    week: 'উইক', month: 'মান্থ', year: 'ইয়ার', now: 'নাউ', then: 'দেন',
+    week: 'উইক', month: 'মান্থ',
+    // Weekdays. শন/স and বৃহস্পতিবার spellings are both accepted.
+shonibar: 'শনিবার', sonibar: 'শনিবার', robibar: 'রবিবার', sombar: 'সোমবার', shombar: 'সোমবার', mongolbar: 'মঙ্গলবার', budhbar: 'বুধবার', brihospotibar: 'বৃহস্পতিবার', brihoshpotibar: 'বৃহস্পতিবার', shukrobar: 'শুক্রবার', year: 'ইয়ার', now: 'নাউ', then: 'দেন',
     always: 'অলওয়েজ', never: 'নেভার', sometimes: 'সামটাইমস', early: 'আর্লি', late: 'লেট',
     // Adjectives & States
     good: 'গুড', bad: 'ব্যাড', new: 'নিউ', old: 'ওল্ড', first: 'ফার্স্ট',
@@ -702,7 +704,8 @@ window.BornotoronDictionary = Object.freeze({
     guide: 'গাইড', luggage: 'লাগেজ', sightseeing: 'সাইটসিয়িং',
     adventure: 'অ্যাডভেঞ্চার', beach: 'বিচ', hilltracts: 'হিল ট্র্যাক্টস',
     zoo: 'জু', museum: 'মিউজিয়াম', fun: 'ফান', holiday: 'হলিডে',
-    vacation: 'ভ্যাকেশন', weekend: 'উইকেন্ড', eidgreeting: 'ঈদ মোবারক',
+    vacation: 'ভ্যাকেশন', weekend: 'উইকেন্ড',
+ eidgreeting: 'ঈদ মোবারক',
     programme: 'প্রোগ্রাম', event: 'ইভেন্ট', festival: 'ফেস্টিভ্যাল',
     celebration: 'সেলিব্রেশন', surprise: 'সারপ্রাইজ', birthday: 'বার্থডে',
     anniversary: 'অ্যানিভার্সারি', wedding: 'ওয়েডিং', honeymoon: 'হানিমুন',
