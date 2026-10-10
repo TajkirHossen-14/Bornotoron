@@ -106,9 +106,15 @@
       if (this.cache.has(word)) return this.cache.get(word);
       const key = word.toLowerCase();
       let result;
-      // Priority: capital acronym → personal learning → curated spelling →
-      // ambiguity → suffix → rules.
+      // Priority: capital acronym → abbreviation → personal learning →
+      // curated spelling → ambiguity → suffix → rules.
       if (own(rules.uppercaseForms, word)) result = { text: rules.uppercaseForms[word], source: 'dictionary' };
+      else if (own(rules.abbreviations, word)) {
+        const abbr = rules.abbreviations[word];
+        result = Array.isArray(abbr)
+          ? { text: abbr[0], source: 'ambiguous', options: abbr }
+          : { text: abbr, source: 'dictionary' };
+      }
       else if (own(this.personal, key)) result = { text: this.personal[key], source: 'personal' };
       else if (own(dictionary.overrides, key)) result = { text: dictionary.overrides[key], source: 'dictionary' };
       else if (own(dictionary.homophones, key)) {
@@ -137,7 +143,15 @@
       return { text, source: 'phonetic' };
     }
     convert(text, bengaliDigits = true) {
-      const parts = text.match(/[A-Za-z^`]+(?:-[A-Za-z^`]+)*|[0-9]+|[^A-Za-z^`0-9]+/g) || [];
+      // A known abbreviation such as "Dr." must stay one token: otherwise the
+      // stop tokenises on its own and turns into দাঁড়ি (।) instead of a stop.
+      const abbrevKeys = Object.keys(rules.abbreviations || {})
+        .sort((a, b) => b.length - a.length)
+        .map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      const tokenizer = abbrevKeys.length
+        ? new RegExp(abbrevKeys.join('|') + '|[A-Za-z^`]+(?:-[A-Za-z^`]+)*|[0-9]+|[^A-Za-z^`0-9]+', 'g')
+        : /[A-Za-z^`]+(?:-[A-Za-z^`]+)*|[0-9]+|[^A-Za-z^`0-9]+/g;
+      const parts = text.match(tokenizer) || [];
       const old = this.tokens;
       let prefix = 0, suffix = 0;
       const same = (token, raw) => token && token.raw === raw && token.digits === bengaliDigits;
@@ -148,7 +162,7 @@
       this.tokens = parts.map((raw, index) => {
         if (index < prefix) return old[index];
         if (index >= parts.length - suffix) return old[old.length - (parts.length - index)];
-        const isWord = /^[A-Za-z^`]+(?:-[A-Za-z^`]+)*$/.test(raw);
+        const isWord = /^[A-Za-z^`]+(?:-[A-Za-z^`]+)*$/.test(raw) || own(rules.abbreviations || {}, raw);
         const isDecimalDot = raw === '.' && /^[0-9]+$/.test(parts[index - 1]) && /^[0-9]+$/.test(parts[index + 1]);
         const result = isWord ? this.resolve(raw) : {
           text: (isDecimalDot ? raw : raw.replace(/\./g, '।')).replace(bengaliDigits ? /[0-9]/g : /(?!)/g, n => rules.digits[Number(n)]),
