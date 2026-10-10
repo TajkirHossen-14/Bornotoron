@@ -12,11 +12,15 @@
 
   function phonetic(word) {
     let output = '', consonantPending = false;
-    // A small morphological boundary rule prevents false conjuncts in future
-    // verbs (kor+bo), without breaking genuine clusters such as sorbo → সর্ব.
-    const futureStem = rules.futureStems.find(stem => word.startsWith(stem) && rules.futureSuffixes.includes(word.slice(stem.length)));
+    // Verb suffixes (kor+bo → করবো, kor+te → করতে) sit on a syllable boundary,
+    // not a conjunct, so they must be emitted as whole written forms.
+    const verbStem = (rules.verbStems || rules.futureStems).find(stem => word.startsWith(stem) && rules.verbSuffixes.includes(word.slice(stem.length)));
     for (let i = 0; i < word.length;) {
-      if (futureStem && i === futureStem.length) consonantPending = false;
+      if (verbStem && i === verbStem.length) {
+        const form = rules.verbSuffixForms[word.slice(verbStem.length)];
+        if (form) { output += form; i = word.length; continue; }
+        consonantPending = false;
+      }
       const pattern = patterns.find(p => word.startsWith(p, i));
       if (!pattern) {
         const char = word[i];
@@ -71,6 +75,9 @@
       { suffix: 'er', replacement: 'ের' },
       { suffix: 'ar', replacement: 'ার' },
       { suffix: 'or', replacement: 'োর' },
+      // X-o → Xও ("tumi-o" → তুমিও). Kept last so every longer suffix,
+      // including -or and -e, still wins when both could match.
+      { suffix: 'o', replacement: 'ও' },
     ];
     for (const rule of suffixRules) {
       if (word.length > rule.suffix.length && word.endsWith(rule.suffix)) {
@@ -99,18 +106,35 @@
       if (this.cache.has(word)) return this.cache.get(word);
       const key = word.toLowerCase();
       let result;
-      // Priority: personal learning → curated spelling → ambiguity → suffix → rules.
-      if (own(this.personal, key)) result = { text: this.personal[key], source: 'personal' };
+      // Priority: capital acronym → personal learning → curated spelling →
+      // ambiguity → suffix → rules.
+      if (own(rules.uppercaseForms, word)) result = { text: rules.uppercaseForms[word], source: 'dictionary' };
+      else if (own(this.personal, key)) result = { text: this.personal[key], source: 'personal' };
       else if (own(dictionary.overrides, key)) result = { text: dictionary.overrides[key], source: 'dictionary' };
       else if (own(dictionary.homophones, key)) {
         result = { text: dictionary.homophones[key][0], source: 'ambiguous', options: dictionary.homophones[key] };
       } else {
         const suffixed = resolveSuffix(key);
-        result = suffixed || { text: phonetic(word), source: 'phonetic' };
+        if (suffixed) result = suffixed;
+        // A hyphen that matches no suffix rule is a soft join: resolve each
+        // part on its own and concatenate. phonetic() would otherwise copy the
+        // hyphen straight into the Bangla output (tumi-o → তুমি-অ).
+        else if (key.includes('-')) result = this.resolveHyphen(key);
+        else result = { text: phonetic(word), source: 'phonetic' };
       }
       if (this.cache.size > 12000) this.cache.clear();
       this.cache.set(word, result);
       return result;
+    }
+    // Each part goes through resolve() again, so dictionary entries, homophones
+    // and suffix rules still apply per part; the hyphen itself is dropped.
+    resolveHyphen(word) {
+      let text = '';
+      for (const part of word.split('-')) {
+        if (!part) continue;
+        text += this.resolve(part).text;
+      }
+      return { text, source: 'phonetic' };
     }
     convert(text, bengaliDigits = true) {
       const parts = text.match(/[A-Za-z^`]+(?:-[A-Za-z^`]+)*|[0-9]+|[^A-Za-z^`0-9]+/g) || [];
