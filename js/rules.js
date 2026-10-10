@@ -22,9 +22,30 @@ window.BornotoronRules = Object.freeze({
     's': 'স', 'S': 'ষ', 'h': 'হ', 'w': 'ও', 'q': 'ক', 'x': 'ক্স'
   },
   symbols: { 't`': 'ৎ', 'H': 'ঃ', '^': 'ঁ', '`': '্', '.': '।' },
+  // Capitals-only acronyms. These are matched case-sensitively BEFORE the
+  // lowercase lookup, so "ph" stays the consonant ফ while "PH" is পিএইচ.
+  uppercaseForms: { PH: 'পিএইচ' },
   digits: '০১২৩৪৫৬৭৮৯',
-  // The future-tense suffix is a syllable boundary, not a conjunct:
-  // kor + bo → করব, bol + be → বলবে; sorbo still falls back to সর্ব.
-  futureStems: ['kor', 'dhor', 'por', 'mor', 'chol', 'bol', 'likh', 'dekh', 'shikh', 'shun', 'bosh', 'uth', 'nam', 'thak'],
-  futureSuffixes: ['bo', 'be', 'ben', 'bi']
+  // Verb suffixes sit on a syllable boundary, not a conjunct:
+  // kor + bo → করবো, kor + te → করতে, kor + lam → করলাম, kor + chi → করছি;
+  // sorbo/sorbon still fall back to সর্ব because sorbo is not a stem+suffix pair.
+  verbStems: [
+    'kor', 'bol', 'dekh', 'por', 'par', 'dhor', 'chol', 'khel', 'shun', 'jan',
+    'bujh', 'likh', 'shikh', 'rakh', 'thak', 'bhul', 'ghur', 'har', 'jit',
+    'bos', 'has', 'nach', 'as', 'mar', 'kar', 'por', 'mor', 'bosh', 'uth',
+    'nam'
+  ],
+  verbSuffixes: ['bo', 'be', 'ben', 'bi', 'te', 'lam', 'le', 'lo', 'len', 'chi', 'chen', 'chis', 'chili'],
+  verbSuffixForms: {
+    bo: 'বো', be: 'বে', ben: 'বেন', bi: 'বি',
+    te: 'তে', lam: 'লাম', le: 'লে', lo: 'লো', len: 'লেন',
+    chi: 'ছি', chen: 'ছেন', chis: 'ছিস', chili: 'ছিলি'
+  },
+  // Kept as aliases so existing references keep working.
+  futureStems: [
+    'kor', 'dhor', 'por', 'mor', 'chol', 'bol', 'likh', 'dekh', 'shikh',
+    'shun', 'bosh', 'uth', 'nam', 'thak'
+  ],
+  futureSuffixes: ['bo', 'be', 'ben', 'bi'],
+  futureSuffixForms: { bo: 'বো', be: 'বে', ben: 'বেন', bi: 'বি' }
 });
