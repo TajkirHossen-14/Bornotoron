@@ -101,6 +101,7 @@ window.BornotoronDictionary = Object.freeze({
     shastho: 'স্বাস্থ্য', sastho: 'স্বাস্থ্য', shagotom: 'স্বাগতম', shagoto: 'স্বাগত',
     dhonnobad: 'ধন্যবাদ', dhonyobad: 'ধন্যবাদ', dhonnobaad: 'ধন্যবাদ',
     onek: 'অনেক', ar: 'আর',
+    shongkha: 'সংখ্যা', songkha: 'সংখ্যা', shonkhya: 'সংখ্যা', sonkhya: 'সংখ্যা',
     dukkho: 'দুঃখ', dukkher: 'দুঃখের', dukkhito: 'দুঃখিত', dukhito: 'দুঃখিত',
     khushi: 'খুশি', khushir: 'খুশির', iccha: 'ইচ্ছা', ichha: 'ইচ্ছা', ichchha: 'ইচ্ছা',
     icche: 'ইচ্ছে', ichhe: 'ইচ্ছে', ichchhe: 'ইচ্ছে',
