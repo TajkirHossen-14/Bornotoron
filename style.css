@@ -221,31 +221,31 @@ p {
 .brand {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 7px;
   color: var(--accent-text);
   font: 600 28px/1 var(--bangla);
 }
 
-/* Original logo with real PNG alpha transparency. Only surplus transparent
-   margins are cropped in presentation; no white tile or replacement artwork. */
+/* Logo adjustments */
 .brand-mark {
   position: relative;
-  display: block;
+  display: flex;
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  overflow: hidden;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
   background: transparent;
 }
 
 .brand-mark img {
-  position: absolute;
-  width: 168%;
-  height: 168%;
+  display: block;
+  width: 100%;
+  height: 100%;
   max-width: none;
-  left: -34%;
-  top: -36%;
   object-fit: contain;
+  object-position: center;
 }
 
 .brand-period {
