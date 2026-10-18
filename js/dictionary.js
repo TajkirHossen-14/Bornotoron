@@ -101,7 +101,8 @@ window.BornotoronDictionary = Object.freeze({
     shastho: 'স্বাস্থ্য', sastho: 'স্বাস্থ্য', shagotom: 'স্বাগতম', shagoto: 'স্বাগত',
     dhonnobad: 'ধন্যবাদ', dhonyobad: 'ধন্যবাদ', dhonnobaad: 'ধন্যবাদ',
     onek: 'অনেক', ar: 'আর',
-    shongkha: 'সংখ্যা', songkha: 'সংখ্যা', shonkhya: 'সংখ্যা', sonkhya: 'সংখ্যা',
+    shongkha: 'সংখ্যা', songkha: 'সংখ্যা', shongkhya: 'সংখ্যা', songkhya: 'সংখ্যা',
+    shorir: 'শরীর', sorir: 'শরীর', 
     dukkho: 'দুঃখ', dukkher: 'দুঃখের', dukkhito: 'দুঃখিত', dukhito: 'দুঃখিত',
     khushi: 'খুশি', khushir: 'খুশির', iccha: 'ইচ্ছা', ichha: 'ইচ্ছা', ichchha: 'ইচ্ছা',
     icche: 'ইচ্ছে', ichhe: 'ইচ্ছে', ichchhe: 'ইচ্ছে',
@@ -628,7 +629,7 @@ window.BornotoronDictionary = Object.freeze({
     guarantee: 'গ্যারান্টি', stall: 'স্টল', fair: 'ফেয়ার',
     // Telecom
     simcard: 'সিম কার্ড', recharge: 'রিচার্জ', minutes: 'মিনিট',
-    mb: 'এমবি', gb: 'জিবি', datapack: 'ডেটা প্যাক',
+    mb: 'এমবি', gb: 'জিবি', datapack: 'ডাটা প্যাক',
     internetpack: 'ইন্টারনেট প্যাক', tower: 'টাওয়ার',
     missedcall: 'মিসড কল', callrate: 'কল রেট', sms: 'এসএমএস',
     roaming: 'রোমিং', prepaid: 'প্রিপেইড', postpaid: 'পোস্টপেইড',
@@ -997,7 +998,7 @@ window.BornotoronDictionary = Object.freeze({
     interface: 'ইন্টারফেস', async: 'অ্যাসিঙ্ক', await: 'অ্যাওয়েট',
     promise: 'প্রমিস', callback: 'কলব্যাক',
     // Data Structures
-    datastructure: 'ডেটা স্ট্রাকচার', stack: 'স্ট্যাক', queue: 'কিউ',
+    datastructure: 'ডাটা স্ট্রাকচার', stack: 'স্ট্যাক', queue: 'কিউ',
     linkedlist: 'লিংকড লিস্ট', tree: 'ট্রি', graph: 'গ্রাফ',
     hash: 'হ্যাশ', sorting: 'সর্টিং', searching: 'সার্চিং',
     binarysearch: 'বাইনারি সার্চ',
@@ -1009,9 +1010,9 @@ window.BornotoronDictionary = Object.freeze({
     deploy: 'ডিপ্লয়', deployment: 'ডিপ্লয়মেন্ট', localhost: 'লোকালহোস্ট',
     server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', session: 'সেশন',
     token: 'টোকেন', dom: 'ডম', attribute: 'অ্যাট্রিবিউট',
-    responsive: 'রেসপনসিভ', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স',
+    responsive: 'রেসপনসিভ', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স', offset: 'অফসেট',
     // Database
-    database: 'ডেটাবেস', schema: 'স্কিমা', field: 'ফিল্ড',
+    database: 'ডাটাবেস', schema: 'স্কিমা', field: 'ফিল্ড',
     join: 'জয়েন', primarykey: 'প্রাইমারি কি', foreignkey: 'ফরেন কি',
     // Tools, Git & Workflow
     git: 'গিট', github: 'গিটহাব', gitlab: 'গিটল্যাব',
@@ -1030,10 +1031,10 @@ window.BornotoronDictionary = Object.freeze({
     vpn: 'ভিপিএন', ssl: 'এসএসএল', captcha: 'ক্যাপচা',
     // AI, Data & Emerging Tech
     machinelearning: 'মেশিন লার্নিং', deeplearning: 'ডিপ লার্নিং',
-    neuralnetwork: 'নিউরাল নেটওয়ার্ক', dataset: 'ডেটাসেট', model: 'মডেল',
+    neuralnetwork: 'নিউরাল নেটওয়ার্ক', dataset: 'ডাটাসেট', model: 'মডেল',
     prediction: 'প্রেডিকশন', chatbot: 'চ্যাটবট', claude: 'ক্লড',
     antigravity: 'অ্যান্টিগ্র্যাভিটি',
-    prompt: 'প্রম্পট', datascience: 'ডেটা সায়েন্স', bigdata: 'বিগ ডেটা',
+    prompt: 'প্রম্পট', datascience: 'ডাটা সায়েন্স', bigdata: 'বিগ ডাটা',
     blockchain: 'ব্লকচেইন', crypto: 'ক্রিপ্টো', bitcoin: 'বিটকয়েন',
     iot: 'আইওটি', vr: 'ভিআর',
     // Computer Science Basics
