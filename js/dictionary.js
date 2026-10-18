@@ -198,7 +198,7 @@ window.BornotoronDictionary = Object.freeze({
     be: 'বি', have: 'হ্যাভ', do: 'ডু', say: 'সে', get: 'গেট', make: 'মেইক',
     go: 'গো', know: 'নো', take: 'টেক', see: 'সি', come: 'কাম', think: 'থিংক',
     look: 'লুক', want: 'ওয়ান্ট', give: 'গিভ', use: 'ইউজ', find: 'ফাইন্ড',
-    tell: 'টেল', ask: 'আস্ক', work: 'ওয়ার্ক', feel: 'ফিল', try: 'ট্রাই',
+    tell: 'টেল', ask: 'আস্ক', work: 'ওয়ার্ক', working: 'ওয়ার্কিং', feel: 'ফিল', try: 'ট্রাই',
     leave: 'লিভ', call: 'কল', keep: 'কিপ', let: 'লেট', begin: 'বিগিন',
     help: 'হেল্প', care: 'কেয়ার', show: 'শো', hear: 'হিয়ার', play: 'প্লে', run: 'রান',
     move: 'মুভ', believe: 'বিলিভ', bring: 'ব্রিং', happen: 'হ্যাপেন',
@@ -1009,7 +1009,7 @@ window.BornotoronDictionary = Object.freeze({
     request: 'রিকোয়েস্ট', response: 'রেসপন্স', http: 'এইচটিটিপি',
     https: 'এইচটিটিপিএস', domain: 'ডোমেইন', hosting: 'হোস্টিং',
     deploy: 'ডিপ্লয়', deployment: 'ডিপ্লয়মেন্ট', localhost: 'লোকালহোস্ট',
-    server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', session: 'সেশন',
+    server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', session: 'সেশন', view: 'ভিউ', 
     token: 'টোকেন', dom: 'ডম', attribute: 'অ্যাট্রিবিউট',
     responsive: 'রেসপনসিভ', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স', offset: 'অফসেট',
     // Database
@@ -1046,7 +1046,8 @@ window.BornotoronDictionary = Object.freeze({
     protocol: 'প্রোটোকল', ipaddress: 'আইপি অ্যাড্রেস', dns: 'ডিএনএস',
     lan: 'ল্যান', wan: 'ওয়ান', cloudcomputing: 'ক্লাউড কম্পিউটিং',
     aws: 'এডব্লিউএস', netlify: 'নেটলিফাই', vercel: 'ভার্সেল',
-    ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস'
+    ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস', 
+    sync: 'সিঙ্ক', synchronization: 'সিঙ্ক্রোনাইজেশন'
   }),
   homophones: Object.freeze({
     // "aste" is genuinely ambiguous: আসতে (to come) or আস্তে (slowly).
