@@ -471,6 +471,6 @@ If Bornotoron helps you write more naturally, share it, send useful spelling or 
 
 <div align="center">
 
-**এক ভাষা থেকে আরেক ভাষায়, একটু সহজে।**
+**বাংলিশ থেকে বাংলা অক্ষরে – আপনার কথা, আরও সহজে।**
 
 </div>
