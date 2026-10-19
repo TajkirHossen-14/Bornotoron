@@ -303,7 +303,7 @@ window.BornotoronDictionary = Object.freeze({
     injection: 'ইনজেকশন', dose: 'ডোজ', icu: 'আইসিইউ', oxygen: 'অক্সিজেন',
     // Actions & Behaviors
     adjust: 'অ্যাডজাস্ট', control: 'কন্ট্রোল', manage: 'ম্যানেজ',
-    focus: 'ফোকাস', handle: 'হ্যান্ডেল', ignore: 'ইগনোর',
+    focus: 'ফোকাস', ignore: 'ইগনোর',
     enjoy: 'এনজয়', disturb: 'ডিস্টার্ব', trust: 'ট্রাস্ট',
     automatic: 'অটোম্যাটিক',
     // Text & File Operations
@@ -312,7 +312,7 @@ window.BornotoronDictionary = Object.freeze({
     edit: 'এডিট', undo: 'আনডু', redo: 'রিডু', clear: 'ক্লিয়ার',
     rename: 'রিনেম', replace: 'রিপ্লেস', search: 'সার্চ', print: 'প্রিন্ট',
     // Navigation & Screen Controls
-    open: 'ওপেন', close: 'ক্লোজ', exit: 'এক্সিট', next: 'নেক্সট',
+    navigation: 'নেভিগেশন', open: 'ওপেন', close: 'ক্লোজ', exit: 'এক্সিট', next: 'নেক্সট',
     back: 'ব্যাক', previous: 'প্রিভিয়াস', minimize: 'মিনিমাইজ',
     maximize: 'ম্যাক্সিমাইজ', scroll: 'স্ক্রল', click: 'ক্লিক',
     tap: 'ট্যাপ', press: 'প্রেস', swipe: 'সোয়াইপ',
@@ -341,9 +341,9 @@ window.BornotoronDictionary = Object.freeze({
     hindi: 'হিন্দি', urdu: 'উর্দু', french: 'ফ্রেঞ্চ', spanish: 'স্প্যানিশ',
     german: 'জার্মান',
     // Typing & Conversion
-    type: 'টাইপ', typing: 'টাইপিং', convert: 'কনভার্ট',
-    converter: 'কনভার্টার', conversion: 'কনভার্সন', translate: 'ট্রান্সলেট',
-    translation: 'ট্রান্সলেশন', translator: 'ট্রান্সলেটর',
+    type: 'টাইপ', typing: 'টাইপিং', convert: 'কনভার্ট', converter: 'কনভার্টার', 
+    conversion: 'কনভার্সন', translate: 'ট্রান্সলেট', translation: 'ট্রান্সলেশন', 
+    translator: 'ট্রান্সলেটর', transliterate: 'ট্রান্সলিটারেট', transliteration: 'ট্রান্সলিটারেশন', 
     phonetic: 'ফোনেটিক', unicode: 'ইউনিকোড', keyboard: 'কীবোর্ড',
     key: 'কী', layout: 'লেআউট', input: 'ইনপুট', output: 'আউটপুট',
     // Text & Script Terms
@@ -1015,7 +1015,7 @@ window.BornotoronDictionary = Object.freeze({
     deploy: 'ডিপ্লয়', deployment: 'ডিপ্লয়মেন্ট', localhost: 'লোকালহোস্ট',
     server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', session: 'সেশন', view: 'ভিউ', 
     token: 'টোকেন', dom: 'ডম', attribute: 'অ্যাট্রিবিউট',
-    responsive: 'রেসপনসিভ', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স', offset: 'অফসেট',
+    dashboard: 'ড্যাশবোর্ড', responsive: 'রেসপনসিভ', navbar: 'ন্যাভবার', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স', offset: 'অফসেট',
     // Database
     database: 'ডাটাবেস', schema: 'স্কিমা', field: 'ফিল্ড',
     join: 'জয়েন', primarykey: 'প্রাইমারি কি', foreignkey: 'ফরেন কি',
@@ -1029,7 +1029,7 @@ window.BornotoronDictionary = Object.freeze({
     issue: 'ইস্যু', agile: 'অ্যাজাইল', scrum: 'স্ক্রাম', sprint: 'স্প্রিন্ট',
     opensource: 'ওপেন সোর্স', sourcecode: 'সোর্স কোড',
     version: 'ভার্সন', documentation: 'ডকুমেন্টেশন', readme: 'রিডমি',
-    workflow: 'ওয়ার্কফ্লো', overflow: 'ওভারফ্লো',
+    workflow: 'ওয়ার্কফ্লো', overflow: 'ওভারফ্লো', pick: 'পিক', picker: 'পিকার', 
     // Security
     authentication: 'অথেনটিকেশন', authorization: 'অথরাইজেশন',
     encryption: 'এনক্রিপশন', decryption: 'ডিক্রিপশন', firewall: 'ফায়ারওয়াল',
@@ -1067,7 +1067,8 @@ window.BornotoronDictionary = Object.freeze({
     har: ['হার', 'হাড়'],
     pora: ['পড়া', 'পোড়া', 'পরা'],
     nari: ['নারী', 'নাড়ি'], bari: ['বাড়ি', 'বারি'],
-    shona: ['শোনা', 'সোনা']
+    shona: ['শোনা', 'সোনা'],
+    handle: ['হ্যান্ডেল', 'হ্যান্ডল']
   }),
   doNotOverride: Object.freeze({
     kor: 'কর', mon: 'মন', bosen: 'বসেন', hobe: 'হবে', kotha: 'কথা',
