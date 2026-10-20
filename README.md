@@ -4,11 +4,11 @@
   <img src="Assets/Banner/Bornotoron-Banner.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# Bornotoron · [বর্ণতরণ]()
+# [বর্ণতরণ]() · Bornotoron
 
 ### বাংলা লেখার সহজ পথ
 
-Type in Banglish. Watch it become Bangla.
+Banglish-এ লিখুন, মুহূর্তেই দেখুন বাংলায়
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
@@ -85,6 +85,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 - 📚 **3300+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 3100+ differ from the raw phonetic fallback.
 - 🔀 **24 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧾 **13 abbreviations** – `Dr.` → ড. / ডা., `Md.` → মো., `Engr.` → ইঞ্জি.; a known `X.` keeps its stop instead of turning into দাঁড়ি (।).
+- ✒️ **Smart punctuation & দাঁড়ি** – Sentence-ending periods (`.`) convert to দাঁড়ি (`।`), while decimals (`123.45`) and abbreviations preserve periods.
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
 - 🔢 **Bangla digits** – Optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
 - 🧩 **Unicode support** – Vowels, kar(কার), aspirates, conjuncts, diacritics, and preserved whitespace, punctuation, existing Bangla, and emoji.
@@ -151,12 +152,12 @@ The editor arrow occupies its own grid column on desktop and its own row on mobi
 
 ### Brand files
 
-- **Banner:** [`Assets/Banner/Bornotoron_Banner_3.png`](Assets/Banner/Bornotoron_Banner_3.png), exactly 3:1.
-- **Logo:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – background-removed PNG derived from the user's original artwork, not redrawn.
-- **Favicon:** [`Assets/Logo/logo.png`](Assets/Logo/logo.png) – the same transparent mark, also used as the touch icon.
+- **Banner:** [`Assets/Banner/Bornotoron-Banner.png`](Assets/Banner/Bornotoron-Banner.png) (and vector SVG [`Assets/Banner/Bornotoron_Banner.svg`](Assets/Banner/Bornotoron_Banner.svg)).
+- **Logo:** [`Assets/Logo/Bornotoron_Logo.png`](Assets/Logo/Bornotoron_Logo.png) – background-removed PNG derived from the user's original artwork.
+- **Favicon:** [`Assets/Favicon/Bornotoron_Favicon.png`](Assets/Favicon/Bornotoron_Favicon.png) – high-resolution transparent favicon and touch icon.
 - **Pattern:** tileable SVG data URI in `style.css`.
 
-The header logo frame is **32px on desktop / 30px on mobile**, balanced against the Bangla wordmark. Its container has **no white fill**, and the PNG has genuine alpha transparency, including its inner triangular cutout. CSS only crops surplus transparent margins; it does not redraw the mark. The favicon retains the source artwork's transparent outer margin.
+The header logo frame is **41px**, balanced against the 28px Bangla wordmark. Its container has **no white fill**, and the PNG has genuine alpha transparency, including its inner triangular cutout. CSS only crops surplus transparent margins; it does not redraw the mark. The favicon retains the source artwork's transparent outer margin.
 
 The obsolete bridge logo has been removed from the banner. The banner is an editable typographic vector illustration, with no embedded raster images or external asset requests. Text uses system-font fallbacks, so its exact letterforms can vary by viewer. The application does not load the README banner at runtime.
 
@@ -215,9 +216,9 @@ Bornotoron/
 │   └── tests.js            # Engine/UI/contrast regression suite
 │
 ├── Assets/
-│   ├── Logo/      
-│   ├── Favicon/    
-│   └── Banner/        
+│   ├── Banner/             # Brand banners (PNG & SVG)
+│   ├── Favicon/            # Brand favicons & touch icons
+│   └── Logo/               # Transparent brand logos
 │
 ├── tests.html 
 │
@@ -248,9 +249,9 @@ Dictionary lookups are case-insensitive; phonetic patterns retain meaningful cas
 
 Patterns are sorted by length once: `chh` wins over `ch`, and `kh` wins over `k`. A pending-consonant state chooses an independent vowel or attached kar; consonant collisions normally insert হসন্ত (`্`).
 
-Lowercase `o` consumes the inherent vowel without inserting `ো`. Uppercase `O` explicitly adds it. A small data-driven verb-boundary rule handles future forms such as `kor + bo → করব` without breaking genuine conjuncts such as `sorbo → সর্ব`.
+Lowercase `o` consumes the inherent vowel without inserting `ো`. Uppercase `O` explicitly adds it. A small data-driven verb-boundary rule handles future forms such as `kor + bo → করবো` without breaking genuine conjuncts such as `sorbo → সর্ব`.
 
-The text tokenizer preserves separators, including periods and decimal points. Although the standalone phonetic helper contains a period-to-dari mapping, punctuation is not converted in the full editor.
+The text tokenizer distinguishes sentence periods from decimal points and abbreviations. Periods at word or sentence boundaries convert to দাঁড়ি (`।`), while decimal points between numbers (e.g. `123.45`) and stops in recognized abbreviations (e.g. `Dr.`, `Md.`) are strictly preserved.
 
 ### Incremental updates
 
@@ -266,7 +267,7 @@ The text tokenizer preserves separators, including periods and decimal points. A
 ```javascript
 const engine = new BornotoronEngine({ bon: 'বোন' });
 const tokens = engine.convert('ami banglay likhchi. 2026', true);
-console.log(engine.text()); // আমি বাংলায় লিখছি. ২০২৬
+console.log(engine.text()); // আমি বাংলায় লিখছি। ২০২৬
 
 const word = tokens.find(token => token.isWord);
 engine.choose(word.id, 'আমিই');  // One occurrence only
@@ -307,6 +308,7 @@ engine.setPersonal({ bon: 'বোন' }); // Replace preferences and clear cache
 | `y` | য় normally; য-ফলা after a pending consonant |
 | `kkh / kSh / ksh`, `gg` | ক্ষ, জ্ঞ |
 | Backtick | Explicit হসন্ত; `t` followed by backtick gives ৎ |
+| `.` (period) | । (দাঁড়ি); preserved in decimal numbers (e.g. `123.45`) and abbreviations (e.g. `Dr.`) |
 | `0123456789` | ০১২৩৪৫৬৭৮৯ with Bangla digits enabled |
 
 Click any output word to correct it. The output is read-only by default; word-level editing happens in the suggestion popover.
