@@ -205,6 +205,7 @@ window.BornotoronDictionary = Object.freeze({
     help: 'হেল্প', care: 'কেয়ার', show: 'শো', hear: 'হিয়ার', play: 'প্লে', run: 'রান',
     move: 'মুভ', believe: 'বিলিভ', bring: 'ব্রিং', happen: 'হ্যাপেন',
     affect: 'অ্যাফেক্ট', effect: 'এফেক্ট',
+    fight: 'ফাইট', start: 'স্টার্ট', stars: 'স্টার্স',
     // Time & Days
     time: 'টাইম', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
     afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমরো', yesterday: 'ইয়েস্টারডে',
