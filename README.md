@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="Assets/Banner/Bornotoron_Banner_3.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
+  <img src="Assets/Banner/Bornotoron-Banner.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
 # Bornotoron · [বর্ণতরণ]()
@@ -391,9 +391,9 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/index.html#recent-history` | Opens history |
 | `/index.html#navigation` | Opens the hamburger at mobile widths |
 | `/tests.html` | Regression suite and banner preview |
-| `/Assets/Banner/Bornotoron_Banner_3.png` | Standalone 3:1 PNG banner |
-| `/Assets/Logo/logo.png` | Transparent brand logo |
-| `/Assets/Favicon/favicon.png` | Transparent favicon / touch icon |
+| `/Assets/Banner/Bornotoron-Banner.png` | Standalone 3:1 PNG banner |
+| `/Assets/Logo/Bornotoron_Logo.png` | Transparent brand logo |
+| `/Assets/Favicon/Bornotoron_Favicon.png` | Transparent favicon / touch icon |
 
 Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, footer, and About GitHub links open the actual repository in a new tab with `noopener noreferrer`. The report dialog links to GitHub's new-issue page and also offers an optional local report download. Submission happens on GitHub, not silently inside this app.
 
