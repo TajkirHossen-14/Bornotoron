@@ -279,7 +279,7 @@ window.BornotoronDictionary = Object.freeze({
     notification: 'নোটিফিকেশন',
     // Banking & Finance
     bank: 'ব্যাংক', cash: 'ক্যাশ', card: 'কার্ড', payment: 'পেমেন্ট',
-    balance: 'ব্যালেন্স', deposit: 'ডিপোজিট', transfer: 'ট্রান্সফার',
+    currency: 'কারেন্সি', balance: 'ব্যালেন্স', deposit: 'ডিপোজিট', transfer: 'ট্রান্সফার',
     loan: 'লোন', receipt: 'রিসিট', pin: 'পিন',
     // Vehicles & Mechanics
     auto: 'অটো', engine: 'ইঞ্জিন', switch: 'সুইচ', meter: 'মিটার',
@@ -1099,7 +1099,7 @@ window.BornotoronDictionary = Object.freeze({
     cybersecurity: 'সাইবার সিকিউরিটি', phishing: 'ফিশিং', malware: 'ম্যালওয়্যার',
     vpn: 'ভিপিএন', ssl: 'এসএসএল', captcha: 'ক্যাপচা',
     // AI, Data & Emerging Tech
-    machinelearning: 'মেশিন লার্নিং', deeplearning: 'ডিপ লার্নিং',
+    machinelearning: 'মেশিন লার্নিং', deeplearning: 'ডিপ লার্নিং', intelligence: 'ইন্টেলিজেন্স', 
     neuralnetwork: 'নিউরাল নেটওয়ার্ক', dataset: 'ডাটাসেট', model: 'মডেল',
     prediction: 'প্রেডিকশন', chatbot: 'চ্যাটবট', claude: 'ক্লড',
     antigravity: 'অ্যান্টিগ্র্যাভিটি',
