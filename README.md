@@ -152,7 +152,7 @@ The editor arrow occupies its own grid column on desktop and its own row on mobi
 
 ### Brand files
 
-- **Banner:** [`Assets/Banner/Bornotoron-Banner.png`](Assets/Banner/Bornotoron-Banner.png) (and vector SVG [`Assets/Banner/Bornotoron_Banner.svg`](Assets/Banner/Bornotoron_Banner.svg)).
+- **Banner:** [`Assets/Banner/Bornotoron-Banner.png`](Assets/Banner/Bornotoron-Banner.png).
 - **Logo:** [`Assets/Logo/Bornotoron_Logo.png`](Assets/Logo/Bornotoron_Logo.png) – background-removed PNG derived from the user's original artwork.
 - **Favicon:** [`Assets/Favicon/Bornotoron_Favicon.png`](Assets/Favicon/Bornotoron_Favicon.png) – high-resolution transparent favicon and touch icon.
 - **Pattern:** tileable SVG data URI in `style.css`.
