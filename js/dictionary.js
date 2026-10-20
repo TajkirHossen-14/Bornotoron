@@ -1068,7 +1068,8 @@ window.BornotoronDictionary = Object.freeze({
     pora: ['পড়া', 'পোড়া', 'পরা'],
     nari: ['নারী', 'নাড়ি'], bari: ['বাড়ি', 'বারি'],
     shona: ['শোনা', 'সোনা'],
-    handle: ['হ্যান্ডেল', 'হ্যান্ডল']
+    handle: ['হ্যান্ডেল', 'হ্যান্ডল'],
+    the: ['দ্য', 'দি', 'থে']
   }),
   doNotOverride: Object.freeze({
     kor: 'কর', mon: 'মন', bosen: 'বসেন', hobe: 'হবে', kotha: 'কথা',
