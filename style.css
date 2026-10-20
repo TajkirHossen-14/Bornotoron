@@ -221,7 +221,7 @@ p {
 .brand {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 5px;
   color: var(--accent-text);
   font: 600 28px/1 var(--bangla);
 }
@@ -231,8 +231,8 @@ p {
   position: relative;
   display: flex;
   flex-shrink: 0;
-  width: 42px;
-  height: 42px;
+  width: 41px;
+  height: 41px;
   align-items: center;
   justify-content: center;
   overflow: visible;
