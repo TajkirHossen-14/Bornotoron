@@ -79,15 +79,15 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 <a id="key-features"></a>
 ## ✨ Key Features
 
-### ✍️ Write naturally
+### ✍🏼 Write naturally
 
 - ⚡ **Live conversion** – Updates as you type, with no submit button.
-- 📚 **3200+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 1200+ differ from the raw phonetic fallback.
-- 🔀 **21 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
+- 📚 **3200+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 2900+ differ from the raw phonetic fallback.
+- 🔀 **22 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧾 **13 abbreviations** – `Dr.` → ড. / ডা., `Md.` → মো., `Engr.` → ইঞ্জি.; a known `X.` keeps its stop instead of turning into দাঁড়ি (।).
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
 - 🔢 **Bangla digits** – Optional `0123456789 → ০১২৩৪৫৬৭৮৯`, with a saved preference.
-- 🧩 **Unicode support** – Vowels, kar, aspirates, conjuncts, diacritics, and preserved whitespace, punctuation, existing Bangla, and emoji.
+- 🧩 **Unicode support** – Vowels, kar(কার), aspirates, conjuncts, diacritics, and preserved whitespace, punctuation, existing Bangla, and emoji.
 
 ### 🧰 Keep your flow
 
