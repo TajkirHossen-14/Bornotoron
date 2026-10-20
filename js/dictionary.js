@@ -211,7 +211,7 @@ window.BornotoronDictionary = Object.freeze({
     // Weekdays. শন/স and বৃহস্পতিবার spellings are both accepted.
     shonibar: 'শনিবার', sonibar: 'শনিবার', robibar: 'রবিবার', sombar: 'সোমবার', shombar: 'সোমবার', 
     mongolbar: 'মঙ্গলবার', budhbar: 'বুধবার', brihospotibar: 'বৃহস্পতিবার', brihoshpotibar: 'বৃহস্পতিবার', shukrobar: 'শুক্রবার', 
-    year: 'ইয়ার', now: 'নাউ', then: 'দেন',
+    year: 'ইয়ার', calendar: 'ক্যালেন্ডার', calender: 'ক্যালেন্ডার', now: 'নাউ', then: 'দেন',
     always: 'অলওয়েজ', never: 'নেভার', sometimes: 'সামটাইমস', early: 'আর্লি', late: 'লেট',
     // Adjectives & States
     good: 'গুড', bad: 'ব্যাড', new: 'নিউ', old: 'ওল্ড', first: 'ফার্স্ট',
@@ -325,7 +325,7 @@ window.BornotoronDictionary = Object.freeze({
     backup: 'ব্যাকআপ', restore: 'রিস্টোর', format: 'ফরম্যাট',
     scan: 'স্ক্যান', import: 'ইম্পোর্ট', export: 'এক্সপোর্ট',
     // System & Power Actions
-    refresh: 'রিফ্রেশ', restart: 'রিস্টার্ট', reset: 'রিসেট',
+    power: 'পাওয়ার', refresh: 'রিফ্রেশ', restart: 'রিস্টার্ট', reset: 'রিসেট',
     reboot: 'রিবুট', lock: 'লক', unlock: 'আনলক',
     poweroff: 'পাওয়ার অফ', turnon: 'টার্ন অন', turnoff: 'টার্ন অফ',
     // Options & Confirmations
@@ -336,7 +336,7 @@ window.BornotoronDictionary = Object.freeze({
     connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
     pause: 'পজ', record: 'রেকর্ড',
     // Language Names
-    language: 'ল্যাঙ্গুয়েজ', bangla: 'বাংলা', bengali: 'বাংলা',
+    language: 'ল্যাঙ্গুয়েজ', bangla: 'বাংলা', 
     english: 'ইংলিশ', banglish: 'বাংলিশ', arabic: 'অ্যারাবিক',
     hindi: 'হিন্দি', urdu: 'উর্দু', french: 'ফ্রেঞ্চ', spanish: 'স্প্যানিশ',
     german: 'জার্মান',
@@ -353,7 +353,7 @@ window.BornotoronDictionary = Object.freeze({
     alphabet: 'আলফাবেট', vowel: 'ভাওয়েল', consonant: 'কনসোনেন্ট',
     // Grammar & Phonetics
     grammar: 'গ্রামার', spelling: 'স্পেলিং',
-    pronunciation: 'প্রোনাউনসিয়েশন', vocabulary: 'ভোকাবুলারি',
+    pronunciation: 'প্রোনানসিয়েশন', vocabulary: 'ভোকাবুলারি',
     dictionary: 'ডিকশনারি', meaning: 'মিনিং', accent: 'অ্যাকসেন্ট',
     voice: 'ভয়েস', speech: 'স্পিচ',
     // Text Formatting & Style
