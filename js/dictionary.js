@@ -1,11 +1,6 @@
-/* Data only. Everyday spelling overrides and common Romanized variants.
- * Banglish has no standardized spelling: aliases deliberately share a result.
- * Homophones are never silently resolved beyond the documented first preview.
- * Keep doNotOverride out of overrides; tests enforce this boundary. */
 window.BornotoronDictionary = Object.freeze({
   overrides: Object.freeze({
-    ami: 'আমি',
-    amar: 'আমার', Amar: 'আমার',
+    ami: 'আমি', amar: 'আমার', 
     tomake: 'তোমাকে', tomar: 'তোমার', tomay: 'তোমায়', tomader: 'তোমাদের',
     sona: 'সোনা', sonar: 'সোনার', golap: 'গোলাপ', bhalo: 'ভালো',
     bhalobasha: 'ভালোবাসা', bhalobasi: 'ভালোবাসি', bhalobashi: 'ভালোবাসি',
@@ -13,8 +8,6 @@ window.BornotoronDictionary = Object.freeze({
     shono: 'শোনো', chokh: 'চোখ', koro: 'করো', bolo: 'বলো', cholo: 'চলো',
     oke: 'ওকে', ora: 'ওরা', oder: 'ওদের', valo: 'ভালো', valo: 'ভাল', 
     // Pronouns, determiners, time, and connecting words.
-    // "apni/apnar" needs explicit entries: the phonetic engine treats pn as a
-    // conjunct (আপ্নার), but Bangla writes আপনার with no হসন্ত — unlike স্বপ্ন.
     apni: 'আপনি', apnar: 'আপনার', apnay: 'আপনায়', apnake: 'আপনাকে',
     apnakei: 'আপনাকেই', apnader: 'আপনাদের', apnaderke: 'আপনাদেরকে',
     apnike: 'আপনাকে', apnira: 'আপনারা', apnider: 'আপনাদের',
@@ -151,7 +144,7 @@ window.BornotoronDictionary = Object.freeze({
     jibon: 'জীবন', jiboner: 'জীবনের', jibone: 'জীবনে',
     jodi: 'যদি', zodi: 'যদি', jokhon: 'যখন', zokhon: 'যখন', jekhane: 'যেখানে', zekhane: 'যেখানে',
     jao: 'যাও', zao: 'যাও', jabo: 'যাব', zabo: 'যাব', jabe: 'যাবে', zabe: 'যাবে', jai: 'যাই', zai: 'যাই', jay: 'যায়', zay: 'যায়',
-    jete: 'যেতে', zete: 'যেতে', jeo: 'যেয়ো', jeyo: 'যেয়ো', zeo: 'যেয়ো', zeyo: 'যেয়ো', niyo: 'নিয়ো', diyo: 'দিয়ো', kheyo: 'খেয়ো',
+    jete: 'যেতে', zete: 'যেতে', jeo: 'যেয়ো', jeyo: 'যেয়ো', zeo: 'যেয়ো', zeyo: 'যেয়ো', niyo: 'নিয়ো', nio: 'নিও', diyo: 'দিয়ো', kheyo: 'খেয়ো',
     esho: 'এসো', eso: 'এসো', esecho: 'এসেছ', eshecho: 'এসেছ',
     jacchi: 'যাচ্ছি', jachhi: 'যাচ্ছি', jaccho: 'যাচ্ছ', jachcho: 'যাচ্ছ',
     korchi: 'করছি', korchhi: 'করছি', korcho: 'করছ', korchho: 'করছ',
@@ -1145,19 +1138,26 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     sync: 'সিঙ্ক', synchronization: 'সিঙ্ক্রোনাইজেশন'
   }),
   homophones: Object.freeze({
-    // "aste" is genuinely ambiguous: আসতে (to come) or আস্তে (slowly).
-    aste: ['আসতে', 'আস্তে'],     // ksh normally resolves to ক্ষ, but কষ / কশ are also
-    // written when the conjunct is deliberately avoided (older Avro too).
-        // fute: ফুটে is the usual reading, ফুতে is also written.
-        // live: লাইভ for streaming/broadcast, লিভ for "alive".
-    live: ['লাইভ', 'লিভ'], mile: ['মিলে', 'মাইল'], fute: ['ফুটে', 'ফুতে'], ksh: ['ক্ষ', 'কষ', 'কশ'], gemini: ['জেমিনাই', 'জেমিনি'], bon: ['বন', 'বোন'], bhor: ['ভর', 'ভোর'],
+    aste: ['আসতে', 'আস্তে'], 
+    live: ['লাইভ', 'লিভ'], 
+    mile: ['মিলে', 'মাইল'], 
+    fute: ['ফুটে', 'ফুতে'], 
+    ksh: ['ক্ষ', 'কষ', 'কশ'], 
+    gemini: ['জেমিনাই', 'জেমিনি'], 
+    bon: ['বন', 'বোন'], 
+    bhor: ['ভর', 'ভোর'],
     koi: ['কই', 'কৈ'],
-    kul: ['কুল', 'কূল'], din: ['দিন', 'দীন'], tir: ['তির', 'তীর'],
-    shur: ['সুর', 'শূর'], shor: ['সর', 'স্বর'],
-    bol: ['বল', 'বোল'], jor: ['জড়', 'জোর', 'জ্বর'],
+    kul: ['কুল', 'কূল'], 
+    din: ['দিন', 'দীন'], 
+    tir: ['তির', 'তীর'],
+    shur: ['সুর', 'শূর'], 
+    shor: ['সর', 'স্বর'],
+    bol: ['বল', 'বোল'], 
+    jor: ['জড়', 'জোর', 'জ্বর'],
     har: ['হার', 'হাড়'],
     pora: ['পড়া', 'পোড়া', 'পরা'],
-    nari: ['নারী', 'নাড়ি'], bari: ['বাড়ি', 'বারি'],
+    nari: ['নারী', 'নাড়ি'], 
+    bari: ['বাড়ি', 'বারি'],
     shona: ['শোনা', 'সোনা'],
     handle: ['হ্যান্ডেল', 'হ্যান্ডল'],
     the: ['দ্য', 'দি', 'থে'],
