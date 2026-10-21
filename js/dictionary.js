@@ -527,7 +527,7 @@ window.BornotoronDictionary = Object.freeze({
     accept: 'অ্যাকসেপ্ট', reject: 'রিজেক্ট', decline: 'ডিক্লাইন',
     allow: 'অ্যালাউ', deny: 'ডিনাই', skip: 'স্কিপ', continue: 'কন্টিনিউ',
     // Media & Privacy Controls
-    hide: 'হাইড', unhide: 'আনহাইড', mute: 'মিউট', unmute: 'আনমিউট',
+    media: 'মিডিয়া', privacy: 'প্রাইভেসি',  hide: 'হাইড', unhide: 'আনহাইড', mute: 'মিউট', unmute: 'আনমিউট',
     connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
     pause: 'পজ', record: 'রেকর্ড',
     // Language Names
@@ -1078,7 +1078,7 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     request: 'রিকোয়েস্ট', response: 'রেসপন্স', reply: 'রিপ্লাই', http: 'এইচটিটিপি',
     https: 'এইচটিটিপিএস', domain: 'ডোমেইন', hosting: 'হোস্টিং',
     deploy: 'ডিপ্লয়', deployment: 'ডিপ্লয়মেন্ট', localhost: 'লোকালহোস্ট',
-    server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', session: 'সেশন', view: 'ভিউ', 
+    server: 'সার্ভার', cache: 'ক্যাশ', cookie: 'কুকি', cookies: 'কুকিজ', session: 'সেশন', view: 'ভিউ', 
     token: 'টোকেন', dom: 'ডম', attribute: 'অ্যাট্রিবিউট',
     dashboard: 'ড্যাশবোর্ড', responsive: 'রেসপনসিভ', navbar: 'ন্যাভবার', flexbox: 'ফ্লেক্সবক্স', ajax: 'অ্যাজাক্স', offset: 'অফসেট',
     // Database
