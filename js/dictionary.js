@@ -412,7 +412,7 @@ window.BornotoronDictionary = Object.freeze({
     // Text & Script Terms
     text: 'টেক্সট', word: 'ওয়ার্ড', letter: 'লেটার', letters: 'লেটার্স',
     character: 'ক্যারেক্টার', sentence: 'সেন্টেন্স', paragraph: 'প্যারাগ্রাফ',
-    line: 'লাইন', script: 'স্ক্রিপ্ট', font: 'ফন্ট',
+    narrative: 'ন্যারেটিভ', line: 'লাইন', script: 'স্ক্রিপ্ট', font: 'ফন্ট',
     alphabet: 'আলফাবেট', vowel: 'ভাওয়েল', consonant: 'কনসোনেন্ট',
     // Grammar & Phonetics
     grammar: 'গ্রামার', spelling: 'স্পেলিং',
@@ -823,7 +823,7 @@ window.BornotoronDictionary = Object.freeze({
     // Everyday Expressions
     sorry: 'স্যরি', thankyou: 'থ্যাংক ইউ', please: 'প্লিজ',
     welcome: 'ওয়েলকাম', hi: 'হাই', byebye: 'বাই-বাই',
-    excuseme: 'এক্সকিউজ মি', yes: 'ইয়েস', no: 'নো',
+    excuse: 'এক্সকিউজ', excuseme: 'এক্সকিউজ মি', yes: 'ইয়েস', no: 'নো',
     goodmorning: 'গুড মর্নিং', goodnight: 'গুড নাইট',
     goodluck: 'গুড লাক', bestofluck: 'বেস্ট অব লাক',
     congratulation: 'কনগ্র্যাচুলেশন', happybirthday: 'হ্যাপি বার্থডে',
@@ -831,7 +831,7 @@ window.BornotoronDictionary = Object.freeze({
     seeyou: 'সি ইউ', anyway: 'এনিওয়ে', bytheway: 'বাই দ্য ওয়ে',
     actually: 'অ্যাকচুয়ালি', basically: 'বেসিক্যালি', exactly: 'এক্স্যাক্টলি',
     really: 'রিয়েলি', just: 'জাস্ট', maybe: 'মেবি', correct: 'কারেক্ট',
-    mind: 'মাইন্ড', mistake: 'মিসটেক',
+    mind: 'মাইন্ড', mistake: 'মিসটেক', fact: 'ফ্যাক্ট', 
     timepass: 'টাইমপাস', life: 'লাইফ', mood: 'মুড', feeling: 'ফিলিং',
     attitude: 'অ্যাটিটিউড', hint: 'হিন্ট', tip: 'টিপস',
     shortcut: 'শর্টকাট', system: 'সিস্টেম', fixing: 'ফিক্সিং',
