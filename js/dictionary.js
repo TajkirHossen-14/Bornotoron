@@ -374,6 +374,7 @@ window.BornotoronDictionary = Object.freeze({
     select: 'সিলেক্ট', selectall: 'সিলেক্ট অল', save: 'সেভ', saveas: 'সেভ এজ',
     edit: 'এডিট', undo: 'আনডু', redo: 'রিডু', clear: 'ক্লিয়ার',
     rename: 'রিনেম', replace: 'রিপ্লেস', search: 'সার্চ', print: 'প্রিন্ট',
+    notepad: 'নোটপ্যাড',
     // Navigation & Screen Controls
     navigation: 'নেভিগেশন', open: 'ওপেন', close: 'ক্লোজ', exit: 'এক্সিট', next: 'নেক্সট',
     back: 'ব্যাক', previous: 'প্রিভিয়াস', minimize: 'মিনিমাইজ',
@@ -546,13 +547,13 @@ window.BornotoronDictionary = Object.freeze({
     hall: 'হল', mess: 'মেস', uniform: 'ইউনিফর্ম', assembly: 'অ্যাসেম্বলি',
     break: 'ব্রেক', bell: 'বেল', bench: 'বেঞ্চ', blackboard: 'ব্ল্যাকবোর্ড',
     whiteboard: 'হোয়াইটবোর্ড', marker: 'মার্কার', duster: 'ডাস্টার',
-    notebook: 'নোটবুক', pencil: 'পেন্সিল', rubber: 'রাবার', scale: 'স্কেল',
+    note: 'নোট', notebook: 'নোটবুক', pencil: 'পেন্সিল', rubber: 'রাবার', scale: 'স্কেল',
     compass: 'কম্পাস', geometrybox: 'জিওমেট্রি বক্স', bag: 'ব্যাগ',
     tiffin: 'টিফিন', fresher: 'ফ্রেশার', senior: 'সিনিয়র', junior: 'জুনিয়র',
     education: 'এডুকেশন',
     // Technology & Internet
     iphone: 'আইফোন', smartphone: 'স্মার্টফোন', email: 'ইমেইল',
-    username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব',
+    username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব', pad: 'প্যাড', 
     dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল',
     follow: 'ফলো', follower: 'ফলোয়ার', subscribe: 'সাবস্ক্রাইব',
     friendrequest: 'ফ্রেন্ড রিকোয়েস্ট', add: 'অ্যাড', tag: 'ট্যাগ',
