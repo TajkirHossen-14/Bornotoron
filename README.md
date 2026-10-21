@@ -83,7 +83,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 
 - ⚡ **Live conversion** – Updates as you type, with no submit button.
 - 📚 **4100+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 3900+ differ from the raw phonetic fallback.
-- 🔀 **24 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
+- 🔀 **26 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧾 **13 abbreviations** – `Dr.` → ড. / ডা., `Md.` → মো., `Engr.` → ইঞ্জি.; a known `X.` keeps its stop instead of turning into দাঁড়ি (।).
 - ✒️ **Smart punctuation & দাঁড়ি** – Sentence-ending periods (`.`) convert to দাঁড়ি (`।`), while decimals (`123.45`) and abbreviations preserve periods.
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
