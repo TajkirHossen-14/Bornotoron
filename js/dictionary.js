@@ -664,6 +664,7 @@ window.BornotoronDictionary = Object.freeze({
     coordinator: 'কোঅর্ডিনেটর', executive: 'এক্সিকিউটিভ',
     director: 'ডিরেক্টর', founder: 'ফাউন্ডার', cofounder: 'কো-ফাউন্ডার',
     mentor: 'মেন্টর', assistant: 'অ্যাসিস্ট্যান্ট',
+    manage: 'ম্যানেজ', manager: 'ম্যানেজার',
     // Teamwork & Activities
     teamwork: 'টিমওয়ার্ক', discussion: 'ডিসকাশন',
     brainstorming: 'ব্রেইনস্টর্মিং', task: 'টাস্ক', role: 'রোল',
@@ -842,7 +843,7 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     really: 'রিয়েলি', just: 'জাস্ট', maybe: 'মেবি', correct: 'কারেক্ট',
     mind: 'মাইন্ড', mistake: 'মিসটেক', fact: 'ফ্যাক্ট', 
     timepass: 'টাইমপাস', life: 'লাইফ', mood: 'মুড', feeling: 'ফিলিং',
-    attitude: 'অ্যাটিটিউড', hint: 'হিন্ট', tip: 'টিপস',
+    attitude: 'অ্যাটিটিউড', hint: 'হিন্ট', tip: 'টিপস', information: 'ইনফরমেশন', 
     shortcut: 'শর্টকাট', system: 'সিস্টেম', fixing: 'ফিক্সিং',
     cheating: 'চিটিং', name: 'নেম', age: 'এজ', busy: 'বিজি',
     free: 'ফ্রি', surething: 'শিওর থিং', write: 'রাইট', read: 'রিড',
