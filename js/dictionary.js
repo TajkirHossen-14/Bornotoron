@@ -210,7 +210,6 @@ window.BornotoronDictionary = Object.freeze({
     time: 'টাইম', clock: 'ক্লক', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
     afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমোরো', yesterday: 'ইয়েস্টারডে',
     week: 'উইক', month: 'মান্থ', 
-    // Weekdays. শন/স and বৃহস্পতিবার spellings are both accepted.
     shonibar: 'শনিবার', sonibar: 'শনিবার', robibar: 'রবিবার', sombar: 'সোমবার', shombar: 'সোমবার', 
     mongolbar: 'মঙ্গলবার', budhbar: 'বুধবার', brihospotibar: 'বৃহস্পতিবার', brihoshpotibar: 'বৃহস্পতিবার', shukrobar: 'শুক্রবার', 
     year: 'ইয়ার', calendar: 'ক্যালেন্ডার', calender: 'ক্যালেন্ডার', now: 'নাউ', then: 'দেন',
