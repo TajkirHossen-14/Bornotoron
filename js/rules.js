@@ -9,7 +9,7 @@ window.BornotoronRules = Object.freeze({
   'rri': ['ঋ', 'ৃ'],
   'e': ['এ', 'ে'], 'E': ['এ', 'ে'],
   'oi': ['ঐ', 'ৈ'], 'OI': ['ঐ', 'ৈ'],
-  'O': ['ও', 'ো'],
+  'O': ['ও', 'ো'], 'w': ['ও','ো'],
   'ou': ['ঔ', 'ৌ'], 'OU': ['ঔ', 'ৌ']
 },
   consonants: {
@@ -52,7 +52,6 @@ window.BornotoronRules = Object.freeze({
   'Rh': 'ঢ়', 'rh': 'ঢ়',
   'y': 'য়',
   'ng': 'ং',
-  'w': 'ও'
 },
   symbols: { 't`': 'ৎ', 'H': 'ঃ', '^': 'ঁ', '`': '্', '.': '।' },
   // Capitals-only acronyms. These are matched case-sensitively BEFORE the
