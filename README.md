@@ -4,7 +4,7 @@
   <img src="Assets/Banner/Bornotoron-Banner.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# [বর্ণতরণ]() · Bornotoron
+# [বর্ণতরণ](https://bornotoron.netlify.app) · Bornotoron
 
 ### বাংলা লেখার সহজ পথ
 
@@ -401,7 +401,7 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 
 ### Public URLs
 
-- **Production:** No deployment URL has been assigned in this project yet.
+- **Production:** https://bornotoron.netlify.app
 - **GitHub repository:** https://github.com/TajkirHossen-14/Bornotoron
 - **Issue tracker:** https://github.com/TajkirHossen-14/Bornotoron/issues
 - **New issue:** https://github.com/TajkirHossen-14/Bornotoron/issues/new (GitHub sign-in and repository permissions may apply).
@@ -412,7 +412,7 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 | Platform | Configuration |
 |---|---|
 | **GitHub Pages** | Deployment branch, source `/ (root)` |
-| **Netlify** | No build command; publish directory `.` |
+| **Netlify** | No build command; publish directory `.` (current: https://bornotoron.netlify.app) |
 | **Vercel** | Static/Other preset, no build command; output directory `.` |
 
 Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `Assets/Logo/` and `Assets/Favicon/`.  The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
