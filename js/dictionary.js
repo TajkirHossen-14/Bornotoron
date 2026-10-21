@@ -459,6 +459,20 @@ window.BornotoronDictionary = Object.freeze({
     // Shapes, Borders & Frames
     square: 'স্কয়ার', border: 'বর্ডার', frame: 'ফ্রেম',
     grid: 'গ্রিড', section: 'সেকশন', column: 'কলাম', row: 'রো',
+    // Direction & Position
+    east: 'ইস্ট', west: 'ওয়েস্ট', north: 'নর্থ', south: 'সাউথ',
+    northeast: 'নর্থইস্ট', northwest: 'নর্থওয়েস্ট',
+    southeast: 'সাউথইস্ট', southwest: 'সাউথওয়েস্ট',
+    left: 'লেফট', right: 'রাইট', up: 'আপ', down: 'ডাউন',
+    top: 'টপ', bottom: 'বটম', front: 'ফ্রন্ট', back: 'ব্যাক',
+    center: 'সেন্টার', middle: 'মিডল', side: 'সাইড', corner: 'কর্নার',
+    inside: 'ইনসাইড', outside: 'আউটসাইড', upper: 'আপার', lower: 'লোয়ার',
+    near: 'নিয়ার', far: 'ফার', forward: 'ফরওয়ার্ড', backward: 'ব্যাকওয়ার্ড',
+    horizontal: 'হরাইজন্টাল', vertical: 'ভার্টিক্যাল', diagonal: 'ডায়াগোনাল',
+    clockwise: 'ক্লকওয়াইজ', anticlockwise: 'অ্যান্টিক্লকওয়াইজ',
+    direction: 'ডিরেকশন', position: 'পজিশন', location: 'লোকেশন',
+    compass: 'কম্পাস', map: 'ম্যাপ', route: 'রুট', turn: 'টার্ন',
+    'u-turn': 'ইউ-টার্ন', straight: 'স্ট্রেইট', junction: 'জংশন',
     // Student & Staff
     student: 'স্টুডেন্ট', teacher: 'টিচার', sir: 'স্যার', madam: 'ম্যাডাম',
     guardian: 'গার্ডিয়ান', principal: 'প্রিন্সিপাল',
