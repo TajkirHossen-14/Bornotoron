@@ -366,7 +366,7 @@ Visual QA checked the **real page** at desktop (1280px) and phone (390px) widths
 ### Verified contrast pairs
 
 | Pair | Contrast |
-|---|---:|
+|---|:---:|
 | `#236340` / silver background | **6.26:1** |
 | `#236340` / output panel | **6.01:1** |
 | `#236340` / light surface | **6.96:1** |
