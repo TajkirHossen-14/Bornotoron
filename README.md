@@ -471,6 +471,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 If Bornotoron helps you write more naturally, share it, send useful spelling or usability feedback, and consider giving the [repository](https://github.com/TajkirHossen-14/Bornotoron) a star ⭐.
 
+<br>
+
 <div align="center">
 
 **বাংলিশ থেকে বাংলা অক্ষরে – আপনার কথা, আরও সহজে।**
