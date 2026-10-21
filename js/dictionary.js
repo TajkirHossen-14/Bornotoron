@@ -1136,14 +1136,14 @@ window.BornotoronDictionary = Object.freeze({
     ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস',
     sync: 'সিঙ্ক', synchronization: 'সিঙ্ক্রোনাইজেশন',
     // Flowers
-    golap: 'গোলাপ', rose: 'রোজ', lily: 'লিলি', tulip: 'টিউলিপ', orchid: 'অর্কিড', sunflower: 'সানফ্লাওয়ার',
+    flower: 'ফ্লাওয়ার', flowers: 'ফ্লাওয়ারস', golap: 'গোলাপ', rose: 'রোজ', lily: 'লিলি', tulip: 'টিউলিপ', orchid: 'অর্কিড', sunflower: 'সানফ্লাওয়ার',
     daisy: 'ডেইজি', jasmine: 'জেসমিন', lotus: 'লোটাস', marigold: 'ম্যারিগোল্ড',
     dahlia: 'ডালিয়া', petunia: 'পিটুনিয়া', zinnia: 'জিনিয়া', carnation: 'কার্নেশন',
     gladiolus: 'গ্ল্যাডিওলাস', hibiscus: 'হিবিস্কাস', lavender: 'ল্যাভেন্ডার',
     daffodil: 'ড্যাফোডিল', poppy: 'পপি', violet: 'ভায়োলেট', aster: 'অ্যাস্টার',
     cosmos: 'কসমস', iris: 'আইরিস',
     // Continents
-    asia: 'এশিয়া', africa: 'আফ্রিকা', europe: 'ইউরোপ', northamerica: 'নর্থ আমেরিকা',
+    continent: 'কন্টিনেন্ট', continent: 'কন্টিনেন্টস', asia: 'এশিয়া', africa: 'আফ্রিকা', europe: 'ইউরোপ', northamerica: 'নর্থ আমেরিকা',
     southamerica: 'সাউথ আমেরিকা', australia: 'অস্ট্রেলিয়া', oceania: 'ওশেনিয়া', antarctica: 'অ্যান্টার্কটিকা',
   }),
   homophones: Object.freeze({
