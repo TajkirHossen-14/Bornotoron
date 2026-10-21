@@ -1106,7 +1106,7 @@ window.BornotoronDictionary = Object.freeze({
     issue: 'ইস্যু', agile: 'অ্যাজাইল', scrum: 'স্ক্রাম', sprint: 'স্প্রিন্ট',
     opensource: 'ওপেন সোর্স', sourcecode: 'সোর্স কোড',
     version: 'ভার্সন', documentation: 'ডকুমেন্টেশন', readme: 'রিডমি',
-    workflow: 'ওয়ার্কফ্লো', overflow: 'ওভারফ্লো', pick: 'পিক', picker: 'পিকার', 
+    flow: 'ফ্লো', workflow: 'ওয়ার্কফ্লো', overflow: 'ওভারফ্লো', pick: 'পিক', picker: 'পিকার', 
     // Security
     authentication: 'অথেনটিকেশন', authorization: 'অথরাইজেশন',
     encryption: 'এনক্রিপশন', decryption: 'ডিক্রিপশন', firewall: 'ফায়ারওয়াল',
