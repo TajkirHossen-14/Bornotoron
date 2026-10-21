@@ -2,7 +2,7 @@ window.BornotoronDictionary = Object.freeze({
   overrides: Object.freeze({
     ami: 'আমি', amar: 'আমার', 
     tomake: 'তোমাকে', tomar: 'তোমার', tomay: 'তোমায়', tomader: 'তোমাদের',
-    sona: 'সোনা', sonar: 'সোনার', golap: 'গোলাপ', bhalo: 'ভালো',
+    sona: 'সোনা', sonar: 'সোনার', bhalo: 'ভালো',
     bhalobasha: 'ভালোবাসা', bhalobasi: 'ভালোবাসি', bhalobashi: 'ভালোবাসি',
     hoyto: 'হয়তো', kokhono: 'কখনো', kono: 'কোনো', kon: 'কোন', ekhono: 'এখনো',
     shono: 'শোনো', chokh: 'চোখ', koro: 'করো', bolo: 'বলো', cholo: 'চলো',
@@ -183,9 +183,8 @@ window.BornotoronDictionary = Object.freeze({
     jatiyo: 'জাতীয়', jatio: 'জাতীয়', jatyo: 'জাতীয়',
     vasha: 'ভাষা', ektu: 'একটু',
     kivabe: 'কীভাবে', kevabe: 'কীভাবে', kibhabe: 'কীভাবে', kebhabe: 'কীভাবে',
-    konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ',
+    konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ', hea: 'হ্যাঁ', 
     // Pronouns & Basics
-    // "i"/"I" are left to the phonetic rules: ই and ঈ respectively.
     you: 'ইউ', he: 'হি', she: 'শি', we: 'উই', they: 'দে', it: 'ইট',
     this: 'দিস', that: 'দ্যাট', these: 'দিজ', those: 'দোজ', here: 'হিয়ার',
     there: 'দেয়ার', what: 'হোয়াট', who: 'হু', where: 'হোয়্যার', when: 'হোয়েন',
@@ -240,7 +239,7 @@ window.BornotoronDictionary = Object.freeze({
     battery: 'ব্যাটারি',
     password: 'পাসওয়ার্ড', message: 'মেসেজ',
     online: 'অনলাইন', offline: 'অফলাইন', link: 'লিংক', app: 'অ্যাপ',
-    video: 'ভিডিও', video: 'ভিডিয়ো', photo: 'ফটো', screen: 'স্ক্রিন',
+    photo: 'ফটো', screen: 'স্ক্রিন',
     iphone: 'আইফোন', smartphone: 'স্মার্টফোন', email: 'ইমেইল',
     username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব', pad: 'প্যাড',
     dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল',
@@ -313,7 +312,7 @@ window.BornotoronDictionary = Object.freeze({
     garage: 'গ্যারেজ', service: 'সার্ভিস', repair: 'রিপেয়ার',
     accident: 'অ্যাক্সিডেন্ট', pickuppoint: 'পিকআপ পয়েন্ট',
     drop: 'ড্রপ', ride: 'রাইড',
-// Health & Medical
+    // Health & Medical
     doctor: 'ডক্টর', doctorer: 'ডক্টরের',
     hospital: 'হসপিটাল', clinic: 'ক্লিনিক', medicine: 'মেডিসিন',
     ambulance: 'অ্যাম্বুলেন্স', emergency: 'ইমার্জেন্সি', report: 'রিপোর্ট',
@@ -338,7 +337,7 @@ window.BornotoronDictionary = Object.freeze({
     physiotherapy: 'ফিজিওথেরাপি', bandage: 'ব্যান্ডেজ', sanitizer: 'স্যানিটাইজার',
     thermometer: 'থার্মোমিটার', cylinder: 'সিলিন্ডার', diet: 'ডায়েট',
     exercise: 'এক্সারসাইজ', gym: 'জিম', weight: 'ওয়েট',
-// Food & Dining
+    // Food & Dining
     restaurant: 'রেস্টুরেন্ট', bill: 'বিল', menu: 'মেন্যু', order: 'অর্ডার',
     tea: 'টি', icecream: 'আইসক্রিম', pizza: 'পিৎজা', pizza: 'পিজ্জা', burger: 'বার্গার', juice: 'জুস',
     biscuit: 'বিস্কুট', cake: 'কেক', pastry: 'পেস্ট্রি', bread: 'ব্রেড',
@@ -565,7 +564,7 @@ window.BornotoronDictionary = Object.freeze({
     details: 'ডিটেইলস',
     // Meaning, Pronunciation & Usage
     explanation: 'এক্সপ্লেনেশন', example: 'এক্সাম্পল', usage: 'ইউসেজ',
-    context: 'কনটেক্সট', audio: 'অডিও', sound: 'সাউন্ড',
+    context: 'কনটেক্সট', sound: 'সাউন্ড',
     origin: 'অরিজিন', root: 'রুট',
     // Grammar & Parts of Speech
     noun: 'নাউন', pronoun: 'প্রোনাউন', verb: 'ভার্ব',
@@ -607,7 +606,7 @@ window.BornotoronDictionary = Object.freeze({
     'u-turn': 'ইউ-টার্ন', straight: 'স্ট্রেইট', junction: 'জংশন',
     // Student & Staff
     student: 'স্টুডেন্ট', teacher: 'টিচার', sir: 'স্যার', madam: 'ম্যাডাম',
-    guardian: 'গার্ডিয়ান', principal: 'প্রিন্সিপাল',
+    guardian: 'গার্ডিয়ান', principal: 'প্রিন্সিপাল', period: 'পিরিয়ড', 
     classroom: 'ক্লাসরুম', classmate: 'ক্লাসমেট', batchmate: 'ব্যাচমেট',
     roommate: 'রুমমেট', headsir: 'হেড স্যার', vicechancellor: 'ভাইস চ্যান্সেলর',
     professor: 'প্রফেসর', lecturer: 'লেকচারার', viva: 'ভাইভা',
@@ -676,7 +675,7 @@ window.BornotoronDictionary = Object.freeze({
     data: 'ডাটা', connection: 'কানেকশন', network: 'নেটওয়ার্ক',
     process: 'প্রসেস', processing: 'প্রসেসিং', processor: 'প্রসেসর',
     storage: 'স্টোরেজ', memory: 'মেমোরি', buffer: 'বাফার',
-source: 'সোর্স', destination: 'ডেস্টিনেশন', entry: 'এন্ট্রি',
+    source: 'সোর্স', destination: 'ডেস্টিনেশন', entry: 'এন্ট্রি',
     // Home
     bulb: 'বাল্ব', tubelight: 'টিউবলাইট', led: 'এলইডি', wire: 'ওয়্যার',
     current: 'কারেন্ট', loadshedding: 'লোডশেডিং', voltage: 'ভোল্টেজ',
@@ -717,7 +716,7 @@ source: 'সোর্স', destination: 'ডেস্টিনেশন', entry:
     deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার', parlor: 'পার্লার',
     salon: 'সেলুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
     trimmer: 'ট্রিমার', razor: 'রেজার', blade: 'ব্লেড', gel: 'জেল',
-comb: 'চিরুনি',
+    comb: 'কম্ব',
     // Telecom
     simcard: 'সিম কার্ড', recharge: 'রিচার্জ', minutes: 'মিনিট',
     mb: 'এমবি', gb: 'জিবি', datapack: 'ডাটা প্যাক',
@@ -781,7 +780,7 @@ comb: 'চিরুনি',
     medal: 'মেডেল', gold: 'গোল্ড', silver: 'সিলভার', bronze: 'ব্রোঞ্জ',
     trophy: 'ট্রফি', champion: 'চ্যাম্পিয়ন', win: 'উইন', draw: 'ড্র',
     livescore: 'লাইভ স্কোর', highlights: 'হাইলাইটস',
-videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার',
+    videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার',
     // Housing & Construction
     flat: 'ফ্ল্যাট', apartment: 'অ্যাপার্টমেন্ট', building: 'বিল্ডিং',
     floor: 'ফ্লোর', groundfloor: 'গ্রাউন্ড ফ্লোর', lift: 'লিফট',
@@ -1134,8 +1133,15 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     protocol: 'প্রোটোকল', ipaddress: 'আইপি অ্যাড্রেস', dns: 'ডিএনএস',
     lan: 'ল্যান', wan: 'ওয়ান', cloudcomputing: 'ক্লাউড কম্পিউটিং',
     aws: 'এডব্লিউএস', netlify: 'নেটলিফাই', vercel: 'ভার্সেল',
-    ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস', 
-    sync: 'সিঙ্ক', synchronization: 'সিঙ্ক্রোনাইজেশন'
+    ui: 'ইউআই', ux: 'ইউএক্স', seo: 'এসইও', cms: 'সিএমএস', wordpress: 'ওয়ার্ডপ্রেস',
+    sync: 'সিঙ্ক', synchronization: 'সিঙ্ক্রোনাইজেশন',
+    // Flowers
+    golap: 'গোলাপ', rose: 'রোজ', lily: 'লিলি', tulip: 'টিউলিপ', orchid: 'অর্কিড', sunflower: 'সানফ্লাওয়ার',
+    daisy: 'ডেইজি', jasmine: 'জেসমিন', lotus: 'লোটাস', marigold: 'ম্যারিগোল্ড',
+    dahlia: 'ডালিয়া', petunia: 'পিটুনিয়া', zinnia: 'জিনিয়া', carnation: 'কার্নেশন',
+    gladiolus: 'গ্ল্যাডিওলাস', hibiscus: 'হিবিস্কাস', lavender: 'ল্যাভেন্ডার',
+    daffodil: 'ড্যাফোডিল', poppy: 'পপি', violet: 'ভায়োলেট', aster: 'অ্যাস্টার',
+    cosmos: 'কসমস', iris: 'আইরিস',
   }),
   homophones: Object.freeze({
     aste: ['আসতে', 'আস্তে'], 
@@ -1150,7 +1156,7 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     kul: ['কুল', 'কূল'], 
     din: ['দিন', 'দীন'], 
     tir: ['তির', 'তীর'],
-    shur: ['সুর', 'শূর'], 
+    shur: ['সুর', 'শূর', 'শুঁড়'], 
     shor: ['সর', 'স্বর'],
     bol: ['বল', 'বোল'], 
     jor: ['জড়', 'জোর', 'জ্বর'],
@@ -1161,7 +1167,9 @@ videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ�
     shona: ['শোনা', 'সোনা'],
     handle: ['হ্যান্ডেল', 'হ্যান্ডল'],
     the: ['দ্য', 'দি', 'থে'],
-    angilock: ['এঞ্জিলক', 'অ্যাঞ্জিলক']
+    angilock: ['এঞ্জিলক', 'অ্যাঞ্জিলক'],
+    audio: ['অডিও', 'অডিয়ো'],
+    video: ['ভিডিও', 'ভিডিয়ো']
   }),
   doNotOverride: Object.freeze({
     kor: 'কর', mon: 'মন', bosen: 'বসেন', hobe: 'হবে', kotha: 'কথা',
