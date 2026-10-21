@@ -1142,6 +1142,9 @@ window.BornotoronDictionary = Object.freeze({
     gladiolus: 'গ্ল্যাডিওলাস', hibiscus: 'হিবিস্কাস', lavender: 'ল্যাভেন্ডার',
     daffodil: 'ড্যাফোডিল', poppy: 'পপি', violet: 'ভায়োলেট', aster: 'অ্যাস্টার',
     cosmos: 'কসমস', iris: 'আইরিস',
+    // Continents
+    asia: 'এশিয়া', africa: 'আফ্রিকা', europe: 'ইউরোপ', northamerica: 'নর্থ আমেরিকা',
+    southamerica: 'সাউথ আমেরিকা', australia: 'অস্ট্রেলিয়া', oceania: 'ওশেনিয়া', antarctica: 'অ্যান্টার্কটিকা',
   }),
   homophones: Object.freeze({
     aste: ['আসতে', 'আস্তে'], 
