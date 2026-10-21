@@ -207,9 +207,9 @@ window.BornotoronDictionary = Object.freeze({
     affect: 'অ্যাফেক্ট', effect: 'এফেক্ট',
     fight: 'ফাইট', start: 'স্টার্ট', stars: 'স্টার্স',
     // Time & Days
-    time: 'টাইম', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
-    afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমরো', yesterday: 'ইয়েস্টারডে',
-    week: 'উইক', month: 'মান্থ',
+    time: 'টাইম', clock: 'ক্লক', day: 'ডে', night: 'নাইট', morning: 'মর্নিং', evening: 'ইভনিং',
+    afternoon: 'আফটারনুন', today: 'টুডে', tomorrow: 'টুমোরো', yesterday: 'ইয়েস্টারডে',
+    week: 'উইক', month: 'মান্থ', 
     // Weekdays. শন/স and বৃহস্পতিবার spellings are both accepted.
     shonibar: 'শনিবার', sonibar: 'শনিবার', robibar: 'রবিবার', sombar: 'সোমবার', shombar: 'সোমবার', 
     mongolbar: 'মঙ্গলবার', budhbar: 'বুধবার', brihospotibar: 'বৃহস্পতিবার', brihoshpotibar: 'বৃহস্পতিবার', shukrobar: 'শুক্রবার', 
@@ -670,7 +670,7 @@ window.BornotoronDictionary = Object.freeze({
     kurti: 'কুর্তি', frock: 'ফ্রক', skirt: 'স্কার্ট', readymade: 'রেডিমেড',
     fitting: 'ফিটিং', tailor: 'দর্জি', design: 'ডিজাইন', fashion: 'ফ্যাশন',
     collection: 'কালেকশন', boutique: 'বুটিক', showroom: 'শোরুম',
-    sunglasses: 'সানগ্লাস', watch: 'ঘড়ি', wallet: 'ওয়ালেট', purse: 'পার্স',
+    sunglasses: 'সানগ্লাস', watch: 'ওয়াচ', wallet: 'ওয়ালেট', purse: 'পার্স',
     ring: 'রিং', locket: 'লকেট', chain: 'চেইন', bracelet: 'ব্রেসলেট',
     earring: 'ইয়ারিং', makeup: 'মেকআপ', lipstick: 'লিপস্টিক',
     nailpolish: 'নেইল পলিশ', foundation: 'ফাউন্ডেশন', facewash: 'ফেসওয়াশ',
