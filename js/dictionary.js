@@ -254,7 +254,7 @@ window.BornotoronDictionary = Object.freeze({
     location: 'লোকেশন', map: 'ম্যাপ',
     // Health & Medical
     doctor: 'ডক্টর', doctorer: 'ডক্টরের', 
-    hospital: 'হাসপাতাল', clinic: 'ক্লিনিক', medicine: 'মেডিসিন',
+    hospital: 'হসপিটাল', clinic: 'ক্লিনিক', medicine: 'মেডিসিন',
     ambulance: 'অ্যাম্বুলেন্স', emergency: 'ইমার্জেন্সি', report: 'রিপোর্ট',
     operation: 'অপারেশন', patient: 'পেশেন্ট',
     // Food & Dining
