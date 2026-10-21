@@ -265,10 +265,10 @@ p {
 }
 
 .menu-toggle {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border: 1px solid var(--line);
-  border-radius: 11px;
+  border-radius: 8px;
   background: var(--surface);
   color: var(--accent-text);
   align-items: center;
