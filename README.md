@@ -154,7 +154,7 @@ The editor arrow occupies its own grid column on desktop and its own row on mobi
 
 - **Banner:** [`Assets/Banner/Bornotoron-Banner.png`](Assets/Banner/Bornotoron-Banner.png).
 - **Logo:** [`Assets/Logo/Bornotoron_Logo.png`](Assets/Logo/Bornotoron_Logo.png) – background-removed PNG derived from the user's original artwork.
-- **Favicon:** [`Assets/Favicon/Bornotoron_Favicon.png`](Assets/Favicon/Bornotoron_Favicon.png) – high-resolution transparent favicon and touch icon.
+- **Favicon:** [`Assets/Favicon/Bornotoron-Favicon-SVG.svg`](Assets/Favicon/Bornotoron-Favicon-SVG.svg) – primary scalable vector favicon; plus `Favicon.ico`, `Favicon-96x96.png`, `Apple_Touch_Icon.png`, `Web_App_Manifest-192x192.png`, `Web_App_Manifest-512x512.png`, and `site.webmanifest` for full platform coverage.
 - **Pattern:** tileable SVG data URI in `style.css`.
 
 The header logo frame is **41px**, balanced against the 28px Bangla wordmark. Its container has **no white fill**, and the PNG has genuine alpha transparency, including its inner triangular cutout. CSS only crops surplus transparent margins; it does not redraw the mark. The favicon retains the source artwork's transparent outer margin.
@@ -395,7 +395,13 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/tests.html` | Regression suite and banner preview |
 | `/Assets/Banner/Bornotoron-Banner.png` | Standalone 3:1 PNG banner |
 | `/Assets/Logo/Bornotoron_Logo.png` | Transparent brand logo |
-| `/Assets/Favicon/Bornotoron_Favicon.png` | Transparent favicon / touch icon |
+| `/Assets/Favicon/Bornotoron-Favicon-SVG.svg` | Primary scalable vector favicon |
+| `/Assets/Favicon/Favicon.ico` | Legacy browser favicon (16×16, 32×32) |
+| `/Assets/Favicon/Favicon-96x96.png` | Android/Chrome favicon |
+| `/Assets/Favicon/Apple_Touch_Icon.png` | iOS home screen icon (180×180) |
+| `/Assets/Favicon/Web_App_Manifest-192x192.png` | PWA icon (192×192) |
+| `/Assets/Favicon/Web_App_Manifest-512x512.png` | PWA icon (512×512) |
+| `/Assets/Favicon/site.webmanifest` | PWA manifest |
 
 Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, footer, and About GitHub links open the actual repository in a new tab with `noopener noreferrer`. The report dialog links to GitHub's new-issue page and also offers an optional local report download. Submission happens on GitHub, not silently inside this app.
 
