@@ -2,11 +2,11 @@ window.BornotoronDictionary = Object.freeze({
   overrides: Object.freeze({
     ami: 'আমি', amar: 'আমার', 
     tomake: 'তোমাকে', tomar: 'তোমার', tomay: 'তোমায়', tomader: 'তোমাদের',
-    sona: 'সোনা', sonar: 'সোনার', bhalo: 'ভালো', valo: 'ভালো', 
+    sona: 'সোনা', sonar: 'সোনার', bhalo: 'ভালো', valo: 'ভালো',
     bhalobasha: 'ভালোবাসা', bhalobasi: 'ভালোবাসি', bhalobashi: 'ভালোবাসি',
     hoyto: 'হয়তো', kokhono: 'কখনো', kono: 'কোনো', kon: 'কোন', ekhono: 'এখনো',
     shono: 'শোনো', chokh: 'চোখ', koro: 'করো', bolo: 'বলো', cholo: 'চলো',
-    oke: 'ওকে', ora: 'ওরা', oder: 'ওদের', valo: 'ভালো', valo: 'ভাল', 
+    oke: 'ওকে', ora: 'ওরা', oder: 'ওদের',   
     // Pronouns, determiners, time, and connecting words.
     apni: 'আপনি', apnar: 'আপনার', apnay: 'আপনায়', apnake: 'আপনাকে',
     apnakei: 'আপনাকেই', apnader: 'আপনাদের', apnaderke: 'আপনাদেরকে',
