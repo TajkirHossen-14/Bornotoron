@@ -922,10 +922,10 @@ window.BornotoronDictionary = Object.freeze({
     environment: 'এনভায়রনমেন্ট', pollution: 'পলিউশন', climate: 'ক্লাইমেট',
     climatechange: 'ক্লাইমেট চেঞ্জ', ozone: 'ওজোন',
     globalwarming: 'গ্লোবাল ওয়ার্মিং',
-    carbonfootprint: 'কার্বন ফুটপ্রিন্ট', solar: 'সোলার',
+    carbonfootprint: 'কার্বন ফুটপ্রিন্ট', solar: 'সোলার', 
     solarpanel: 'সোলার প্যানেল', fuel: 'ফুয়েল', machine: 'মেশিন',
-    function: 'ফাংশন', structure: 'স্ট্রাকচার', analysis: 'অ্যানালাইসিস',
-    analog: 'অ্যানালগ',
+    function: 'ফাংশন', functional: 'ফাংশনাল', nonfunctional: 'নন ফাংশনাল', 
+    structure: 'স্ট্রাকচার', analysis: 'অ্যানালাইসিস', analog: 'অ্যানালগ',
     // Tadbhava & compound words where র keeps its inherent vowel instead of
     // forming a conjunct (সরকার not সর্কার, একবার not এক্বার), plus place names.
     sorkar: 'সরকার', dorkar: 'দরকার', dorja: 'দরজা', tarpor: 'তারপর',
