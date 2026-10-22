@@ -379,7 +379,7 @@ window.BornotoronDictionary = Object.freeze({
     // Short Forms / Abbreviations
     sim: 'সিম', atm: 'এটিএম', wifi: 'ওয়াইফাই', bluetooth: 'ব্লুটুথ',
     // Social Media & Online
-    post: 'পোস্ট', share: 'শেয়ার', comment: 'কমেন্ট', like: 'লাইক',
+    post: 'পোস্ট', share: 'শেয়ার', comment: 'কমেন্ট', like: 'লাইক', feedback: 'ফিডব্যাক', 
     block: 'ব্লক', profile: 'প্রোফাইল', account: 'অ্যাকাউন্ট',
     status: 'স্ট্যাটাস', story: 'স্টোরি', group: 'গ্রুপ', page: 'পেজ',
     notification: 'নোটিফিকেশন',
@@ -1083,7 +1083,8 @@ window.BornotoronDictionary = Object.freeze({
     inheritance: 'ইনহেরিটেন্স', polymorphism: 'পলিমরফিজম',
     encapsulation: 'এনক্যাপসুলেশন', abstraction: 'অ্যাবস্ট্রাকশন',
     interface: 'ইন্টারফেস', async: 'অ্যাসিঙ্ক', await: 'অ্যাওয়েট',
-    promise: 'প্রমিস', callback: 'কলব্যাক',
+    promise: 'প্রমিস', callback: 'কলব্যাক', modify: 'মডিফাই', duplicate: 'ডুপ্লিকেট', 
+    override: 'ওভাররাইড', 
     // Data Structures
     datastructure: 'ডাটা স্ট্রাকচার', stack: 'স্ট্যাক', queue: 'কিউ',
     linkedlist: 'লিংকড লিস্ট', tree: 'ট্রি', graph: 'গ্রাফ',
