@@ -10,8 +10,21 @@
   const patterns = Object.keys({ ...rules.vowels, ...rules.consonants, ...rules.symbols })
     .sort((a, b) => b.length - a.length);
 
+  // Conjunct patterns that should form a single grapheme (no hasant between them)
+  const conjunctPatterns = new Set(
+    Object.keys(rules.consonants).filter(k => k.length > 1)
+  );
+
+  // Check if remaining text from index i starts with a known conjunct pattern
+  function isConjunctStart(word, i) {
+    for (const cp of conjunctPatterns) {
+      if (word.startsWith(cp, i)) return true;
+    }
+    return false;
+  }
+
   function phonetic(word) {
-    let output = '', consonantPending = false;
+    let output = '', consonantPending = false, prevConsonantPattern = '';
     // Verb suffixes (kor+bo → করবো, kor+te → করতে) sit on a syllable boundary,
     // not a conjunct, so they must be emitted as whole written forms.
     const verbStem = (rules.verbStems || rules.futureStems).find(stem => word.startsWith(stem) && rules.verbSuffixes.includes(word.slice(stem.length)));
@@ -20,6 +33,7 @@
         const form = rules.verbSuffixForms[word.slice(verbStem.length)];
         if (form) { output += form; i = word.length; continue; }
         consonantPending = false;
+        prevConsonantPattern = '';
       }
       const pattern = patterns.find(p => word.startsWith(p, i));
       if (!pattern) {
@@ -27,6 +41,7 @@
         // Ordinary uppercase letters are accepted without erasing T/D/N/O/I/U.
         output += /[A-Z]/.test(char) ? phonetic(char.toLowerCase()) : char;
         consonantPending = /[A-Z]/.test(char);
+        prevConsonantPattern = '';
         i++;
         continue;
       }
@@ -35,20 +50,26 @@
         // o after a consonant closes its inherent vowel, without adding ো.
         output += consonantPending ? kar : independent;
         consonantPending = false;
+        prevConsonantPattern = '';
       } else if (own(rules.consonants, pattern)) {
         let letter = rules.consonants[pattern];
         if (letter === 'ং') {
           output += letter;
           consonantPending = false;
+          prevConsonantPattern = '';
         } else {
           // y is য-ফলা after a consonant, and য় elsewhere.
           if (pattern === 'y' && consonantPending) letter = 'য';
-          output += (consonantPending ? '্' : '') + letter;
+          // Only add hasant if prev consonant + current form a known conjunct pattern
+          const addHasant = consonantPending && conjunctPatterns.has(prevConsonantPattern + pattern);
+          output += (addHasant ? '্' : '') + letter;
           consonantPending = letter !== 'ও';
+          prevConsonantPattern = pattern;
         }
       } else {
         output += rules.symbols[pattern];
         consonantPending = false;
+        prevConsonantPattern = '';
       }
       i += pattern.length;
     }
