@@ -137,7 +137,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 The active theme is read **before first paint**, defaults to `prefers-color-scheme`, and is saved after an explicit choice. Switching themes crossfades over roughly 300 ms. The icon displays the current state: **sun in light mode, moon in dark mode**; its accessible label describes the switch action. Reduced-motion preferences are respected. Footer copyright and links use a more readable 12px size.
 
 | Token / role | Light | Dark |
-|---|---|---|
+|---|:---:|:---:|
 | **Page background** | `#EDF0F2` – cool silver-water | `#0D1117` – GitHub-inspired near-black |
 | **Surface** | `#FAFCFD` | `#161B22` |
 | **Output / secondary surface** | `#E6ECEE` | `#161B22` |
