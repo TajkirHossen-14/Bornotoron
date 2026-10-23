@@ -121,10 +121,10 @@
       check('updated feature heading', d.querySelector('.benefits h3').textContent, 'লিখলেই ফুটে উঠুক বাংলা');
       check('logo tile is transparent', w.getComputedStyle(d.querySelector('.brand-mark')).backgroundColor, 'rgba(0, 0, 0, 0)');
       check('balanced desktop logo size', w.getComputedStyle(d.querySelector('.brand-mark')).width, '32px');
-      check('logo asset path', d.querySelector('.brand-mark img').getAttribute('src'), 'assets/Logo/logo.png');
-      check('favicon asset path', d.querySelector('link[rel="icon"]').getAttribute('href'), 'assets/Favicon/favicon.png');
+      check('logo asset path', d.querySelector('.brand-mark img').getAttribute('src'), 'Assets/Logo/Bornotoron_Logo.png');
+      check('favicon asset path', d.querySelector('link[rel="icon"]').getAttribute('href'), 'Assets/Favicon/Bornotoron-Favicon-SVG.svg');
       // Inspect real alpha values, not a white checkerboard or a CSS trick.
-      for (const path of ['assets/Logo/logo.png', 'assets/Favicon/favicon.png']) {
+      for (const path of ['Assets/Logo/Bornotoron_Logo.png', 'Assets/Favicon/Bornotoron-Favicon-SVG.svg']) {
         const image = new w.Image(); image.src = path; await image.decode();
         const canvas = d.createElement('canvas'); canvas.width = image.naturalWidth; canvas.height = image.naturalHeight;
         const context = canvas.getContext('2d', { willReadFrequently: true }); context.drawImage(image, 0, 0);
