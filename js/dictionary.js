@@ -184,6 +184,7 @@ window.BornotoronDictionary = Object.freeze({
     kivabe: 'কীভাবে', kevabe: 'কীভাবে', kibhabe: 'কীভাবে', kebhabe: 'কীভাবে',
     konta: 'কোনটা', uthbe: 'উঠবে', hya: 'হ্যাঁ', hea: 'হ্যাঁ', 
     // Pronouns & Basics
+    myself: 'মাইসেলফ',
     you: 'ইউ', he: 'হি', she: 'শি', we: 'উই', they: 'দে', it: 'ইট',
     this: 'দিস', that: 'দ্যাট', these: 'দিজ', those: 'দোজ', here: 'হিয়ার',
     there: 'দেয়ার', what: 'হোয়াট', who: 'হু', where: 'হোয়্যার', when: 'হোয়েন',
