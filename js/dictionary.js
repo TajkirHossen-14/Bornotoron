@@ -49,7 +49,7 @@ window.BornotoronDictionary = Object.freeze({
     chhoto: 'ছোট', choto: 'ছোট', boro: 'বড়',
     // Frequent explicit ও / ো words and their everyday inflections.
     alo: 'আলো', alor: 'আলোর', aloy: 'আলোয়', alote: 'আলোতে',
-    andhokar: 'অন্ধকার', ondhokar: 'অন্ধকার', bhalor: 'ভালোর', bhaloi: 'ভালোই',
+    ondhokar: 'অন্ধকার', bhalor: 'ভালোর', bhaloi: 'ভালোই',
     bhalota: 'ভালোটা', bhalobashar: 'ভালোবাসার', bhalobasar: 'ভালোবাসার',
     bhalobashe: 'ভালোবাসে', bhalobase: 'ভালোবাসে', bhalobasho: 'ভালোবাসো',
     bhalobaso: 'ভালোবাসো', bhalobashbo: 'ভালোবাসব', bhalobasbo: 'ভালোবাসব',
