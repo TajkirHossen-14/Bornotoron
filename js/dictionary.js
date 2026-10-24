@@ -235,8 +235,8 @@ window.BornotoronDictionary = Object.freeze({
     after: 'আফটার', above: 'অ্যাবাভ', below: 'বিলো', from: 'ফ্রম', up: 'আপ',
     down: 'ডাউন', and: 'অ্যান্ড', but: 'বাট', or: 'অর', if: 'ইফ', because: 'বিকজ',
     // Technology & Gadgets
-    charger: 'চার্জার', chargerer: 'চার্জারের',
-    battery: 'ব্যাটারি',
+    charger: 'চার্জার', chargerer: 'চার্জারের', battery: 'ব্যাটারি',
+    instant: 'ইন্সট্যান্ট', instance: 'ইন্সট্যান্স', 
     password: 'পাসওয়ার্ড', message: 'মেসেজ',
     online: 'অনলাইন', offline: 'অফলাইন', link: 'লিংক', app: 'অ্যাপ',
     photo: 'ফটো', screen: 'স্ক্রিন',
