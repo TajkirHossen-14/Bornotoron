@@ -761,7 +761,7 @@ window.BornotoronDictionary = Object.freeze({
     customs: 'কাস্টমস', election: 'ইলেকশন', vote: 'ভোট',
     candidate: 'ক্যান্ডিডেট', procession: 'প্রসেশন', slogan: 'স্লোগান',
     poster: 'পোস্টার', banner: 'ব্যানার', festoon: 'ফেস্টুন',
-    microphone: 'মাইক্রোফোন', blockade: 'ব্লকেড', strike: 'স্ট্রাইক',
+    microphone: 'মাইক্রোফোন', blockade: 'ব্লকেড', strike: 'স্ট্রাইক', striker: 'স্ট্রাইকার', 
     protest: 'প্রটেস্ট', curfew: 'কার্ফিউ', corruption: 'করাপশন',
     quota: 'কোটা', reform: 'রিফর্ম', constitution: 'কনস্টিটিউশন',
     law: "ল'", policy: 'পলিসি', out: 'আউট', ground: 'গ্রাউন্ড', tiger: 'টাইগার',
