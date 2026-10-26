@@ -4,7 +4,7 @@
   <img src="Assets/Banner/Bornotoron-Banner.png" alt="Bornotoron – A small bridge from Banglish to Bangla" width="100%">
 </p>
 
-# [বর্ণতরণ](https://bornotoron.netlify.app) · Bornotoron
+# [বর্ণতরণ](https://bornotoron.vercel.app) · Bornotoron
 
 ### বাংলা লেখার সহজ পথ
 
