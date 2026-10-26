@@ -768,7 +768,7 @@ window.BornotoronDictionary = Object.freeze({
     cricket: 'ক্রিকেট', football: 'ফুটবল', badminton: 'ব্যাডমিন্টন',
     tennis: 'টেনিস', volleyball: 'ভলিবল', basketball: 'বাস্কেটবল',
     hockey: 'হকি', carrom: 'ক্যারাম', ludo: 'লুডু', chess: 'দাবা',
-    match: 'ম্যাচ', bowler: 'বোলার', batsman: 'ব্যাটসম্যান',
+    match: 'ম্যাচ', bowler: 'বোলার', batsman: 'ব্যাটসম্যান', spin: 'স্পিন',
     over: 'ওভার', wicket: 'উইকেট', boundary: 'বাউন্ডারি', four: 'ফোর',
     six: 'ছক্কা', notout: 'নট আউট', catch: 'ক্যাচ',
     umpire: 'আম্পায়ার', stadium: 'স্টেডিয়াম', pitch: 'পিচ',
@@ -782,7 +782,7 @@ window.BornotoronDictionary = Object.freeze({
     livescore: 'লাইভ স্কোর', highlights: 'হাইলাইটস',
     videogame: 'ভিডিও গেম', pubg: 'পাবজি', freefire: 'ফ্রি ফায়ার',
     // Housing & Construction
-    flat: 'ফ্ল্যাট', apartment: 'অ্যাপার্টমেন্ট', building: 'বিল্ডিং',
+    flat: 'ফ্ল্যাট', apartment: 'অ্যাপার্টমেন্ট', building: 'বিল্ডিং', construction: 'কন্সট্রাকশন', 
     floor: 'ফ্লোর', groundfloor: 'গ্রাউন্ড ফ্লোর', lift: 'লিফট',
     stairs: 'স্টেয়ার্স', roof: 'রুফ', rooftop: 'রুফটপ', basement: 'বেজমেন্ট',
     tolet: 'টু-লেট', rent: 'রেন্ট', advance: 'অ্যাডভান্স',
