@@ -6,7 +6,7 @@ window.BornotoronDictionary = Object.freeze({
     bhalobasha: 'ভালোবাসা', bhalobasi: 'ভালোবাসি', bhalobashi: 'ভালোবাসি',
     hoyto: 'হয়তো', kokhono: 'কখনো', kono: 'কোনো', kon: 'কোন', ekhono: 'এখনো',
     shono: 'শোনো', chokh: 'চোখ', koro: 'করো', bolo: 'বলো', cholo: 'চলো',
-    oke: 'ওকে', ora: 'ওরা', oder: 'ওদের',   
+    oke: 'ওকে', ora: 'ওরা', oder: 'ওদের', ovro: 'অভ্র', avro: 'অভ্র', 
     // Pronouns, determiners, time, and connecting words.
     apni: 'আপনি', apnar: 'আপনার', apnay: 'আপনায়', apnake: 'আপনাকে',
     apnakei: 'আপনাকেই', apnader: 'আপনাদের', apnaderke: 'আপনাদেরকে',
