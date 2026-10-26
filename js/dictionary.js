@@ -519,6 +519,7 @@ window.BornotoronDictionary = Object.freeze({
     // Options & Confirmations
     accept: 'অ্যাকসেপ্ট', reject: 'রিজেক্ট', decline: 'ডিক্লাইন',
     allow: 'অ্যালাউ', deny: 'ডিনাই', skip: 'স্কিপ', continue: 'কন্টিনিউ',
+    customize: 'কাস্টমাইজ', customise: 'কাস্টমাইজ',
     // Media & Privacy Controls
     media: 'মিডিয়া', privacy: 'প্রাইভেসি',  hide: 'হাইড', unhide: 'আনহাইড', mute: 'মিউট', unmute: 'আনমিউট',
     connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
