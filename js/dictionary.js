@@ -404,7 +404,7 @@ window.BornotoronDictionary = Object.freeze({
     // Entertainment & Media
     movie: 'মুভি', serial: 'সিরিয়াল', game: 'গেম', party: 'পার্টি',
     concert: 'কনসার্ট', episode: 'এপিসোড', channel: 'চ্যানেল',
-    music: 'মিউজিক', singer: 'সিঙ্গার',
+    music: 'মিউজিক', singer: 'সিঙ্গার', instrument: 'ইন্সট্রুমেন্ট', instruments: 'ইন্সট্রুমেন্টস',
     cinema: 'সিনেমা', film: 'ফিল্ম', hero: 'হিরো', heroine: 'হিরোইন',
     villain: 'ভিলেন', actor: 'অ্যাক্টর', actress: 'অ্যাক্ট্রেস',
     drama: 'ড্রামা', webseries: 'ওয়েব সিরিজ', trailer: 'ট্রেইলার',
