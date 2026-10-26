@@ -407,7 +407,7 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 
 ### Public URLs
 
-- **Production:** https://bornotoron.netlify.app
+- **Production:** https://bornotoron.vercel.app
 - **GitHub repository:** https://github.com/TajkirHossen-14/Bornotoron
 - **Issue tracker:** https://github.com/TajkirHossen-14/Bornotoron/issues
 - **New issue:** https://github.com/TajkirHossen-14/Bornotoron/issues/new (GitHub sign-in and repository permissions may apply).
@@ -417,9 +417,9 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 
 | Platform | Configuration |
 |---|---|
+| **Vercel** | Static/Other preset, no build command; output directory `.` (current: https://bornotoron.vercel.app) |
+| **Netlify** | No build command; publish directory `.` |
 | **GitHub Pages** | Deployment branch, source `/ (root)` |
-| **Netlify** | No build command; publish directory `.` (current: https://bornotoron.netlify.app) |
-| **Vercel** | Static/Other preset, no build command; output directory `.` |
 
 Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `Assets/Logo/` and `Assets/Favicon/`.  The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
 
