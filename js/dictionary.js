@@ -393,7 +393,7 @@ window.BornotoronDictionary = Object.freeze({
     // Banking & Finance
     bank: 'ব্যাংক', cash: 'ক্যাশ', card: 'কার্ড', payment: 'পেমেন্ট',
     currency: 'কারেন্সি', balance: 'ব্যালেন্স', deposit: 'ডিপোজিট', transfer: 'ট্রান্সফার',
-    loan: 'লোন', receipt: 'রিসিট', pin: 'পিন',
+    loan: 'লোন', receipt: 'রিসিট', pin: 'পিন', amount: 'অ্যামাউন্ট',
     // Vehicles & Mechanics
     auto: 'অটো', engine: 'ইঞ্জিন', switch: 'সুইচ', meter: 'মিটার',
     sensor: 'সেন্সর', parking: 'পার্কিং', speed: 'স্পিড', horn: 'হর্ন',
