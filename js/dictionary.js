@@ -244,6 +244,7 @@ window.BornotoronDictionary = Object.freeze({
     username: 'ইউজারনেম', id: 'আইডি', otp: 'ওটিপি', tab: 'ট্যাব', pad: 'প্যাড',
     engineer: 'ইঞ্জিনিয়ার', engineers: 'ইঞ্জিনিয়ারস',
     instruction: 'ইন্সট্রাকশন', instructor: 'ইন্সট্রাকটর',
+    generate: 'জেনারেট', generator: 'জেনারেটর',
     dp: 'ডিপি', coverphoto: 'কভার ফটো', reel: 'রিল',
     follow: 'ফলো', follower: 'ফলোয়ার', subscribe: 'সাবস্ক্রাইব',
     friendrequest: 'ফ্রেন্ড রিকোয়েস্ট', add: 'অ্যাড', tag: 'ট্যাগ',
