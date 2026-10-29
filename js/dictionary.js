@@ -219,7 +219,7 @@ window.BornotoronDictionary = Object.freeze({
     simple: 'সিম্পল', smart: 'স্মার্ট', tension: 'টেনশন', chance: 'চান্স',
     important: 'ইম্পর্টেন্ট', direct: 'ডাইরেক্ট', extra: 'এক্সট্রা',
     final: 'ফাইনাল', total: 'টোটাল', perfect: 'পারফেক্ট', real: 'রিয়েল',
-    fake: 'ফেক',
+    fake: 'ফেক', proper: 'প্রোপার',
     // People & Relations
     man: 'ম্যান', woman: 'ওম্যান', boy: 'বয়', girl: 'গার্ল', child: 'চাইল্ড',
     friend: 'ফ্রেন্ড', family: 'ফ্যামিলি', father: 'ফাদার', mother: 'মাদার',
