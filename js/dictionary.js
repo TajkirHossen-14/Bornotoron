@@ -771,7 +771,7 @@ window.BornotoronDictionary = Object.freeze({
     // Sports
     cricket: 'ক্রিকেট', football: 'ফুটবল', badminton: 'ব্যাডমিন্টন',
     tennis: 'টেনিস', volleyball: 'ভলিবল', basketball: 'বাস্কেটবল',
-    hockey: 'হকি', carrom: 'ক্যারাম', ludo: 'লুডু', chess: 'দাবা',
+    hockey: 'হকি', carrom: 'ক্যারাম', ludo: 'লুডু', chess: 'চেস',
     match: 'ম্যাচ', bowler: 'বোলার', batsman: 'ব্যাটসম্যান', spin: 'স্পিন', 
     spinner: 'স্পিনার',  fast: 'ফাস্ট', fastbowler: 'ফাস্ট বোলার',
     over: 'ওভার', wicket: 'উইকেট', boundary: 'বাউন্ডারি', four: 'ফোর',
