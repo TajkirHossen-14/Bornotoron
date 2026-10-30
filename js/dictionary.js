@@ -228,7 +228,7 @@ window.BornotoronDictionary = Object.freeze({
     water: 'ওয়াটার', food: 'ফুড', book: 'বুক', pen: 'পেন',
     car: 'কার', bus: 'বাস', home: 'হোম', house: 'হাউস', room: 'রুম',
     door: 'ডোর', window: 'উইন্ডো', road: 'রোড', shop: 'শপ', market: 'মার্কেট',
-    money: 'মানি', school: 'স্কুল', office: 'অফিস',
+    money: 'মানি', school: 'স্কুল', office: 'অফিস', 
     // Prepositions & Conjunctions
     in: 'ইন', on: 'অন', at: 'অ্যাট', by: 'বাই', with: 'উইথ', about: 'অ্যাবাউট',
     between: 'বিটুইন', into: 'ইনটু', through: 'থ্রু', before: 'বিফোর',
@@ -539,7 +539,7 @@ window.BornotoronDictionary = Object.freeze({
     phonetic: 'ফোনেটিক', unicode: 'ইউনিকোড', keyboard: 'কীবোর্ড',
     key: 'কী', layout: 'লেআউট', input: 'ইনপুট', output: 'আউটপুট',
     // Text & Script Terms
-    text: 'টেক্সট', word: 'ওয়ার্ড', letter: 'লেটার', letters: 'লেটার্স',
+    text: 'টেক্সট', word: 'ওয়ার্ড', words: 'ওয়ার্ডস', letter: 'লেটার', letters: 'লেটার্স',
     character: 'ক্যারেক্টার', sentence: 'সেন্টেন্স', paragraph: 'প্যারাগ্রাফ',
     narrative: 'ন্যারেটিভ', line: 'লাইন', script: 'স্ক্রিপ্ট', font: 'ফন্ট',
     alphabet: 'আলফাবেট', vowel: 'ভাওয়েল', consonant: 'কনসোনেন্ট',
