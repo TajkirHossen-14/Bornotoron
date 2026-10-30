@@ -1109,8 +1109,9 @@ window.BornotoronDictionary = Object.freeze({
     database: 'ডাটাবেস', schema: 'স্কিমা', field: 'ফিল্ড',
     join: 'জয়েন', primarykey: 'প্রাইমারি কি', foreignkey: 'ফরেন কি',
     // Tools, Git & Workflow
-    git: 'গিট', github: 'গিটহাব', gitlab: 'গিটল্যাব',
-    vscode: 'ভিএস কোড', command: 'কমান্ড', console: 'কনসোল',
+    vscode: 'ভিএস কোড', qoder: 'কোডার', 
+    git: 'গিট', github: 'গিটহাব', gitlab: 'গিটল্যাব', 
+    command: 'কমান্ড', console: 'কনসোল',
     npm: 'এনপিএম', docker: 'ডকার', ubuntu: 'উবুন্টু',
     postman: 'পোস্টম্যান', figma: 'ফিগমা', jira: 'জিরা', commit: 'কমিট',
     push: 'পুশ', pull: 'পুল', merge: 'মার্জ', clone: 'ক্লোন',
