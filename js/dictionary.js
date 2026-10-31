@@ -165,7 +165,7 @@ window.BornotoronDictionary = Object.freeze({
     boshe: 'বসে', boshechi: 'বসেছি', boshecho: 'বসেছ',
     porechi: 'পড়েছি', porecho: 'পড়েছ', porashona: 'পড়াশোনা',
     porashonar: 'পড়াশোনার', poralekha: 'পড়ালেখা',
-    purono: 'পুরোনো', notunotto: 'নতুনত্ব',
+    purono: 'পুরোনো', notunotto: 'নতুনত্ব', bonton: 'বণ্টন',
     proyojon: 'প্রয়োজন', proyojone: 'প্রয়োজনে', proyojoniyo: 'প্রয়োজনীয়',
     obostha: 'অবস্থা', poristhiti: 'পরিস্থিতি', subidha: 'সুবিধা',
     oshubidha: 'অসুবিধা', osubidha: 'অসুবিধা', shomossha: 'সমস্যা', somossa: 'সমস্যা',
@@ -220,7 +220,7 @@ window.BornotoronDictionary = Object.freeze({
     important: 'ইম্পর্টেন্ট', direct: 'ডাইরেক্ট', extra: 'এক্সট্রা',
     final: 'ফাইনাল', total: 'টোটাল', perfect: 'পারফেক্ট', real: 'রিয়েল', pro: 'প্রো', 
     fake: 'ফেক', proper: 'প্রোপার', ideal: 'আইডিয়াল', reason: 'রিজন', reasonable: 'রিজনেবল',  
-    round: 'রাউন্ড', build: 'বিল্ড', battle: 'ব্যাটল', enter: 'এন্টার', 
+    round: 'রাউন্ড', build: 'বিল্ড', battle: 'ব্যাটল', enter: 'এন্টার',  
     // People & Relations
     man: 'ম্যান', woman: 'ওম্যান', boy: 'বয়', girl: 'গার্ল', child: 'চাইল্ড',
     friend: 'ফ্রেন্ড', family: 'ফ্যামিলি', father: 'ফাদার', mother: 'মাদার',
