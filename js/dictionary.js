@@ -291,7 +291,6 @@ window.BornotoronDictionary = Object.freeze({
     train: 'ট্রেন', ticket: 'টিকিট', station: 'স্টেশন',
     airport: 'এয়ারপোর্ট', airporte: 'এয়ারপোর্টে', driver: 'ড্রাইভার',
     bike: 'বাইক', cycle: 'সাইকেল', traffic: 'ট্রাফিক',
-    location: 'লোকেশন', map: 'ম্যাপ',
     minibus: 'মিনিবাস', microbus: 'মাইক্রোবাস', coach: 'কোচ',
     truck: 'ট্রাক', lorry: 'লরি', pickup: 'পিকআপ', van: 'ভ্যান',
     taxi: 'ট্যাক্সি', cng: 'সিএনজি', tempo: 'টেম্পো',
@@ -302,7 +301,7 @@ window.BornotoronDictionary = Object.freeze({
     flight: 'ফ্লাইট', plane: 'প্লেন', helicopter: 'হেলিকপ্টার',
     counter: 'কাউন্টার', seat: 'সিট', seatbelt: 'সিট বেল্ট',
     reserve: 'রিজার্ভ', local: 'লোকাল', express: 'এক্সপ্রেস',
-    nonstop: 'নন-স্টপ', sleeper: 'স্লিপার', route: 'রুট',
+    nonstop: 'নন-স্টপ', sleeper: 'স্লিপার', 
     conductor: 'কন্ডাক্টর', helper: 'হেলপার', mechanic: 'মেকানিক',
     licence: 'লাইসেন্স', license: 'লাইসেন্স', drivinglicence: 'ড্রাইভিং লাইসেন্স',
     numberplate: 'নাম্বার প্লেট', helmet: 'হেলমেট', highway: 'হাইওয়ে',
@@ -342,7 +341,7 @@ window.BornotoronDictionary = Object.freeze({
     exercise: 'এক্সারসাইজ', gym: 'জিম', weight: 'ওয়েট',
     // Food & Dining
     restaurant: 'রেস্টুরেন্ট', bill: 'বিল', menu: 'মেন্যু', order: 'অর্ডার',
-    tea: 'টি', icecream: 'আইসক্রিম', pizza: 'পিৎজা', pizza: 'পিজ্জা', burger: 'বার্গার', juice: 'জুস',
+    tea: 'টি', icecream: 'আইসক্রিম', pizza: 'পিৎজা', burger: 'বার্গার', juice: 'জুস',
     biscuit: 'বিস্কুট', cake: 'কেক', pastry: 'পেস্ট্রি', bread: 'ব্রেড',
     toast: 'টোস্ট', bun: 'বান', sandwich: 'স্যান্ডউইচ',
     friedchicken: 'ফ্রাইড চিকেন', chicken: 'চিকেন', beef: 'বিফ',
@@ -528,8 +527,8 @@ window.BornotoronDictionary = Object.freeze({
     connect: 'কানেক্ট', disconnect: 'ডিসকানেক্ট', play: 'প্লে',
     pause: 'পজ', record: 'রেকর্ড',
     // Language Names
-    language: 'ল্যাঙ্গুয়েজ', bangla: 'বাংলা', 
-    english: 'ইংলিশ', banglish: 'বাংলিশ', arabic: 'অ্যারাবিক',
+    language: 'ল্যাঙ্গুয়েজ',  
+    english: 'ইংলিশ', arabic: 'অ্যারাবিক',
     hindi: 'হিন্দি', urdu: 'উর্দু', french: 'ফ্রেঞ্চ', spanish: 'স্প্যানিশ',
     german: 'জার্মান',
     // Typing & Conversion
@@ -649,8 +648,7 @@ window.BornotoronDictionary = Object.freeze({
     microsoft: 'মাইক্রোসফট', windows: 'উইন্ডোজ', android: 'অ্যান্ড্রয়েড',
     ios: 'আইওএস', apple: 'অ্যাপল', linux: 'লিনাক্স', mac: 'ম্যাক', macos: 'ম্যাকওএস',
     // Cloud, AI & Digital Services
-    chatgpt: 'চ্যাটজিপিটি', gmail: 'জিমেইল',
-    drive: 'ড্রাইভ', maps: 'ম্যাপস', playstore: 'প্লে স্টোর',
+    gmail: 'জিমেইল', drive: 'ড্রাইভ', maps: 'ম্যাপস', playstore: 'প্লে স্টোর',
     appstore: 'অ্যাপ স্টোর', zoom: 'জুম', teams: 'টিমস',
     netflix: 'নেটফ্লিক্স', spotify: 'স্পটিফাই',
     // Team & Members
@@ -684,9 +682,8 @@ window.BornotoronDictionary = Object.freeze({
     bulb: 'বাল্ব', tubelight: 'টিউবলাইট', led: 'এলইডি', wire: 'ওয়্যার',
     current: 'কারেন্ট', loadshedding: 'লোডশেডিং', voltage: 'ভোল্টেজ',
     stabilizer: 'স্টেবিলাইজার', ips: 'আইপিএস', ups: 'ইউপিএস',
-    generator: 'জেনারেটর', electricmeter: 'ইলেকট্রিক মিটার',
-    freezer: 'ফ্রিজার', remote: 'রিমোট', cooker: 'কুকার',
-    ricecooker: 'রাইস কুকার', oven: 'ওভেন', microwave: 'মাইক্রোওয়েভ',
+    electricmeter: 'ইলেকট্রিক মিটার', freezer: 'ফ্রিজার', remote: 'রিমোট', 
+    cooker: 'কুকার', ricecooker: 'রাইস কুকার', oven: 'ওভেন', microwave: 'মাইক্রোওয়েভ',
     blender: 'ব্লেন্ডার', iron: 'আয়রন', heater: 'হিটার', geyser: 'গিজার',
     motor: 'মোটর', pump: 'পাম্প', shower: 'শাওয়ার', commode: 'কমোড',
     basin: 'বেসিন', washroom: 'ওয়াশরুম', bathroom: 'বাথরুম',
@@ -718,7 +715,7 @@ window.BornotoronDictionary = Object.freeze({
     nailpolish: 'নেইল পলিশ', foundation: 'ফাউন্ডেশন', facewash: 'ফেসওয়াশ',
     lotion: 'লোশন', powder: 'পাউডার', perfume: 'পারফিউম',
     deodorant: 'ডিওডোরেন্ট', bodyspray: 'বডি স্প্রে', parlour: 'পার্লার', parlor: 'পার্লার',
-    salon: 'সেলুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
+    salon: 'স্যালুন', haircut: 'হেয়ারকাট', hairstyle: 'হেয়ার স্টাইল',
     trimmer: 'ট্রিমার', razor: 'রেজার', blade: 'ব্লেড', gel: 'জেল',
     comb: 'কম্ব',
     // Telecom
@@ -767,7 +764,7 @@ window.BornotoronDictionary = Object.freeze({
     microphone: 'মাইক্রোফোন', blockade: 'ব্লকেড', strike: 'স্ট্রাইক', striker: 'স্ট্রাইকার', 
     protest: 'প্রটেস্ট', curfew: 'কার্ফিউ', corruption: 'করাপশন',
     quota: 'কোটা', reform: 'রিফর্ম', constitution: 'কনস্টিটিউশন',
-    law: "ল'", policy: 'পলিসি', out: 'আউট', ground: 'গ্রাউন্ড', tiger: 'টাইগার',
+    law: 'ল', policy: 'পলিসি', out: 'আউট', ground: 'গ্রাউন্ড', tiger: 'টাইগার',
     // Sports
     cricket: 'ক্রিকেট', football: 'ফুটবল', badminton: 'ব্যাডমিন্টন',
     tennis: 'টেনিস', volleyball: 'ভলিবল', basketball: 'বাস্কেটবল',
@@ -1049,7 +1046,7 @@ window.BornotoronDictionary = Object.freeze({
     gaibandhasadar: 'গাইবান্ধা সদর', gobindaganj: 'গোবিন্দগঞ্জ', palashbari: 'পলাশবাড়ী', saghata: 'সাঘাটা', sundarganj: 'সুন্দরগঞ্জ', 
     bhurungamari: 'ভূরুঙ্গামারী', charrajibpur: 'চর রাজিবপুর', chilmari: 'চিলমারী', kurigramsadar: 'কুড়িগ্রাম সদর', nageshwari: 'নাগেশ্বরী', 
     phulbari: 'ফুলবাড়ী', rajarhat: 'রাজারহাট', raomari: 'রৌমারী', aditmari: 'আদিতমারী', hatibandha: 'হাতীবান্ধা', 
-    lalmonirhatsadar: 'লালমনিরহাট সদর', patgram: 'পাটগ্রাম', dimla: 'ডিমলা', domar: 'ডোমার', jaldhaka: 'জলঢাকা', kishoreganj: 'কিশোরগঞ্জ', 
+    lalmonirhatsadar: 'লালমনিরহাট সদর', patgram: 'পাটগ্রাম', dimla: 'ডিমলা', domar: 'ডোমার', jaldhaka: 'জলঢাকা',  
     nilphamarisaadar: 'নীলফামারী সদর', saidpur: 'সৈয়দপুর', atwari: 'আটওয়ারী', boda: 'বোদা', debiganj: 'দেবীগঞ্জ', 
     panchagarhsadar: 'পঞ্চগড় সদর', tetulia: 'তেঁতুলিয়া', baliadangi: 'বালিয়াডাঙ্গী', haripur: 'হরিপুর', ranisankail: 'রাণীশংকৈল', 
     thakurgaonsadar: 'ঠাকুরগাঁও সদর', dhobaura: 'ধোবাউড়া', fulbaria: 'ফুলবাড়ীয়া', gafargaon: 'গফরগাঁও', gauripur: 'গৌরীপুর', 
@@ -1128,7 +1125,7 @@ window.BornotoronDictionary = Object.freeze({
     // AI, Data & Emerging Tech
     machinelearning: 'মেশিন লার্নিং', deeplearning: 'ডিপ লার্নিং', intelligence: 'ইন্টেলিজেন্স', 
     neuralnetwork: 'নিউরাল নেটওয়ার্ক', dataset: 'ডাটাসেট', model: 'মডেল',
-    prediction: 'প্রেডিকশন', chatbot: 'চ্যাটবট', claude: 'ক্লড',
+    prediction: 'প্রেডিকশন', chatbot: 'চ্যাটবট', chatgpt: 'চ্যাটজিপিটি', claude: 'ক্লড', qwen: 'কোয়েন', 
     antigravity: 'অ্যান্টিগ্র্যাভিটি',
     prompt: 'প্রম্পট', datascience: 'ডাটা সায়েন্স', bigdata: 'বিগ ডাটা',
     blockchain: 'ব্লকচেইন', crypto: 'ক্রিপ্টো', bitcoin: 'বিটকয়েন',
@@ -1150,7 +1147,7 @@ window.BornotoronDictionary = Object.freeze({
     daffodil: 'ড্যাফোডিল', poppy: 'পপি', violet: 'ভায়োলেট', aster: 'অ্যাস্টার',
     cosmos: 'কসমস', iris: 'আইরিস',
     // Continents
-    continent: 'কন্টিনেন্ট', continent: 'কন্টিনেন্টস', asia: 'এশিয়া', africa: 'আফ্রিকা', europe: 'ইউরোপ', northamerica: 'নর্থ আমেরিকা',
+    continent: 'কন্টিনেন্ট', continents: 'কন্টিনেন্টস', asia: 'এশিয়া', africa: 'আফ্রিকা', europe: 'ইউরোপ', northamerica: 'নর্থ আমেরিকা',
     southamerica: 'সাউথ আমেরিকা', australia: 'অস্ট্রেলিয়া', oceania: 'ওশেনিয়া', antarctica: 'অ্যান্টার্কটিকা',
     // Countries & Territories
     country: 'কান্ট্রি', countries: 'কান্ট্রিজ', territory: 'টেরিটরি', territories: 'টেরিটরিজ',
@@ -1222,7 +1219,7 @@ window.BornotoronDictionary = Object.freeze({
     won: 'ওন', denar: 'দেনার', kina: 'কিনা', guarani: 'গুয়ারানি',
     sol: 'সোল', zloty: 'জ্লোটি', dobra: 'ডোব্রা', leone: 'লিওন',
     baht: 'বাত', paanga: 'পাআঙ্গা', lira: 'লিরা', hryvnia: 'হরিভনিয়া',
-    balboa: 'বালবোয়া', som: 'সোম', vatu: 'ভাতু', bolivar: 'বলিভার', dong: 'দোং',
+    balboa: 'বালবোয়া', vatu: 'ভাতু', bolivar: 'বলিভার', dong: 'দোং',
     // Nature & Environment
     algae: 'অ্যালগি', amphibian: 'অ্যামফিবিয়ান', animal: 'অ্যানিমেল',
     archipelago: 'আর্কিপেলাগো', atmosphere: 'অ্যাটমোস্ফিয়ার', aurora: 'অরোরা',
@@ -1231,7 +1228,7 @@ window.BornotoronDictionary = Object.freeze({
     boulder: 'বোল্ডার', branch: 'ব্রাঞ্চ', twig: 'টুইগ',
     butterfly: 'বাটারফ্লাই', canyon: 'ক্যানিয়ন', carnivore: 'কার্নিভোর',
     cave: 'কেইভ', cavern: 'ক্যাভার্ন', cliff: 'ক্লিফ', climate: 'ক্লাইমেট',
-    cloud: 'ক্লাউড', coast: 'কোস্ট', shore: 'শোর',
+    coast: 'কোস্ট', shore: 'শোর',
     conservation: 'কনজারভেশন', coral: 'কোরাল', crater: 'ক্রেটার',
     creek: 'ক্রিক', cyclone: 'সাইক্লোন', hurricane: 'হারিকেন',
     deforestation: 'ডিফরেস্টেশন', desert: 'ডেজার্ট', dew: 'ডিউ',
