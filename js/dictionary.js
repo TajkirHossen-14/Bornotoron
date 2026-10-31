@@ -227,7 +227,7 @@ window.BornotoronDictionary = Object.freeze({
     brother: 'ব্রাদার', sister: 'সিস্টার',
     // Objects & Places
     water: 'ওয়াটার', food: 'ফুড', book: 'বুক', pen: 'পেন',
-    car: 'কার', bus: 'বাস', home: 'হোম', house: 'হাউস', room: 'রুম',
+    car: 'কার', bus: 'বাস', home: 'হোম', room: 'রুম',
     door: 'ডোর', window: 'উইন্ডো', road: 'রোড', shop: 'শপ', market: 'মার্কেট',
     money: 'মানি', school: 'স্কুল', office: 'অফিস', 
     // Prepositions & Conjunctions
@@ -1305,7 +1305,8 @@ window.BornotoronDictionary = Object.freeze({
     the: ['দ্য', 'দি', 'থে'],
     angilock: ['এঞ্জিলক', 'অ্যাঞ্জিলক'],
     audio: ['অডিও', 'অডিয়ো'],
-    video: ['ভিডিও', 'ভিডিয়ো']
+    video: ['ভিডিও', 'ভিডিয়ো'],
+    house: ['হাউজ', 'হাউস']
   }),
   doNotOverride: Object.freeze({
     kor: 'কর', mon: 'মন', bosen: 'বসেন', hobe: 'হবে', kotha: 'কথা',
