@@ -16,7 +16,7 @@ Banglish-এ লিখুন, মুহূর্তেই দেখুন বা
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
 
-**4100+ spelling entries. Zero frameworks. Your words stay yours.**
+**4000+ spelling entries. Zero frameworks. Your words stay yours.**
 
 </div>
 
@@ -82,8 +82,8 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 ### ✍🏼 Write naturally
 
 - ⚡ **Live conversion** – Updates as you type, with no submit button.
-- 📚 **4100+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 3900+ differ from the raw phonetic fallback.
-- 🔀 **26 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
+- 📚 **4000+ spelling entries** – Frequent words, inflections, and common Banglish aliases; around 3700+ differ from the raw phonetic fallback.
+- 🔀 **27 ambiguity groups** – Including `bon → বন / বোন`, `bhor → ভর / ভোর` and so on.
 - 🧾 **13 abbreviations** – `Dr.` → ড. / ডা., `Md.` → মো., `Engr.` → ইঞ্জি.; a known `X.` keeps its stop instead of turning into দাঁড়ি (।).
 - ✒️ **Smart punctuation & দাঁড়ি** – Sentence-ending periods (`.`) convert to দাঁড়ি (`।`), while decimals (`123.45`) and abbreviations preserve periods.
 - 🧠 **Learned corrections** – Click an output word, edit its Bangla spelling, and choose whether to remember it.
@@ -148,7 +148,7 @@ The active theme is read **before first paint**, defaults to `prefers-color-sche
 
 Dark-mode cards, dialogs, hover fills, and button backgrounds use **GitHub-inspired near-black and slate**, not green-tinted surfaces. The green remains in typography, icons, and small interaction indicators.
 
-The editor arrow occupies its own grid column on desktop and its own row on mobile, with clearance on both sides. It remains separated from the cards even after resizing the input. The default example is **“Ami banglay likhchi” → “আমি বাংলায় লিখছি”**, under **“মনের কথা, বাংলার অক্ষরে”**. Existing user drafts are preserved; the new default appears when no saved draft exists.
+The editor arrow occupies its own grid column on desktop and its own row on mobile, with clearance on both sides. It remains separated from the cards even after resizing the input. The default example is **“Ami banglay likhchi” → “আমি বাংলায় লিখছি”**, under **“মনের কথা, বাংলা অক্ষরে”**. Existing user drafts are preserved; the new default appears when no saved draft exists.
 
 ### Brand files
 
@@ -294,7 +294,7 @@ engine.setPersonal({ bon: 'বোন' }); // Replace preferences and clear cache
 
 | Input | Bangla / behavior |
 |---|---|
-| `o`, `O` | অ, ও |
+| `o`, `O`, `w` | অ, ও |
 | `ko`, `kO` | ক, কো |
 | `a / aa`, `i`, `I / ee`, `u`, `U` | আ, ই, ঈ, উ, ঊ; kar after consonants |
 | `e`, `oi`, `ou`, `rri` | এ, ঐ, ঔ, ঋ |
