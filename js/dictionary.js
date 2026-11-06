@@ -516,7 +516,7 @@ window.BornotoronDictionary = Object.freeze({
     backup: 'ব্যাকআপ', restore: 'রিস্টোর', format: 'ফরম্যাট',
     scan: 'স্ক্যান', import: 'ইম্পোর্ট', export: 'এক্সপোর্ট',
     // System & Power Actions
-    power: 'পাওয়ার', refresh: 'রিফ্রেশ', restart: 'রিস্টার্ট', reset: 'রিসেট',
+    power: 'পাওয়ার', refresh: 'রিফ্রেশ', reload: 'রিলোড', restart: 'রিস্টার্ট', reset: 'রিসেট',
     reboot: 'রিবুট', lock: 'লক', unlock: 'আনলক',
     poweroff: 'পাওয়ার অফ', turnon: 'টার্ন অন', turnoff: 'টার্ন অফ',
     // Options & Confirmations
