@@ -260,7 +260,7 @@ window.BornotoronDictionary = Object.freeze({
     router: 'রাউটার', hotspot: 'হটস্পট', ping: 'পিং', lag: 'ল্যাগ',
     hang: 'হ্যাং', bug: 'বাগ', hacker: 'হ্যাকার', hack: 'হ্যাক',
     virus: 'ভাইরাস', antivirus: 'অ্যান্টিভাইরাস', cloud: 'ক্লাউড',
-    setting: 'সেটিং', photocopy: 'ফটোকপি', fingerprint: 'ফিঙ্গারপ্রিন্ট',
+    setting: 'সেটিং', settings: 'সেটিংস', photocopy: 'ফটোকপি', fingerprint: 'ফিঙ্গারপ্রিন্ট',
     wallpaper: 'ওয়ালপেপার', ringtone: 'রিংটোন', silent: 'সাইলেন্ট',
     gaming: 'গেমিং', freelancing: 'ফ্রিল্যান্সিং',
     // Office, Education & Career
