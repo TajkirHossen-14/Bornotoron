@@ -1141,7 +1141,7 @@ window.BornotoronDictionary = Object.freeze({
     blockchain: 'ব্লকচেইন', crypto: 'ক্রিপ্টো', bitcoin: 'বিটকয়েন',
     iot: 'আইওটি', vr: 'ভিআর',
     transformer: 'ট্রান্সফর্মার', attention: 'অ্যাটেনশন', selfattention: 'সেলফ-অ্যাটেনশন',
-    encoder: 'এনকোডার', decoder: 'ডিকোডার', embedding: 'এমবেডিং',
+    encoder: 'এনকোডার', decoder: 'ডিকোডার', embedded: 'এমবেডেড', embedding: 'এমবেডিং',
     tokenizer: 'টোকেনাইজার', finetuning: 'ফাইন-টিউনিং', inference: 'ইনফারেন্স',
     contextwindow: 'কনটেক্সট উইন্ডো', hallucination: 'হ্যালুসিনেশন', 
     llm: 'এলএলএম', gpt: 'জিপিটি', bert: 'বার্ট', cnn: 'সিএনএন', rnn: 'আরএনএন',
