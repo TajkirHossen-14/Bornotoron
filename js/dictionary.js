@@ -1386,7 +1386,7 @@ window.BornotoronDictionary = Object.freeze({
     seed: 'সিড', shrub: 'শ্রাব', bush: 'বুশ', sky: 'স্কাই', snow: 'স্নো',
     soil: 'সয়েল', earth: 'আর্থ', solarflare: 'সোলার ফ্লেয়ার',
     species: 'স্পেসিস', spring: 'স্প্রিং', sprout: 'স্প্রাউট', bud: 'বাড',
-    storm: 'ঝড়', tempest: 'টেম্পেস্ট', strait: 'স্ট্রেইট',
+    storm: 'স্টর্ম', tempest: 'টেম্পেস্ট', strait: 'স্ট্রেইট',
     stream: 'স্ট্রিম', brook: 'ব্রুক', sunlight: 'সানলাইট', sunshine: 'সানশাইন',
     sunrise: 'সানরাইজ', dawn: 'ডন', sunset: 'সানসেট', dusk: 'ডাস্ক',
     sustainability: 'সাসটেইনেবিলিটি', temperature: 'টেম্পারেচার',
@@ -1397,6 +1397,18 @@ window.BornotoronDictionary = Object.freeze({
     wave: 'ওয়েভ', wetland: 'ওয়েটল্যান্ড', swamp: 'সোয়াম্প', marsh: 'মার্শ',
     wildfire: 'ওয়াইল্ডফায়ার', bushfire: 'বুশফায়ার', wildlife: 'ওয়াইল্ডলাইফ',
     wind: 'উইন্ড', breeze: 'ব্রিজ',
+    // Weather & Season
+    season: 'সিজন', summer: 'সামার', winter: 'উইন্টার', spring: 'স্প্রিং',
+    autumn: 'অটাম', fall: 'ফল', monsoon: 'মনসুন',
+    rainyseason: 'রেইনি সিজন', dryseason: 'ড্রাই সিজন',
+    rain: 'রেইন', rainy: 'রেইনি', drizzle: 'ড্রিজল', shower: 'শাওয়ার',
+    thunder: 'থান্ডার', thunderstorm: 'থান্ডারস্টর্ম', lightning: 'লাইটনিং',
+    storm: 'স্টর্ম', hurricane: 'হারিকেন', typhoon: 'টাইফুন', tornado: 'টর্নেডো',
+    cloud: 'ক্লাউড', cloudy: 'ক্লাউডি', sunny: 'সানি', windy: 'উইন্ডি', breeze: 'ব্রিজ',
+    fog: 'ফগ', mist: 'মিস্ট', humid: 'হিউমিড', humidity: 'হিউমিডিটি',
+    heatwave: 'হিটওয়েভ', coldwave: 'কোল্ড ওয়েভ', drought: 'ড্রট',
+    snow: 'স্নো', hail: 'হেইল', rainbow: 'রেইনবো', landslide: 'ল্যান্ডস্লাইড',
+    sunrise: 'সানরাইজ', sunset: 'সানসেট', tide: 'টাইড', dry: 'ড্রাই',
     // Colours
     // White, Gray & Black
     white: 'হোয়াইট', snow: 'স্নো', ivory: 'আইভরি',
