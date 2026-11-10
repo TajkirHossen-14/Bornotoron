@@ -60,11 +60,20 @@
         } else {
           // y is য-ফলা after a consonant, and য় elsewhere.
           if (pattern === 'y' && consonantPending) letter = 'য';
-          // Only add hasant if prev consonant + current form a known conjunct pattern
+          const repha = pattern === 'r' && consonantPending;
+          const isRR = pattern === 'rr';
           const addHasant = consonantPending && conjunctPatterns.has(prevConsonantPattern + pattern);
-          output += (addHasant ? '্' : '') + letter;
-          consonantPending = letter !== 'ও';
-          prevConsonantPattern = pattern;
+          if (isRR) {
+            // রেফ/রহসন্ত: র + হসন্ত
+            output += 'র';
+            output += '্';
+            consonantPending = false;
+            prevConsonantPattern = '';
+          } else {
+            output += ((repha || addHasant) ? '্' : '') + letter;
+            consonantPending = letter !== 'ও';
+            prevConsonantPattern = pattern;
+          }
         }
       } else {
         output += rules.symbols[pattern];
