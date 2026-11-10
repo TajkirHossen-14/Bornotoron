@@ -1396,7 +1396,7 @@ window.BornotoronDictionary = Object.freeze({
     wave: 'ওয়েভ', wetland: 'ওয়েটল্যান্ড', swamp: 'সোয়াম্প', marsh: 'মার্শ',
     wildfire: 'ওয়াইল্ডফায়ার', bushfire: 'বুশফায়ার', wildlife: 'ওয়াইল্ডলাইফ',
     wind: 'উইন্ড', 
-    // Weather & Season
+    // Season & Weather
     season: 'সিজন', summer: 'সামার', winter: 'উইন্টার', spring: 'স্প্রিং',
     autumn: 'অটাম', fall: 'ফল', monsoon: 'মনসুন',
     rainyseason: 'রেইনি সিজন', dryseason: 'ড্রাই সিজন',
