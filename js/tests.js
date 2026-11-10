@@ -41,6 +41,7 @@
     'ka ki kI ku kU ke koi kou krri': 'কা কি কী কু কূ কে কই কৌ কৃ',
     'kkh kSh gg ng Ng H ^': 'ক্ষ ক্ষ জ্ঞ ং ঙ ঃ ঁ',
     'nd tr kr ky': 'ন্দ ত্র ক্র ক্য', 't`': 'ৎ',
+    'tri pri sri': 'ত্রি প্রি শ্রি',
     'ami,\n\ttomake! 123 বাংলা 💚': 'আমি,\n\tতোমাকে! ১২৩ বাংলা 💚',
     '0123456789': '০১২৩৪৫৬৭৮৯', 'ami  123.45': 'আমি  ১২৩.৪৫',
     'ami.': 'আমি।', 'ami. tumi': 'আমি। তুমি', 'kori.kori': 'করি।করি',
@@ -53,13 +54,21 @@
     'rajniti': 'রাজনীতি', 'dhakna': 'ঢাকনা', 'kolkata': 'কলকাতা',
     'daktar': 'ডাক্তার', 'Daktar': 'ডাক্তার',
     // Verb suffixes sit on a syllable boundary, not a conjunct.
-    'korbo': 'করবো', 'korbe': 'কरবে', 'korte': 'করতে', 'korlam': 'করলাম',
+    'korbo': 'করবো', 'korbe': 'করবে', 'korte': 'করতে', 'korlam': 'করলাম',
     'korchi': 'করছি', 'korchen': 'করছেন', 'porte': 'পড়তে', 'parbe': 'পারবে',
     'bolte': 'বলতে', 'likhte': 'লিখতে', 'dekhte': 'দেখতে', 'thakte': 'থাকতে',
     'shunte': 'শুনতে', 'jante': 'জানতে', 'bujhte': 'বুঝতে', 'nambe': 'নামবে',
     // Vowels and ফ are covered by the rows above; these lock the hyphen join.
     'tumi-o': 'তুমিও', 'ami-o': 'আমিও',
-    '': '', 'বাংলা — 💚': 'বাংলা — 💚'
+    '': '', 'বাংলা — 💚': 'বাংলা — 💚',
+    // Literary & drama terms
+    literature: 'লিটারেচার', poetry: 'পোয়েট্রি', prose: 'প্রোজ', drama: 'ড্রামা',
+    novel: 'নভেল', novella: 'নভেলা', essay: 'এসে', biography: 'বায়োগ্রাফি',
+    thriller: 'থ্রিলার', mystery: 'মিস্ট্রি', horror: 'হরর',
+    fantasy: 'ফ্যান্টাসি', epic: 'এপিক', sonnet: 'সনেট', haiku: 'হাইকু',
+    comedy: 'কমেডি', tragedy: 'ট্র্যাজেডी', dialogue: 'ডায়ালগ',
+    genre: 'জনরা', character: 'ক্যারেক্টার', theme: 'থিম', metaphor: 'মেটাফর',
+    irony: 'আয়রনি', rhyme: 'রাইম', verse: 'ভার্স', classic: 'ক্ল্যাসিক',
   };
   Object.entries(cases).forEach(([key, value]) => check(`conversion ${key}`, text(key), value));
   check('numbers off', text('2026', false), '2026');
