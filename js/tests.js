@@ -61,14 +61,6 @@
     // Vowels and ফ are covered by the rows above; these lock the hyphen join.
     'tumi-o': 'তুমিও', 'ami-o': 'আমিও',
     '': '', 'বাংলা — 💚': 'বাংলা — 💚',
-    // Literary & drama terms
-    literature: 'লিটারেচার', poetry: 'পোয়েট্রি', prose: 'প্রোজ', drama: 'ড্রামা',
-    novel: 'নভেল', novella: 'নভেলা', essay: 'এসে', biography: 'বায়োগ্রাফি',
-    thriller: 'থ্রিলার', mystery: 'মিস্ট্রি', horror: 'হরর',
-    fantasy: 'ফ্যান্টাসি', epic: 'এপিক', sonnet: 'সনেট', haiku: 'হাইকু',
-    comedy: 'কমেডি', tragedy: 'ট্র্যাজেডी', dialogue: 'ডায়ালগ',
-    genre: 'জনরা', character: 'ক্যারেক্টার', theme: 'থিম', metaphor: 'মেটাফর',
-    irony: 'আয়রনি', rhyme: 'রাইম', verse: 'ভার্স', classic: 'ক্ল্যাসিক',
   };
   Object.entries(cases).forEach(([key, value]) => check(`conversion ${key}`, text(key), value));
   check('numbers off', text('2026', false), '2026');
