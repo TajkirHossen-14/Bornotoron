@@ -1536,6 +1536,13 @@ window.BornotoronDictionary = Object.freeze({
     allegory: 'অ্যালিগরি', rhyme: 'রাইম', rhythm: 'রিদম', stanza: 'স্ট্যাঞ্জা',
     verse: 'ভার্স', classic: 'ক্ল্যাসিক',
 
+    // Action & state terms
+    stop: 'স্টপ', halt: 'হল্ট', pause: 'পজ', freeze: 'ফ্রিজ', suspend: 'সাসপেন্ড',
+    terminate: 'টার্মিনেট', abort: 'অ্যাবোর্ট', quit: 'কুইট', end: 'এন্ড',
+    finish: 'ফিনিশ', complete: 'কমপ্লিট', cease: 'সিজ', block: 'ব্লক',
+    prevent: 'প্রিভেন্ট', interrupt: 'ইন্টারাপ্ট', break: 'ব্রেক', kill: 'কিল',
+    shutdown: 'শাটডাউন', wait: 'ওয়েট', standstill: 'স্ট্যান্ডস্টিল',
+
   }),
   homophones: Object.freeze({
     aste: ['আসতে', 'আস্তে'], 
