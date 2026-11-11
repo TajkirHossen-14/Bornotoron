@@ -1079,7 +1079,7 @@ window.BornotoronDictionary = Object.freeze({
     madan: 'মদন', mohanganj: 'মোহনগঞ্জ', netrokonasaadar: 'নেত্রকোণা সদর', purbadhala: 'পূর্বধলা', jhenaigati: 'ঝিনাইগাতী', nakla: 'নকলা', 
     nalitabari: 'নালিতাবাড়ী', sherpursadar: 'শেরপুর সদর', sreebardi: 'শ্রীবরদী',
     // Places: Dhaka areas and districts
-    mirpur: 'মিরপুর', mohammadpur: 'মোহাম্মদপুর', azimpur: 'আজিমপুর',
+    place: 'প্লেস', mirpur: 'মিরপুর', mohammadpur: 'মোহাম্মদপুর', azimpur: 'আজিমপুর',
     rampura: 'রামপুরা', tejgaon: 'তেজগাঁও', shahbag: 'শাহবাগ',
     gabtoli: 'গাবতলী', komlapur: 'কমলাপুর', lalbag: 'লালবাগ',
     khilgaon: 'খিলগাঁও', rajshahi: 'রাজশাহী', sherpur: 'শেরপুর',
