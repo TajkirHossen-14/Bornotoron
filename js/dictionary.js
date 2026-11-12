@@ -428,7 +428,7 @@ window.BornotoronDictionary = Object.freeze({
     anniversary: 'অ্যানিভার্সারি', wedding: 'ওয়েডিং', honeymoon: 'হানিমুন',
     photography: 'ফটোগ্রাফি', photographer: 'ফটোগ্রাফার', studio: 'স্টুডিও',
     // Medical & Pharmacy
-    tablet: 'ট্যাবলেট', syrup: 'সিরাপ', test: 'টেস্ট', mask: 'মাস্ক',
+    tablet: 'ট্যাবলেট', syrup: 'সিরাপ', test: 'টেস্ট', testing: 'টেস্টিং', mask: 'মাস্ক',
     injection: 'ইনজেকশন', dose: 'ডোজ', icu: 'আইসিইউ', oxygen: 'অক্সিজেন',
     ace: 'এইস', aceclofenac: 'অ্যাসিক্লোফেনাক', adovas: 'এডোভাস',
     alatrol: 'অ্যালাট্রল', albendazole: 'অ্যালবেন্ডাজল', alprazolam: 'অ্যালপ্রাজোলাম',
