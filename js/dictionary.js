@@ -225,7 +225,7 @@ window.BornotoronDictionary = Object.freeze({
     friend: 'ফ্রেন্ড', family: 'ফ্যামিলি', father: 'ফাদার', mother: 'মাদার',
     brother: 'ব্রাদার', sister: 'সিস্টার',
     // Objects & Places
-    water: 'ওয়াটার', food: 'ফুড', book: 'বুক', pen: 'পেন',
+    place: 'প্লেস', placement: 'প্লেসমেন্ট', placeholder: 'প্লেসহোল্ডার', water: 'ওয়াটার', food: 'ফুড', book: 'বুক', pen: 'পেন',
     car: 'কার', bus: 'বাস', home: 'হোম', room: 'রুম',
     door: 'ডোর', window: 'উইন্ডো', road: 'রোড', shop: 'শপ', market: 'মার্কেট',
     money: 'মানি', school: 'স্কুল', office: 'অফিস', 
@@ -1079,7 +1079,7 @@ window.BornotoronDictionary = Object.freeze({
     madan: 'মদন', mohanganj: 'মোহনগঞ্জ', netrokonasaadar: 'নেত্রকোণা সদর', purbadhala: 'পূর্বধলা', jhenaigati: 'ঝিনাইগাতী', nakla: 'নকলা', 
     nalitabari: 'নালিতাবাড়ী', sherpursadar: 'শেরপুর সদর', sreebardi: 'শ্রীবরদী',
     // Places: Dhaka areas and districts
-    place: 'প্লেস', mirpur: 'মিরপুর', mohammadpur: 'মোহাম্মদপুর', azimpur: 'আজিমপুর',
+    mirpur: 'মিরপুর', mohammadpur: 'মোহাম্মদপুর', azimpur: 'আজিমপুর',
     rampura: 'রামপুরা', tejgaon: 'তেজগাঁও', shahbag: 'শাহবাগ',
     gabtoli: 'গাবতলী', komlapur: 'কমলাপুর', lalbag: 'লালবাগ',
     khilgaon: 'খিলগাঁও', rajshahi: 'রাজশাহী', sherpur: 'শেরপুর',
