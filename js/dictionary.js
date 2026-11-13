@@ -328,7 +328,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): down(22), or(01), up(22)
 
     // ---------------------------------------------------------------------------
-    // 16. Common Verbs, Modals & Stop/End Words                              (84)
+    // 16. Common Verbs, Modals & Stop/End Words                              
     // ---------------------------------------------------------------------------
     abort: 'অ্যাবোর্ট', adjust: 'অ্যাডজাস্ট', affect: 'অ্যাফেক্ট', ask: 'আস্ক',
     automatic: 'অটোম্যাটিক', battle: 'ব্যাটল', be: 'বি', begin: 'বিগিন', believe: 'বিলিভ',
@@ -349,7 +349,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): intern(30), internship(30)
 
     // ---------------------------------------------------------------------------
-    // 17. Adjectives & Adverbs                                               (93)
+    // 17. Adjectives & Adverbs                                               
     // ---------------------------------------------------------------------------
     angry: 'অ্যাংরি', bad: 'ব্যাড', beautiful: 'বিউটিফুল', best: 'বেস্ট', big: 'বিগ',
     casual: 'ক্যাজুয়াল', chance: 'চান্স', cold: 'কোল্ড', confirmed: 'কনফার্মড', cool: 'কুল',
@@ -372,7 +372,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): first(21), right(22)
 
     // ---------------------------------------------------------------------------
-    // 18. Everyday Expressions & Greetings                                   (55)
+    // 18. Everyday Expressions & Greetings                                   
     // ---------------------------------------------------------------------------
     actually: 'অ্যাকচুয়ালি', age: 'এজ', anyway: 'এনিওয়ে', attitude: 'অ্যাটিটিউড',
     basically: 'বেসিক্যালি', bestofluck: 'বেস্ট অব লাক', busy: 'বিজি', byebye: 'বাই-বাই',
@@ -390,7 +390,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): can(16)
 
     // ---------------------------------------------------------------------------
-    // 19. Time, Days & Calendar                                              (39)
+    // 19. Time, Days & Calendar                                              
     // ---------------------------------------------------------------------------
     // -- Time words (29)
     afternoon: 'আফটারনুন', always: 'অলওয়েজ', am: 'এএম', calendar: 'ক্যালেন্ডার',
@@ -405,7 +405,7 @@ window.BornotoronDictionary = Object.freeze({
     brihoshpotibar: 'বৃহস্পতিবার', shukrobar: 'শুক্রবার',
 
     // ---------------------------------------------------------------------------
-    // 20. Numbers, Units & Measurements                                      (38)
+    // 20. Numbers, Units & Measurements                                      
     // ---------------------------------------------------------------------------
     // -- Numbers & maths (17)
     average: 'অ্যাভারেজ', billion: 'বিলিয়ন', double: 'ডাবল', half: 'হাফ', hundred: 'হান্ড্রেড',
@@ -420,7 +420,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): can(16), second(19)
 
     // ---------------------------------------------------------------------------
-    // 21. Ordinals & Sequence Words                                         (129)
+    // 21. Ordinals & Sequence Words                                         
     // ---------------------------------------------------------------------------
     // Ordinals are listed in natural order (first, second, third ...), not alphabetically.
     // -- Ordinals (107)
@@ -477,7 +477,7 @@ window.BornotoronDictionary = Object.freeze({
     //   second(19), single(20), triple(20)
 
     // ---------------------------------------------------------------------------
-    // 22. Directions & Positions                                             (46)
+    // 22. Directions & Positions                                             
     // ---------------------------------------------------------------------------
     // -- Compass (9)
     east: 'ইস্ট', west: 'ওয়েস্ট', north: 'নর্থ', south: 'সাউথ', northeast: 'নর্থইস্ট',
@@ -495,7 +495,7 @@ window.BornotoronDictionary = Object.freeze({
     placement: 'প্লেসমেন্ট', placeholder: 'প্লেসহোল্ডার',
 
     // ---------------------------------------------------------------------------
-    // 23. People, Family & Relationships                                     (48)
+    // 23. People, Family & Relationships                                     
     // ---------------------------------------------------------------------------
     aunty: 'আন্টি', baby: 'বেবি', bestfriend: 'বেস্ট ফ্রেন্ড', boy: 'বয়', boyfriend: 'বয়ফ্রেন্ড',
     breakup: 'ব্রেকআপ', bro: 'ব্রো', brother: 'ব্রাদার', celebrity: 'সেলিব্রিটি', child: 'চাইল্ড',
@@ -509,7 +509,7 @@ window.BornotoronDictionary = Object.freeze({
     vip: 'ভিআইপি', volunteer: 'ভলান্টিয়ার', woman: 'ওম্যান',
 
     // ---------------------------------------------------------------------------
-    // 24. Home, Household & Utilities                                        (83)
+    // 24. Home, Household & Utilities                                        
     // ---------------------------------------------------------------------------
     ac: 'এসি', balcony: 'ব্যালকনি', basin: 'বেসিন', basket: 'বাস্কেট', bathroom: 'বাথরুম',
     bed: 'বেড', bedroom: 'বেডরুম', bedsheet: 'বেডশিট', blanket: 'ব্লাঙ্কেট', blender: 'ব্লেন্ডার',
@@ -532,7 +532,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): iron(59)
 
     // ---------------------------------------------------------------------------
-    // 25. Fashion, Clothing & Beauty                                        (139)
+    // 25. Fashion, Clothing & Beauty                                        
     // ---------------------------------------------------------------------------
     // -- Shirts & Tops (20)
     casualshirt: 'ক্যাজুয়াল শার্ট', chambrayshirt: 'শ্যামব্রে শার্ট', croptop: 'ক্রপ টপ',
@@ -582,7 +582,7 @@ window.BornotoronDictionary = Object.freeze({
     powder: 'পাউডার', razor: 'রেজার', salon: 'স্যালুন', trimmer: 'ট্রিমার',
 
     // ---------------------------------------------------------------------------
-    // 26. Food, Drinks & Dining                                              (77)
+    // 26. Food, Drinks & Dining                                              
     // ---------------------------------------------------------------------------
     bbq: 'বারবিকিউ', beef: 'বিফ', bill: 'বিল', biscuit: 'বিস্কুট', bread: 'ব্রেড', buffet: 'বুফে',
     bun: 'বান', burger: 'বার্গার', butter: 'বাটার', cafe: 'ক্যাফে', cake: 'কেক', candy: 'ক্যান্ডি',
@@ -603,7 +603,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): order(32)
 
     // ---------------------------------------------------------------------------
-    // 27. Health, Medical & Fitness                                          (70)
+    // 27. Health, Medical & Fitness                                          
     // ---------------------------------------------------------------------------
     admit: 'অ্যাডমিট', allergy: 'অ্যালার্জি', ambulance: 'অ্যাম্বুলেন্স',
     antibiotic: 'অ্যান্টিবায়োটিক', bandage: 'ব্যান্ডেজ', bloodgroup: 'ব্লাড গ্রুপ',
@@ -625,7 +625,7 @@ window.BornotoronDictionary = Object.freeze({
     vaccine: 'ভ্যাকসিন', vitamin: 'ভিটামিন', ward: 'ওয়ার্ড', weight: 'ওয়েট', xray: 'এক্স-রে',
 
     // ---------------------------------------------------------------------------
-    // 28. Pharmacy: Medicines & Brands                                      (189)
+    // 28. Pharmacy: Medicines & Brands                                      
     // ---------------------------------------------------------------------------
     ace: 'এইস', aceclofenac: 'অ্যাসিক্লোফেনাক', adovas: 'এডোভাস', alatrol: 'অ্যালাট্রল',
     albendazole: 'অ্যালবেন্ডাজল', alprazolam: 'অ্যালপ্রাজোলাম', ambroxol: 'অ্যামব্রক্সল',
@@ -685,7 +685,7 @@ window.BornotoronDictionary = Object.freeze({
     //   zinc(59)
 
     // ---------------------------------------------------------------------------
-    // 29. Education, School & Campus                                        (109)
+    // 29. Education, School & Campus                                        
     // ---------------------------------------------------------------------------
     admission: 'এডমিশন', admitcard: 'অ্যাডমিট কার্ড', application: 'অ্যাপ্লিকেশন',
     apply: 'অ্যাপ্লাই', assembly: 'অ্যাসেম্বলি', assignment: 'অ্যাসাইনমেন্ট',
@@ -715,7 +715,7 @@ window.BornotoronDictionary = Object.freeze({
     workshop: 'ওয়ার্কশপ',
 
     // ---------------------------------------------------------------------------
-    // 30. Office, Work & Career                                              (76)
+    // 30. Office, Work & Career                                              
     // ---------------------------------------------------------------------------
     appointment: 'অ্যাপয়েন্টমেন্ট', assistant: 'অ্যাসিস্ট্যান্ট', bonus: 'বোনাস', boss: 'বস',
     brainstorming: 'ব্রেইনস্টর্মিং', branch: 'ব্রাঞ্চ', business: 'বিজনেস', captain: 'ক্যাপ্টেন',
@@ -739,7 +739,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): dollar(67), manage(16)
 
     // ---------------------------------------------------------------------------
-    // 31. Banking, Money & Finance                                           (32)
+    // 31. Banking, Money & Finance                                           
     // ---------------------------------------------------------------------------
     amount: 'অ্যামাউন্ট', balance: 'ব্যালেন্স', bank: 'ব্যাংক', budget: 'বাজেট', card: 'কার্ড',
     cash: 'ক্যাশ', cashin: 'ক্যাশ ইন', cashout: 'ক্যাশ আউট', cheque: 'চেক',
@@ -751,7 +751,7 @@ window.BornotoronDictionary = Object.freeze({
     vat: 'ভ্যাট', withdraw: 'উইথড্র',
 
     // ---------------------------------------------------------------------------
-    // 32. Shopping, Business & E-commerce                                    (52)
+    // 32. Shopping, Business & E-commerce                                    
     // ---------------------------------------------------------------------------
     agent: 'এজেন্ট', agreement: 'অ্যাগ্রিমেন্ট', bargain: 'বার্গেইন', booth: 'বুথ',
     brand: 'ব্র্যান্ড', cart: 'কার্ট', cashback: 'ক্যাশব্যাক', cashmemo: 'ক্যাশ মেমো',
@@ -769,7 +769,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): colour(65)
 
     // ---------------------------------------------------------------------------
-    // 33. Transport & Vehicles                                               (90)
+    // 33. Transport & Vehicles                                               
     // ---------------------------------------------------------------------------
     accident: 'অ্যাক্সিডেন্ট', airport: 'এয়ারপোর্ট', airporte: 'এয়ারপোর্টে', auto: 'অটো',
     bike: 'বাইক', brake: 'ব্রেক', bus: 'বাস', busstand: 'বাস স্ট্যান্ড', busstop: 'বাস স্টপ',
@@ -795,7 +795,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): meter(20)
 
     // ---------------------------------------------------------------------------
-    // 34. Travel, Tourism & Leisure                                          (25)
+    // 34. Travel, Tourism & Leisure                                          
     // ---------------------------------------------------------------------------
     beach: 'বিচ', booking: 'বুকিং', camping: 'ক্যাম্পিং', checkin: 'চেক-ইন', checkout: 'চেক-আউট',
     fun: 'ফান', guesthouse: 'গেস্ট হাউস', guide: 'গাইড', hilltracts: 'হিল ট্র্যাক্টস',
@@ -805,7 +805,7 @@ window.BornotoronDictionary = Object.freeze({
     vacation: 'ভ্যাকেশন', weekend: 'উইকেন্ড', zoo: 'জু',
 
     // ---------------------------------------------------------------------------
-    // 35. Entertainment, Music & Media                                       (37)
+    // 35. Entertainment, Music & Media                                       
     // ---------------------------------------------------------------------------
     action: 'অ্যাকশন', actor: 'অ্যাক্টর', actress: 'অ্যাক্ট্রেস', adventure: 'অ্যাডভেঞ্চার',
     animation: 'অ্যানিমেশন', anime: 'অ্যানিমে', band: 'ব্যান্ড', cartoon: 'কার্টুন',
@@ -818,7 +818,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): beach(34)
 
     // ---------------------------------------------------------------------------
-    // 36. Events & Celebrations                                              (13)
+    // 36. Events & Celebrations                                              
     // ---------------------------------------------------------------------------
     anniversary: 'অ্যানিভার্সারি', birthday: 'বার্থডে', celebration: 'সেলিব্রেশন', event: 'ইভেন্ট',
     festival: 'ফেস্টিভ্যাল', honeymoon: 'হানিমুন', party: 'পার্টি', photographer: 'ফটোগ্রাফার',
@@ -826,7 +826,7 @@ window.BornotoronDictionary = Object.freeze({
     wedding: 'ওয়েডিং',
 
     // ---------------------------------------------------------------------------
-    // 37. Sports & Games                                                     (52)
+    // 37. Sports & Games                                                     
     // ---------------------------------------------------------------------------
     badminton: 'ব্যাডমিন্টন', basketball: 'বাস্কেটবল', batsman: 'ব্যাটসম্যান',
     boundary: 'বাউন্ডারি', bowler: 'বোলার', carrom: 'ক্যারাম', catch: 'ক্যাচ',
@@ -845,7 +845,7 @@ window.BornotoronDictionary = Object.freeze({
     //   gold(59), silver(59)
 
     // ---------------------------------------------------------------------------
-    // 38. Government, Law & Politics                                         (64)
+    // 38. Government, Law & Politics                                         
     // ---------------------------------------------------------------------------
     advocate: 'অ্যাডভোকেট', affidavit: 'অ্যাফিডেভিট', ansar: 'আনসার', army: 'আর্মি',
     arrest: 'অ্যারেস্ট', attest: 'অ্যাটেস্ট', bail: 'বেইল', banner: 'ব্যানার', bgb: 'বিজিবি',
@@ -864,7 +864,7 @@ window.BornotoronDictionary = Object.freeze({
     vote: 'ভোট', warrant: 'ওয়ারেন্ট',
 
     // ---------------------------------------------------------------------------
-    // 39. Housing, Construction & Property                                   (44)
+    // 39. Housing, Construction & Property                                   
     // ---------------------------------------------------------------------------
     address: 'অ্যাড্রেস', advance: 'অ্যাডভান্স', apartment: 'অ্যাপার্টমেন্ট',
     architect: 'আর্কিটেক্ট', bachelor: 'ব্যাচেলর', basement: 'বেজমেন্ট', building: 'বিল্ডিং',
@@ -879,7 +879,7 @@ window.BornotoronDictionary = Object.freeze({
     tolet: 'টু-লেট',
 
     // ---------------------------------------------------------------------------
-    // 40. Literature & Writing                                               (59)
+    // 40. Literature & Writing                                               
     // ---------------------------------------------------------------------------
     allegory: 'অ্যালিগরি', antagonist: 'অ্যান্টাগনিস্ট', anthology: 'অ্যান্থোলজি',
     autobiography: 'অটোবায়োগ্রাফি', biography: 'বায়োগ্রাফি', classic: 'ক্ল্যাসিক', comic: 'কমিক',
@@ -905,7 +905,7 @@ window.BornotoronDictionary = Object.freeze({
     // ===========================================================================
 
     // ---------------------------------------------------------------------------
-    // 41. Devices, Hardware & Gadgets                                        (50)
+    // 41. Devices, Hardware & Gadgets                                        
     // ---------------------------------------------------------------------------
     battery: 'ব্যাটারি', cable: 'ক্যাবল', camera: 'ক্যামেরা', charge: 'চার্জ', charger: 'চার্জার',
     chargerer: 'চার্জারের', computer: 'কম্পিউটার', desktop: 'ডেস্কটপ', device: 'ডিভাইস',
@@ -921,7 +921,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): cloud(63)
 
     // ---------------------------------------------------------------------------
-    // 42. Social Media & Online                                              (46)
+    // 42. Social Media & Online                                              
     // ---------------------------------------------------------------------------
     account: 'অ্যাকাউন্ট', add: 'অ্যাড', app: 'অ্যাপ', comment: 'কমেন্ট', coverphoto: 'কভার ফটো',
     dp: 'ডিপি', emoji: 'ইমোজি', facebook: 'ফেসবুক', feedback: 'ফিডব্যাক', follow: 'ফলো',
@@ -935,7 +935,7 @@ window.BornotoronDictionary = Object.freeze({
     videocall: 'ভিডিও কল', viral: 'ভাইরাল', whatsapp: 'হোয়াটসঅ্যাপ', x: 'এক্স', youtube: 'ইউটিউব',
 
     // ---------------------------------------------------------------------------
-    // 43. Telecom & Mobile Services                                          (68)
+    // 43. Telecom & Mobile Services                                          
     // ---------------------------------------------------------------------------
     biometric: 'বায়োমেট্রিক', broadband: 'ব্রডব্যান্ড', cableline: 'ক্যাবল লাইন',
     calldrop: 'কল ড্রপ', callerid: 'কলার আইডি', callforwarding: 'কল ফরওয়ার্ডিং',
@@ -957,7 +957,7 @@ window.BornotoronDictionary = Object.freeze({
     tower: 'টাওয়ার', unreachable: 'আনরিচেবল', vibrate: 'ভাইব্রেট', voicemail: 'ভয়েসমেইল',
 
     // ---------------------------------------------------------------------------
-    // 44. Computer Actions & Controls                                       (101)
+    // 44. Computer Actions & Controls                                       
     // ---------------------------------------------------------------------------
     accept: 'অ্যাকসেপ্ট', allow: 'অ্যালাউ', backup: 'ব্যাকআপ', bookmark: 'বুকমার্ক',
     category: 'ক্যাটাগরি', clear: 'ক্লিয়ার', click: 'ক্লিক', close: 'ক্লোজ', connect: 'কানেক্ট',
@@ -984,7 +984,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): back(22), play(16)
 
     // ---------------------------------------------------------------------------
-    // 45. UI Elements, Boxes & Shapes                                        (30)
+    // 45. UI Elements, Boxes & Shapes                                        
     // ---------------------------------------------------------------------------
     alertbox: 'অ্যালার্ট বক্স', border: 'বর্ডার', box: 'বক্স', carton: 'কার্টন',
     cashbox: 'ক্যাশ বক্স', checkbox: 'চেকবক্স', column: 'কলাম', combobox: 'কম্বো বক্স',
@@ -996,7 +996,7 @@ window.BornotoronDictionary = Object.freeze({
     toolbox: 'টুল বক্স',
 
     // ---------------------------------------------------------------------------
-    // 46. Browsers, Tech Companies & Online Services                         (26)
+    // 46. Browsers, Tech Companies & Online Services                         
     // ---------------------------------------------------------------------------
     android: 'অ্যান্ড্রয়েড', apple: 'অ্যাপল', appstore: 'অ্যাপ স্টোর', bing: 'বিং', brave: 'ব্রেভ',
     chrome: 'ক্রোম', drive: 'ড্রাইভ', edge: 'এজ', firefox: 'ফায়ারফক্স', gmail: 'জিমেইল',
@@ -1006,7 +1006,7 @@ window.BornotoronDictionary = Object.freeze({
     zoom: 'জুম',
 
     // ---------------------------------------------------------------------------
-    // 47. Typing, Text & Fonts                                               (40)
+    // 47. Typing, Text & Fonts                                               
     // ---------------------------------------------------------------------------
     align: 'অ্যালাইন', alphabet: 'আলফাবেট', bold: 'বোল্ড', capital: 'ক্যাপিটাল',
     character: 'ক্যারেক্টার', consonant: 'কনসোনেন্ট', conversion: 'কনভার্সন', convert: 'কনভার্ট',
@@ -1021,7 +1021,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): small(17)
 
     // ---------------------------------------------------------------------------
-    // 48. Dictionary, Grammar & Linguistics                                  (36)
+    // 48. Dictionary, Grammar & Linguistics                                  
     // ---------------------------------------------------------------------------
     accent: 'অ্যাকসেন্ট', adjective: 'অ্যাডজেক্টিভ', adverb: 'অ্যাডভার্ব', antonym: 'অ্যান্টোনিম',
     autocomplete: 'অটো-কমপ্লিট', conjunction: 'কনজাংশন', context: 'কনটেক্সট', details: 'ডিটেইলস',
@@ -1035,7 +1035,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): root(62)
 
     // ---------------------------------------------------------------------------
-    // 49. Programming Languages & Code                                       (31)
+    // 49. Programming Languages & Code                                       
     // ---------------------------------------------------------------------------
     bash: 'ব্যাশ', c: 'সি', code: 'কোড', coding: 'কোডিং', cpp: 'সি প্লাস প্লাস', csharp: 'সি শার্প',
     css: 'সিএসএস', dart: 'ডার্ট', golang: 'গোল্যাং', html: 'এইচটিএমএল', java: 'জাভা',
@@ -1046,7 +1046,7 @@ window.BornotoronDictionary = Object.freeze({
     yaml: 'ইয়ামল',
 
     // ---------------------------------------------------------------------------
-    // 50. Programming Concepts & Data Structures                             (53)
+    // 50. Programming Concepts & Data Structures                             
     // ---------------------------------------------------------------------------
     abstraction: 'অ্যাবস্ট্রাকশন', algorithm: 'অ্যালগরিদম', analysis: 'অ্যানালাইসিস',
     argument: 'আর্গুমেন্ট', array: 'অ্যারে', async: 'অ্যাসিঙ্ক', await: 'অ্যাওয়েট',
@@ -1065,7 +1065,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): tree(62)
 
     // ---------------------------------------------------------------------------
-    // 51. Web, Networking & Hosting                                          (33)
+    // 51. Web, Networking & Hosting                                         
     // ---------------------------------------------------------------------------
     ajax: 'অ্যাজাক্স', api: 'এপিআই', attribute: 'অ্যাট্রিবিউট', backend: 'ব্যাকএন্ড',
     cache: 'ক্যাশ', cookie: 'কুকি', cookies: 'কুকিজ', dashboard: 'ড্যাশবোর্ড', deploy: 'ডিপ্লয়',
@@ -1077,7 +1077,7 @@ window.BornotoronDictionary = Object.freeze({
     session: 'সেশন', token: 'টোকেন', view: 'ভিউ', web: 'ওয়েব',
 
     // ---------------------------------------------------------------------------
-    // 52. Databases, Frameworks & Libraries                                  (28)
+    // 52. Databases, Frameworks & Libraries                                  
     // ---------------------------------------------------------------------------
     angular: 'অ্যাঙ্গুলার', bootstrap: 'বুটস্ট্র্যাপ', database: 'ডাটাবেস', django: 'জ্যাঙ্গো',
     field: 'ফিল্ড', firebase: 'ফায়ারবেস', flutter: 'ফ্লাটার', foreignkey: 'ফরেন কি', join: 'জয়েন',
@@ -1089,7 +1089,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): spring(63)
 
     // ---------------------------------------------------------------------------
-    // 53. Git, Tools & Workflow                                              (33)
+    // 53. Git, Tools & Workflow                                              
     // ---------------------------------------------------------------------------
     agile: 'অ্যাজাইল', clone: 'ক্লোন', command: 'কমান্ড', commit: 'কমিট', console: 'কনসোল',
     docker: 'ডকার', documentation: 'ডকুমেন্টেশন', figma: 'ফিগমা', flow: 'ফ্লো', git: 'গিট',
@@ -1100,7 +1100,7 @@ window.BornotoronDictionary = Object.freeze({
     sprint: 'স্প্রিন্ট', ubuntu: 'উবুন্টু', version: 'ভার্সন', workflow: 'ওয়ার্কফ্লো',
 
     // ---------------------------------------------------------------------------
-    // 54. Security                                                           (15)
+    // 54. Security                                                           
     // ---------------------------------------------------------------------------
     antivirus: 'অ্যান্টিভাইরাস', authentication: 'অথেনটিকেশন', authorization: 'অথরাইজেশন',
     captcha: 'ক্যাপচা', cybersecurity: 'সাইবার সিকিউরিটি', decryption: 'ডিক্রিপশন',
@@ -1108,7 +1108,7 @@ window.BornotoronDictionary = Object.freeze({
     malware: 'ম্যালওয়্যার', phishing: 'ফিশিং', ssl: 'এসএসএল', virus: 'ভাইরাস', vpn: 'ভিপিএন',
 
     // ---------------------------------------------------------------------------
-    // 55. IDEs & Code Editors                                                (43)
+    // 55. IDEs & Code Editors                                                
     // ---------------------------------------------------------------------------
     androidstudio: 'অ্যান্ড্রয়েড স্টুডিও', antigravity: 'অ্যান্টিগ্র্যাভিটি', arduino: 'আরডুইনো',
     arduinoide: 'আরডুইনো আইডিই', bluej: 'ব্লুজে', brackets: 'ব্র্যাকেটস', clion: 'সিলায়ন',
@@ -1125,7 +1125,7 @@ window.BornotoronDictionary = Object.freeze({
     // See also (kept under the section number in brackets): atom(60), matlab(49)
 
     // ---------------------------------------------------------------------------
-    // 56. AI, Machine Learning & Data Science                                (73)
+    // 56. AI, Machine Learning & Data Science                                
     // ---------------------------------------------------------------------------
     activation: 'অ্যাক্টিভেশন', activationfunction: 'অ্যাক্টিভেশন ফাংশন', ai: 'এআই',
     attention: 'অ্যাটেনশন', backpropagation: 'ব্যাকপ্রপাগেশন', bert: 'বার্ট', bigdata: 'বিগ ডাটা',
@@ -1151,7 +1151,7 @@ window.BornotoronDictionary = Object.freeze({
     unsupervisedlearning: 'আনসুপারভাইজড লার্নিং', vision: 'ভিশন', vr: 'ভিআর',
 
     // ---------------------------------------------------------------------------
-    // 57. Computer Science & Infrastructure                                  (37)
+    // 57. Computer Science & Infrastructure                                  
     // ---------------------------------------------------------------------------
     aws: 'এডব্লিউএস', bandwidth: 'ব্যান্ডউইথ', binary: 'বাইনারি', bit: 'বিট', buffer: 'বাফার',
     byte: 'বাইট', cloudcomputing: 'ক্লাউড কম্পিউটিং', cms: 'সিএমএস', connection: 'কানেকশন',
@@ -1172,7 +1172,7 @@ scalable: 'স্কেলেবল', serverless: 'সার্ভারলে�
 virtualization: 'ভার্চুয়ালাইজেশন', virtualmachine: 'ভার্চুয়াল মেশিন',
 
     // ---------------------------------------------------------------------------
-    // 58. Abbreviations & Acronyms                                           (45)
+    // 58. Abbreviations & Acronyms                                          
     // ---------------------------------------------------------------------------
     // -- Tech & media (18)
     atm: 'এটিএম', bluetooth: 'ব্লুটুথ', cd: 'সিডি', cpu: 'সিপিইউ', dvd: 'ডিভিডি', gps: 'জিপিএস',
@@ -1194,7 +1194,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     // ===========================================================================
 
     // ---------------------------------------------------------------------------
-    // 59. Chemical Elements & Metals                                        (119)
+    // 59. Chemical Elements & Metals                                        
     // ---------------------------------------------------------------------------
     // Listed in atomic-number order.
     hydrogen: 'হাইড্রোজেন', helium: 'হিলিয়াম', lithium: 'লিথিয়াম', beryllium: 'বেরিলিয়াম',
@@ -1232,7 +1232,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     livermorium: 'লিভারমোরিয়াম', tennessine: 'টেনেসিন', oganesson: 'ওগানেসন', bronze: 'ব্রোঞ্জ',
 
     // ---------------------------------------------------------------------------
-    // 60. Physics, Chemistry & Space                                         (61)
+    // 60. Physics, Chemistry & Space                                         
     // ---------------------------------------------------------------------------
     acid: 'অ্যাসিড', alkali: 'অ্যালকালি', ampere: 'অ্যাম্পিয়ার', analog: 'অ্যানালগ',
     atom: 'অ্যাটম', base: 'বেস', carbondioxide: 'কার্বন ডাই-অক্সাইড',
@@ -1255,14 +1255,14 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     //   tin(59), zinc(59)
 
     // ---------------------------------------------------------------------------
-    // 61. Biology & Genetics                                                 (12)
+    // 61. Biology & Genetics                                                 
     // ---------------------------------------------------------------------------
     bacteria: 'ব্যাকটেরিয়া', cell: 'সেল', chromosome: 'ক্রোমোজোম', dna: 'ডিএনএ',
     evolution: 'ইভোলিউশন', gene: 'জিন', genetic: 'জেনেটিক', germ: 'জার্ম', immune: 'ইমিউন',
     microorganism: 'মাইক্রোঅর্গানিজম', rna: 'আরএনএ', species: 'স্পিসিস',
 
     // ---------------------------------------------------------------------------
-    // 62. Nature, Environment & Landscape                                   (141)
+    // 62. Nature, Environment & Landscape                                   
     // ---------------------------------------------------------------------------
     algae: 'অ্যালগি', amphibian: 'অ্যামফিবিয়ান', animal: 'অ্যানিমেল',
     aquaticlife: 'অ্যাকুয়াটিক লাইফ', archipelago: 'আর্কিপেলাগো', atmosphere: 'অ্যাটমোস্ফিয়ার',
@@ -1301,7 +1301,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     //   species(61), spring(63), wave(60)
 
     // ---------------------------------------------------------------------------
-    // 63. Weather & Seasons                                                  (40)
+    // 63. Weather & Seasons                                                  
     // ---------------------------------------------------------------------------
     alert: 'অ্যালার্ট', autumn: 'অটাম', breeze: 'ব্রিজ', cloud: 'ক্লাউড', cloudy: 'ক্লাউডি',
     coldwave: 'কোল্ড ওয়েভ', drizzle: 'ড্রিজল', drought: 'ড্রট', dry: 'ড্রাই',
@@ -1316,7 +1316,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     //   tide(62)
 
     // ---------------------------------------------------------------------------
-    // 64. Flowers & Plants                                                   (23)
+    // 64. Flowers & Plants                                                  
     // ---------------------------------------------------------------------------
     aster: 'অ্যাস্টার', carnation: 'কার্নেশন', cosmos: 'কসমস', daffodil: 'ড্যাফোডিল',
     dahlia: 'ডালিয়া', daisy: 'ডেইজি', flower: 'ফ্লাওয়ার', flowers: 'ফ্লাওয়ারস',
@@ -1327,7 +1327,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     // See also (kept under the section number in brackets): lavender(65), violet(65)
 
     // ---------------------------------------------------------------------------
-    // 65. Colours                                                           (249)
+    // 65. Colours                                                           
     // ---------------------------------------------------------------------------
     // -- White, gray & black (28)
     antiquewhite: 'অ্যান্টিক হোয়াইট', ash: 'অ্যাশ', black: 'ব্ল্যাক', charcoal: 'চারকোল',
@@ -1418,7 +1418,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     // ===========================================================================
 
     // ---------------------------------------------------------------------------
-    // 66. Continents, Countries & Cities                                    (212)
+    // 66. Continents, Countries & Cities                                    
     // ---------------------------------------------------------------------------
     afghanistan: 'আফগানিস্তান', africa: 'আফ্রিকা', albania: 'আলবেনিয়া', algeria: 'আলজেরিয়া',
     america: 'আমেরিকা', andorra: 'অ্যান্ডোরা', angola: 'অ্যাঙ্গোলা', antarctica: 'অ্যান্টার্কটিকা',
@@ -1484,7 +1484,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     // See also (kept under the section number in brackets): chad(09)
 
     // ---------------------------------------------------------------------------
-    // 67. Currency                                                           (73)
+    // 67. Currency                                                           
     // ---------------------------------------------------------------------------
     afghani: 'আফগানি', ariary: 'আরিয়ারি', baht: 'বাত', balboa: 'বালবোয়া', birr: 'বির',
     bolivar: 'বলিভার', boliviano: 'বলিভিয়ানো', cedi: 'সেডি', colon: 'কোলন',
@@ -1504,7 +1504,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     // See also (kept under the section number in brackets): real(17)
 
     // ---------------------------------------------------------------------------
-    // 68. Nationalities & Languages                                         (200)
+    // 68. Nationalities & Languages                                         
     // ---------------------------------------------------------------------------
     // -- Asia (50)
     afghan: 'আফগান', armenian: 'আর্মেনিয়ান', azerbaijani: 'আজারবাইজানি', bahraini: 'বাহরাইনি',
@@ -1572,7 +1572,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     zulu: 'জুলু',
 
     // ---------------------------------------------------------------------------
-    // 69. Bangladesh: Upazilas, Dhaka Areas & Districts                     (475)
+    // 69. Bangladesh: Upazilas, Dhaka Areas & Districts                     
     // ---------------------------------------------------------------------------
     // Upazilas of Bangladesh (all 8 divisions, listed district by district). Only the names whose phonetic
     // rendering differed are listed here; the rest come from the rules.
