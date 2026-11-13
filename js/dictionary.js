@@ -17,79 +17,79 @@
  *
  * Contents
  *   PART 1 - BANGLA WORDS TYPED IN ROMAN LETTERS (BANGLISH)
- *     01. Pronouns, Demonstratives & Indefinites                 78
- *     02. Time, Frequency & Sequence Words                       34
- *     03. Conjunctions, Particles & Connectors                   42
- *     04. Imperatives & Commands                                 61
- *     05. Verb Forms & Verbal Nouns                             150
- *     06. Bhalo & Bhalobasha Family                              18
- *     07. Feelings, Qualities & Descriptions                     49
- *     08. Body, People & Relations                               31
- *     09. Nature, Light & Weather                                51
- *     10. Food, Kitchen & Market                                 28
- *     11. Language, Books & Arts                                 45
- *     12. Greetings, Festivals & National Words                  28
- *     13. Life, Dreams & Abstract Words                          42
- *     14. Compound Words & Spelling Exceptions                   34
+ *     01. Pronouns, Demonstratives & Indefinites                 
+ *     02. Time, Frequency & Sequence Words                       
+ *     03. Conjunctions, Particles & Connectors                   
+ *     04. Imperatives & Commands                                 
+ *     05. Verb Forms & Verbal Nouns                             
+ *     06. Bhalo & Bhalobasha Family                              
+ *     07. Feelings, Qualities & Descriptions                     
+ *     08. Body, People & Relations                               
+ *     09. Nature, Light & Weather                                
+ *     10. Food, Kitchen & Market                                 
+ *     11. Language, Books & Arts                                 
+ *     12. Greetings, Festivals & National Words                  
+ *     13. Life, Dreams & Abstract Words                         
+ *     14. Compound Words & Spelling Exceptions                   
  *   PART 2 - EVERYDAY ENGLISH
- *     15. Pronouns, Question Words, Prepositions & Conjunctions   39
- *     16. Common Verbs, Modals & Stop/End Words                  84
- *     17. Adjectives & Adverbs                                   93
- *     18. Everyday Expressions & Greetings                       55
- *     19. Time, Days & Calendar                                  39
- *     20. Numbers, Units & Measurements                          38
- *     21. Ordinals & Sequence Words                             129
- *     22. Directions & Positions                                 46
- *     23. People, Family & Relationships                         48
- *     24. Home, Household & Utilities                            83
- *     25. Fashion, Clothing & Beauty                            139
- *     26. Food, Drinks & Dining                                  77
- *     27. Health, Medical & Fitness                              70
- *     28. Pharmacy: Medicines & Brands                          189
- *     29. Education, School & Campus                            109
- *     30. Office, Work & Career                                  76
- *     31. Banking, Money & Finance                               32
- *     32. Shopping, Business & E-commerce                        52
- *     33. Transport & Vehicles                                   90
- *     34. Travel, Tourism & Leisure                              25
- *     35. Entertainment, Music & Media                           37
- *     36. Events & Celebrations                                  13
- *     37. Sports & Games                                         52
- *     38. Government, Law & Politics                             64
- *     39. Housing, Construction & Property                       44
- *     40. Literature & Writing                                   59
+ *     15. Pronouns, Question Words, Prepositions & Conjunctions   
+ *     16. Common Verbs, Modals & Stop/End Words                  
+ *     17. Adjectives & Adverbs                                   
+ *     18. Everyday Expressions & Greetings                       
+ *     19. Time, Days & Calendar                                  
+ *     20. Numbers, Units & Measurements                          
+ *     21. Ordinals & Sequence Words                             
+ *     22. Directions & Positions                                 
+ *     23. People, Family & Relationships                         
+ *     24. Home, Household & Utilities                            
+ *     25. Fashion, Clothing & Beauty                            
+ *     26. Food, Drinks & Dining                                  
+ *     27. Health, Medical & Fitness                              
+ *     28. Pharmacy: Medicines & Brands                          
+ *     29. Education, School & Campus                            
+ *     30. Office, Work & Career                                  
+ *     31. Banking, Money & Finance                               
+ *     32. Shopping, Business & E-commerce                        
+ *     33. Transport & Vehicles                                  
+ *     34. Travel, Tourism & Leisure                              
+ *     35. Entertainment, Music & Media                           
+ *     36. Events & Celebrations                                  
+ *     37. Sports & Games                                         
+ *     38. Government, Law & Politics                             
+ *     39. Housing, Construction & Property                       
+ *     40. Literature & Writing                                   
  *   PART 3 - TECHNOLOGY
- *     41. Devices, Hardware & Gadgets                            50
- *     42. Social Media & Online                                  46
- *     43. Telecom & Mobile Services                              68
- *     44. Computer Actions & Controls                           101
- *     45. UI Elements, Boxes & Shapes                            30
- *     46. Browsers, Tech Companies & Online Services             26
- *     47. Typing, Text & Fonts                                   40
- *     48. Dictionary, Grammar & Linguistics                      36
- *     49. Programming Languages & Code                           31
- *     50. Programming Concepts & Data Structures                 53
- *     51. Web, Networking & Hosting                              33
- *     52. Databases, Frameworks & Libraries                      28
- *     53. Git, Tools & Workflow                                  33
- *     54. Security                                               15
- *     55. IDEs & Code Editors                                    43
- *     56. AI, Machine Learning & Data Science                    73
- *     57. Computer Science & Infrastructure                      37
- *     58. Abbreviations & Acronyms                               45
+ *     41. Devices, Hardware & Gadgets                            
+ *     42. Social Media & Online                                  
+ *     43. Telecom & Mobile Services                              
+ *     44. Computer Actions & Controls                           
+ *     45. UI Elements, Boxes & Shapes                            
+ *     46. Browsers, Tech Companies & Online Services             
+ *     47. Typing, Text & Fonts                                   
+ *     48. Dictionary, Grammar & Linguistics                      
+ *     49. Programming Languages & Code                           
+ *     50. Programming Concepts & Data Structures                 
+ *     51. Web, Networking & Hosting                              
+ *     52. Databases, Frameworks & Libraries                      
+ *     53. Git, Tools & Workflow                                  
+ *     54. Security                                               
+ *     55. IDEs & Code Editors                                    
+ *     56. AI, Machine Learning & Data Science                    
+ *     57. Computer Science & Infrastructure                      
+ *     58. Abbreviations & Acronyms                               
  *   PART 4 - SCIENCE & NATURE
- *     59. Chemical Elements & Metals                            119
- *     60. Physics, Chemistry & Space                             61
- *     61. Biology & Genetics                                     12
- *     62. Nature, Environment & Landscape                       141
- *     63. Weather & Seasons                                      40
- *     64. Flowers & Plants                                       23
- *     65. Colours                                               249
+ *     59. Chemical Elements & Metals                            
+ *     60. Physics, Chemistry & Space                             
+ *     61. Biology & Genetics                                     
+ *     62. Nature, Environment & Landscape                       
+ *     63. Weather & Seasons                                      
+ *     64. Flowers & Plants                                       
+ *     65. Colours                                               
  *   PART 5 - WORLD, NAMES & PLACES
- *     66. Continents, Countries & Cities                        212
- *     67. Currency                                               73
- *     68. Nationalities & Languages                             200
- *     69. Bangladesh: Upazilas, Dhaka Areas & Districts         475
+ *     66. Continents, Countries & Cities                        
+ *     67. Currency                                               
+ *     68. Nationalities & Languages                             
+ *     69. Bangladesh: Upazilas, Dhaka Areas & Districts         
  */
 window.BornotoronDictionary = Object.freeze({
   overrides: Object.freeze({
