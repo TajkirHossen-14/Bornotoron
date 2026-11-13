@@ -369,6 +369,16 @@ window.BornotoronDictionary = Object.freeze({
     special: 'স্পেশাল', strong: 'স্ট্রং', super: 'সুপার', superb: 'সুপার্ব', tall: 'টল',
     tension: 'টেনশন', tired: 'টায়ার্ড', together: 'টুগেদার', total: 'টোটাল', true: 'ট্রু',
     urgent: 'আর্জেন্ট', weak: 'উইক', worst: 'ওয়ার্স্ট', wow: 'ওয়াও', wrong: 'রং',
+    advanced: 'অ্যাডভান্সড', basic: 'বেসিক', elementary: 'এলিমেন্টারি',
+    higher: 'হায়ার', intermediate: 'ইন্টারমিডিয়েট', preliminary: 'প্রিলিমিনারি',
+    primary: 'প্রাইমারি', quaternary: 'কোয়াটারনারি', secondary: 'সেকেন্ডারি',
+    alternate: 'অল্টারনেট', auxiliary: 'অক্সিলিয়ারি', compulsory: 'কমপালসরি',
+    custom: 'কাস্টম', default: 'ডিফল্ট', general: 'জেনারেল', mandatory: 'ম্যান্ডেটরি',
+    optional: 'অপশনাল', premium: 'প্রিমিয়াম', standard: 'স্ট্যান্ডার্ড',
+    supplementary: 'সাপ্লিমেন্টারি', temporary: 'টেম্পোরারি', permanent: 'পার্মানেন্ট',
+    active: 'অ্যাক্টিভ', external: 'এক্সটার্নাল', global: 'গ্লোবাল',
+    internal: 'ইন্টারনাল', international: 'ইন্টারন্যাশনাল', national: 'ন্যাশনাল',
+    partial: 'পার্শিয়াল', passive: 'প্যাসিভ', major: 'মেজর', minor: 'মাইনর',
     // See also (kept under the section number in brackets): first(21), right(22)
 
     // ---------------------------------------------------------------------------
@@ -1745,6 +1755,7 @@ virtualization: 'ভার্চুয়ালাইজেশন', virtualmachi
     ksh: ['ক্ষ', 'কষ', 'কশ'],
     kul: ['কুল', 'কূল'],
     live: ['লাইভ', 'লিভ'],
+    main: ['মেইন', 'মাইন'],
     mile: ['মিলে', 'মাইল'],
     nari: ['নারী', 'নাড়ি'],
     pora: ['পড়া', 'পোড়া', 'পরা'],
