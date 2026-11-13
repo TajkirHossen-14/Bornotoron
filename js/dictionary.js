@@ -98,7 +98,7 @@ window.BornotoronDictionary = Object.freeze({
     // ===========================================================================
 
     // ---------------------------------------------------------------------------
-    // 01. Pronouns, Demonstratives & Indefinites                             (78)
+    // 01. Pronouns, Demonstratives & Indefinites                             
     // ---------------------------------------------------------------------------
     amar: 'আমার', ami: 'আমি', apnader: 'আপনাদের', apnaderke: 'আপনাদেরকে', apnake: 'আপনাকে',
     apnakei: 'আপনাকেই', apnar: 'আপনার', apnara: 'আপনারা', apnay: 'আপনায়', apni: 'আপনি',
@@ -118,7 +118,7 @@ window.BornotoronDictionary = Object.freeze({
     tomra: 'তোমরা', tomrai: 'তোমরাই', tumi: 'তুমি', uni: 'উনি',
 
     // ---------------------------------------------------------------------------
-    // 02. Time, Frequency & Sequence Words                                   (34)
+    // 02. Time, Frequency & Sequence Words                                   
     // ---------------------------------------------------------------------------
     ajkeo: 'আজকেও', ajo: 'আজও', ebaro: 'এবারও',
     ekhoni: 'এখনই', ekhono: 'এখনো', jokhon: 'যখন', kalkeo: 'কালকেও', kokhono: 'কখনো',
@@ -140,7 +140,7 @@ window.BornotoronDictionary = Object.freeze({
     bingsho: 'বিংশ', bingshoti: 'বিংশতি', ekobingsho: 'একবিংশ',
 
     // ---------------------------------------------------------------------------
-    // 03. Conjunctions, Particles & Connectors                               (42)
+    // 03. Conjunctions, Particles & Connectors                               
     // ---------------------------------------------------------------------------
     abar: 'আবার', abaro: 'আবারও', ar: 'আর', aro: 'আরও', chaile: 'চাইলে', ekrokom: 'একরকম',
     ektu: 'একটু', hea: 'হ্যাঁ', hoyto: 'হয়তো', hya: 'হ্যাঁ', jekhane: 'যেখানে', jeno: 'যেন',
@@ -152,7 +152,7 @@ window.BornotoronDictionary = Object.freeze({
     sottikar: 'সত্যিকার', tobu: 'তবু', tobuo: 'তবুও', zekhane: 'যেখানে', zodi: 'যদি',
 
     // ---------------------------------------------------------------------------
-    // 04. Imperatives & Commands                                             (61)
+    // 04. Imperatives & Commands                                             
     // ---------------------------------------------------------------------------
     // Informal imperatives: the final explicit ো is intentional.
     bacho: 'বাঁচো', bancho: 'বাঁচো', bhabo: 'ভাবো', bhulo: 'ভুলো', bojho: 'বোঝো', bolo: 'বলো',
@@ -168,7 +168,7 @@ window.BornotoronDictionary = Object.freeze({
     zeyo: 'যেয়ো',
 
     // ---------------------------------------------------------------------------
-    // 05. Verb Forms & Verbal Nouns                                         (150)
+    // 05. Verb Forms & Verbal Nouns                                         
     // ---------------------------------------------------------------------------
     ache: 'আছে', achhe: 'আছে', achhi: 'আছি', achho: 'আছ', achi: 'আছি', acho: 'আছ', asben: 'আসবেন',
     asbi: 'আসবি', asche: 'আসছে', aschen: 'আসছেন', aschi: 'আসছি', aschile: 'আসছিলে',
@@ -201,7 +201,7 @@ window.BornotoronDictionary = Object.freeze({
     uthbe: 'উঠবে', zabe: 'যাবে', zabo: 'যাব', zai: 'যাই', zay: 'যায়', zete: 'যেতে',
 
     // ---------------------------------------------------------------------------
-    // 06. Bhalo & Bhalobasha Family                                          (18)
+    // 06. Bhalo & Bhalobasha Family                                          
     // ---------------------------------------------------------------------------
     // Frequent explicit ও / ো words and their everyday inflections.
     bhalo: 'ভালো', bhalobasar: 'ভালোবাসার', bhalobasbo: 'ভালোবাসব', bhalobase: 'ভালোবাসে',
@@ -211,7 +211,7 @@ window.BornotoronDictionary = Object.freeze({
     bhalor: 'ভালোর', bhalota: 'ভালোটা', valo: 'ভালো',
 
     // ---------------------------------------------------------------------------
-    // 07. Feelings, Qualities & Descriptions                                 (49)
+    // 07. Feelings, Qualities & Descriptions                                 
     // ---------------------------------------------------------------------------
     anond: 'আনন্দ', anondo: 'আনন্দ', boro: 'বড়', boroder: 'বড়দের', brihot: 'বৃহৎ', chhoto: 'ছোট',
     chhotto: 'ছোট্ট', choto: 'ছোট', chotoder: 'ছোটদের', chotoo: 'ছোটও', chotto: 'ছোট্ট',
@@ -225,7 +225,7 @@ window.BornotoronDictionary = Object.freeze({
     sonar: 'সোনার', sonay: 'সোনায়', sustho: 'সুস্থ', taratari: 'তাড়াতাড়ি',
 
     // ---------------------------------------------------------------------------
-    // 08. Body, People & Relations                                           (31)
+    // 08. Body, People & Relations                                           
     // ---------------------------------------------------------------------------
     bondhu: 'বন্ধু', bondhur: 'বন্ধুর', bondhura: 'বন্ধুরা', bondhutto: 'বন্ধুত্ব', chokh: 'চোখ',
     chokhe: 'চোখে', chokheo: 'চোখেও', chokher: 'চোখের', chokherpata: 'চোখের পাতা',
@@ -236,7 +236,7 @@ window.BornotoronDictionary = Object.freeze({
     porichoy: 'পরিচয়', shorir: 'শরীর', sorir: 'শরীর',
 
     // ---------------------------------------------------------------------------
-    // 09. Nature, Light & Weather                                            (51)
+    // 09. Nature, Light & Weather                                            
     // ---------------------------------------------------------------------------
     alo: 'আলো', alor: 'আলোর', alote: 'আলোতে', aloy: 'আলোয়', brishti: 'বৃষ্টি', brishtir: 'বৃষ্টির',
     brishtite: 'বৃষ্টিতে', bristi: 'বৃষ্টি', chad: 'চাঁদ', chader: 'চাঁদের', chand: 'চাঁদ',
@@ -250,7 +250,7 @@ window.BornotoronDictionary = Object.freeze({
     shomudro: 'সমুদ্র', somudrer: 'সমুদ্রের', somudro: 'সমুদ্র', srabon: 'শ্রাবণ',
 
     // ---------------------------------------------------------------------------
-    // 10. Food, Kitchen & Market                                             (28)
+    // 10. Food, Kitchen & Market                                             
     // ---------------------------------------------------------------------------
     bhoj: 'ভোজ', bhojer: 'ভোজের', bhojon: 'ভোজন', cha: 'চা', chal: 'চাল', chaler: 'চালের',
     chamoc: 'চামচ', chamoch: 'চামচ', chini: 'চিনি', doi: 'দই', dokan: 'দোকান', dokandar: 'দোকানদার',
@@ -259,10 +259,10 @@ window.BornotoronDictionary = Object.freeze({
     ranna: 'রান্না', rannar: 'রান্নার', roshun: 'রসুন', ruti: 'রুটি', tel: 'তেল', tele: 'তেলে',
 
     // ---------------------------------------------------------------------------
-    // 11. Language, Books & Arts                                             (45)
+    // 11. Language, Books & Arts                                             
     // ---------------------------------------------------------------------------
     avro: 'অভ্র', banan: 'বানান', bangla: 'বাংলা', banglar: 'বাংলার', banglay: 'বাংলায়',
-    banglish: 'বাংলিশ', bhasa: 'ভাষা', bhasha: 'ভাষা', boi: 'বই', boier: 'বইয়ের',
+    banglish: 'বাংলিশ', bhasa: 'ভাষা', bhasha: 'ভাষা', vasha: 'ভাষা', boi: 'বই', boier: 'বইয়ের',
     boigulo: 'বইগুলো', boimela: 'বইমেলা', boimelar: 'বইমেলার', boimelay: 'বইমেলায়', boita: 'বইটা',
     boiti: 'বইটি', bornotoron: 'বর্ণতরণ', chhobi: 'ছবি', chobi: 'ছবি', chobir: 'ছবির',
     chobite: 'ছবিতে', ingreji: 'ইংরেজি', obhidhan: 'অভিধান', okkhor: 'অক্ষর', onubad: 'অনুবাদ',
@@ -270,10 +270,10 @@ window.BornotoronDictionary = Object.freeze({
     porikkha: 'পরীক্ষা', porikkhar: 'পরীক্ষার', poriksha: 'পরীক্ষা', proshno: 'প্রশ্ন',
     prosno: 'প্রশ্ন', shobder: 'শব্দের', shobdo: 'শব্দ', uccaron: 'উচ্চারণ', uccarone: 'উচ্চারণে',
     uccaroner: 'উচ্চারণের', uccharon: 'উচ্চারণ', uccharone: 'উচ্চারণে', uccharoner: 'উচ্চারণের',
-    uttor: 'উত্তর', uttorer: 'উত্তরের', vasha: 'ভাষা',
+    uttor: 'উত্তর', uttorer: 'উত্তরের', 
 
     // ---------------------------------------------------------------------------
-    // 12. Greetings, Festivals & National Words                              (28)
+    // 12. Greetings, Festivals & National Words                              
     // ---------------------------------------------------------------------------
     bangali: 'বাঙালি', bijoy: 'বিজয়', bijoyer: 'বিজয়ের', boishakh: 'বৈশাখ', boishakhi: 'বৈশাখি',
     dhonnobaad: 'ধন্যবাদ', dhonnobad: 'ধন্যবাদ', dhonyobad: 'ধন্যবাদ', itihas: 'ইতিহাস',
@@ -284,7 +284,7 @@ window.BornotoronDictionary = Object.freeze({
     utshober: 'উৎসবের', utsob: 'উৎসব',
 
     // ---------------------------------------------------------------------------
-    // 13. Life, Dreams & Abstract Words                                      (42)
+    // 13. Life, Dreams & Abstract Words                                      
     // ---------------------------------------------------------------------------
     asha: 'আশা', ashar: 'আশার', ashay: 'আশায়', bonton: 'বণ্টন', cheshta: 'চেষ্টা',
     cheshtar: 'চেষ্টার', chesta: 'চেষ্টা', chhotobela: 'ছোটবেলা', chotobela: 'ছোটবেলা',
@@ -298,7 +298,7 @@ window.BornotoronDictionary = Object.freeze({
     subidha: 'সুবিধা', sujog: 'সুযোগ',
 
     // ---------------------------------------------------------------------------
-    // 14. Compound Words & Spelling Exceptions                               (34)
+    // 14. Compound Words & Spelling Exceptions                               
     // ---------------------------------------------------------------------------
     // Tadbhava & compound words where র keeps its inherent vowel instead of forming a conjunct
     // (সরকার not সর্কার, একবার not এক্বার), plus place names.
@@ -307,8 +307,8 @@ window.BornotoronDictionary = Object.freeze({
     ekdin: 'একদিন', ekdom: 'একদম', ekjon: 'একজন', eksathe: 'একসাথে', ekta: 'একটা',
     ghorbari: 'ঘরবাড়ি', jolpai: 'জলপাই', kajkormo: 'কাজকর্ম', khelna: 'খেলনা', khorcha: 'খরচ',
     kolkata: 'কলকাতা', kolsi: 'কলসি', milbe: 'মিলবে', namta: 'নামটা', porpor: 'পরপর',
-    rajniti: 'রাজনীতি', rajnoitik: 'রাজনৈতিক', shorbot: 'শরবত', shorisha: 'সোরিষা',
-    sorisha: 'সোরিষা', sorkar: 'সরকার', tarpor: 'তারপর', tinbar: 'তিনবার', tinjon: 'তিনজন',
+    rajniti: 'রাজনীতি', rajnoitik: 'রাজনৈতিক', shorbot: 'শরবত', shorisha: 'সরিষা',
+    sorisha: 'সরিষা', sorkar: 'সরকার', tarpor: 'তারপর', tinbar: 'তিনবার', tinjon: 'তিনজন',
 
 
     // ===========================================================================
@@ -316,7 +316,7 @@ window.BornotoronDictionary = Object.freeze({
     // ===========================================================================
 
     // ---------------------------------------------------------------------------
-    // 15. Pronouns, Question Words, Prepositions & Conjunctions              (39)
+    // 15. Pronouns, Question Words, Prepositions & Conjunctions              
     // ---------------------------------------------------------------------------
     about: 'অ্যাবাউট', above: 'অ্যাবাভ', after: 'আফটার', and: 'অ্যান্ড', at: 'অ্যাট',
     because: 'বিকজ', before: 'বিফোর', below: 'বিলো', between: 'বিটুইন', but: 'বাট', by: 'বাই',
