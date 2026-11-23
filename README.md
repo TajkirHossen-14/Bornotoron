@@ -15,6 +15,7 @@ Banglish-এ লিখুন, মুহূর্তেই দেখুন বা
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
+**Language:** [English](README.md) | [বাংলা](README.bn.md)
 
 **4900+ spelling entries. Zero frameworks. Your words stay yours.**
 
