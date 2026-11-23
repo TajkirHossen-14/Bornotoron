@@ -6,7 +6,7 @@
   const input = $('banglish-input');
   const output = $('bangla-output');
   const popover = $('word-popover');
-  let storageWarning = false, toastTimer, historyTimer, copyTimer, renderFrame;
+  let storageWarning = false, toastTimer, historyTimer, copyTimer, reportCopyTimer, renderFrame;
   let activeToken = null, activeAnchor = null, rememberValue = '', popoverTimer;
   let lastRendered = [], nodes = [], currentText = '', composing = false;
   let localDataDeleted = false;
@@ -158,28 +158,31 @@
     input.focus(); input.setSelectionRange(input.value.length, input.value.length);
   }));
 
+  async function writeClipboard(value) {
+    try {
+      if (!navigator.clipboard || !window.isSecureContext) throw new Error('Use local fallback');
+      await navigator.clipboard.writeText(value);
+      return true;
+    } catch (_) {
+      // file:// and browsers with clipboard permission disabled.
+      const temp = document.createElement('textarea');
+      temp.value = value; temp.style.cssText = 'position:fixed;left:-9999px;top:0';
+      document.body.append(temp); temp.focus(); temp.select();
+      let success = false;
+      try { success = document.execCommand('copy'); } catch (_) { /* caller offers manual selection */ }
+      temp.remove();
+      return success;
+    }
+  }
   async function copyText() {
     // Flush any queued typing before exporting.
     cancelAnimationFrame(renderFrame); convert();
     if (!currentText) return;
-    try {
-      if (!navigator.clipboard || !window.isSecureContext) throw new Error('Use local fallback');
-      await navigator.clipboard.writeText(currentText);
-      copied();
-    } catch (_) {
-      // file:// and browsers with clipboard permission disabled.
-      const temp = document.createElement('textarea');
-      temp.value = currentText; temp.style.cssText = 'position:fixed;left:-9999px;top:0';
-      document.body.append(temp); temp.select();
-      let success = false;
-      try { success = document.execCommand('copy'); } catch (_) { /* manual selection below */ }
-      temp.remove();
-      if (success) copied();
-      else {
-        const range = document.createRange(); range.selectNodeContents(output);
-        const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range);
-        notify('Text selected. Press Ctrl/Cmd+C, or use your device’s Copy command.');
-      }
+    if (await writeClipboard(currentText)) copied();
+    else {
+      const range = document.createRange(); range.selectNodeContents(output);
+      const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range);
+      notify('Text selected. Press Ctrl/Cmd+C, or use your device’s Copy command.');
     }
   }
   function copied() {
@@ -464,12 +467,66 @@
   document.querySelectorAll('a[href="#project-info"]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault(); $('about-dialog').showModal();
   }));
-  $('report-button').addEventListener('click', () => $('report-dialog').showModal());
+  const issueBaseUrl = 'https://github.com/TajkirHossen-14/Bornotoron/issues/new';
+  const issueDetails = $('issue-details');
+  const issueLink = $('github-issues');
+  const issueLinkStatus = $('issue-link-status');
+  const maxIssueUrlLength = 7000;
+
+  function preparedReport() {
+    const details = issueDetails.value.trim();
+    if (!details) return '';
+    // A local report only. Never collect editor text or silently submit a report.
+    return `Bornotoron – Issue report\nDate: ${new Date().toISOString()}\n\n${details}\n\nPrepared locally; not submitted.\n`;
+  }
+
+  function updateIssueLink() {
+    const details = issueDetails.value.trim();
+    if (!details) {
+      issueLink.href = issueBaseUrl;
+      issueLinkStatus.hidden = true;
+      return;
+    }
+    const prefilledUrl = `${issueBaseUrl}?body=${encodeURIComponent(details)}`;
+    if (prefilledUrl.length <= maxIssueUrlLength) {
+      issueLink.href = prefilledUrl;
+      issueLinkStatus.textContent = 'Your report will be prefilled on GitHub.';
+    } else {
+      issueLink.href = issueBaseUrl;
+      issueLinkStatus.textContent = 'This report is too long to prefill. Copy or download it instead.';
+    }
+    issueLinkStatus.hidden = false;
+  }
+
+  function reportCopied() {
+    clearTimeout(reportCopyTimer);
+    const button = $('copy-report');
+    button.classList.add('copied');
+    button.querySelector('use').setAttribute('href', '#i-check');
+    button.querySelector('span').textContent = 'Copied';
+    notify('Issue report copied. Your editor text and history were not included.');
+    reportCopyTimer = setTimeout(() => {
+      button.classList.remove('copied');
+      button.querySelector('use').setAttribute('href', '#i-copy');
+      button.querySelector('span').textContent = 'Copy report';
+    }, 1500);
+  }
+
+  issueDetails.addEventListener('input', updateIssueLink);
+  updateIssueLink();
+  $('report-button').addEventListener('click', () => { updateIssueLink(); $('report-dialog').showModal(); });
+  $('copy-report').addEventListener('click', async () => {
+    const report = preparedReport();
+    if (!report) { issueDetails.focus(); notify('Please describe the issue first.'); return; }
+    if (await writeClipboard(report)) reportCopied();
+    else {
+      issueDetails.focus(); issueDetails.select();
+      notify('Report selected. Press Ctrl/Cmd+C, or use your device’s Copy command.');
+    }
+  });
   $('download-report').addEventListener('click', () => {
-    const details = $('issue-details').value.trim();
-    if (!details) { $('issue-details').focus(); notify('Please describe the issue first.'); return; }
-    // A local file only. Never collect editor text or silently submit a report.
-    const report = `Bornotoron – Issue report\nDate: ${new Date().toISOString()}\n\n${details}\n\nPrepared locally; not submitted.\n`;
+    const report = preparedReport();
+    if (!report) { issueDetails.focus(); notify('Please describe the issue first.'); return; }
     const url = URL.createObjectURL(new Blob([report], { type: 'text/plain;charset=utf-8' }));
     const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'bornotoron-issue-report.txt';
     document.body.append(anchor); anchor.click(); anchor.remove();
@@ -494,6 +551,22 @@
     cancelAnimationFrame(renderFrame); convert();
     if (historyTimer) saveDraft();
   });
+
+  function registerServiceWorker() {
+    if (!('serviceWorker' in navigator) || !window.isSecureContext || location.protocol === 'file:') return;
+    const hadController = !!navigator.serviceWorker.controller;
+    let updateNotified = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController || updateNotified) return;
+      updateNotified = true;
+      notify('Bornotoron updated. Refresh the page to use the latest version.');
+    });
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(() => { /* Online use still works if registration is unavailable. */ });
+    }, { once: true });
+  }
+  registerServiceWorker();
+
   // Crop transparent margins from the existing PNG, not the artwork itself.
   // A PNG Blob fills more of the browser's fixed favicon slot without base64.
   async function enhanceFavicon() {
