@@ -241,16 +241,79 @@
       get('download-button').click();
       check('download filename', /^bornotoron-.*\.txt$/.test(filename));
       check('download contents', (await blob.text()).replace(/^\uFEFF/, ''), 'বোনটি 123');
-      get('issue-details').value = 'Menu test report'; get('download-report').click();
+      get('issue-details').value = 'Menu test report';
+      get('issue-details').dispatchEvent(new w.Event('input', { bubbles: true }));
+      const issueUrl = new w.URL(get('github-issues').href);
+      check('issue report prefilled on GitHub', issueUrl.searchParams.get('body'), 'Menu test report');
+      check('issue prefill status shown', get('issue-link-status').hidden, false);
+      get('download-report').click();
       check('issue report filename', filename, 'bornotoron-issue-report.txt');
       const reportText = await blob.text();
       check('issue report contains only supplied description', reportText.includes('Menu test report') && !reportText.includes('বোনটি 123'));
+      get('copy-report').click(); await pause(100);
+      check('issue report clipboard excludes editor text', copiedText.includes('Menu test report') && !copiedText.includes('বোনটি 123'));
+      check('issue report copied state', get('copy-report').classList.contains('copied'));
+      await pause(1600); check('issue report copy state resets', get('copy-report').classList.contains('copied'), false);
+      get('issue-details').value = 'ব'.repeat(5000);
+      get('issue-details').dispatchEvent(new w.Event('input', { bubbles: true }));
+      check('long issue uses GitHub fallback', get('github-issues').href, 'https://github.com/TajkirHossen-14/Bornotoron/issues/new');
+      check('long issue fallback explained', get('issue-link-status').textContent.includes('too long'));
+      get('issue-details').value = '';
+
+      const manifestUrl = new w.URL('Assets/Favicon/site.webmanifest', w.location.href);
+      const manifestResponse = await w.fetch(manifestUrl.href);
+      check('PWA manifest loads', manifestResponse.ok);
+      const manifest = await manifestResponse.json();
+      check('PWA manifest name', manifest.name, 'Bornotoron');
+      check('PWA manifest start URL', new w.URL(manifest.start_url, manifestUrl.href).pathname, new w.URL('./', w.location.href).pathname);
+      check('PWA manifest scope', new w.URL(manifest.scope, manifestUrl.href).pathname, new w.URL('./', w.location.href).pathname);
+      for (const icon of manifest.icons) {
+        const iconResponse = await w.fetch(new w.URL(icon.src, manifestUrl.href).href);
+        check(`PWA icon ${icon.sizes}`, iconResponse.ok);
+      }
+
+      if ('serviceWorker' in w.navigator && 'caches' in w) {
+        let registration = null;
+        const deadline = Date.now() + 10000;
+        while (Date.now() < deadline) {
+          registration = await w.navigator.serviceWorker.getRegistration();
+          if (registration?.active) break;
+          await pause(100);
+        }
+        check('service worker active', !!registration?.active);
+        if (registration?.active) {
+          check('service worker scope', new w.URL(registration.scope).pathname, new w.URL('./', w.location.href).pathname);
+          check('service worker script', registration.active.scriptURL.endsWith('/sw.js'));
+          const cacheNames = await w.caches.keys();
+          const shellCacheName = cacheNames.find(name => /^bornotoron-shell-v\d+$/.test(name));
+          check('versioned app shell cache', !!shellCacheName);
+          if (shellCacheName) {
+            const shellCache = await w.caches.open(shellCacheName);
+            for (const path of ['./', 'index.html', 'style.css', 'js/main.js', 'Assets/Favicon/site.webmanifest']) {
+              const cached = await shellCache.match(new w.URL(path, w.location.href).href);
+              check(`offline cache ${path}`, !!cached);
+            }
+          }
+          const staleCacheName = `bornotoron-shell-v0-test-${Date.now()}`;
+          await w.caches.open(staleCacheName);
+          const channel = new w.MessageChannel();
+          let pruneReplied = false;
+          channel.port1.onmessage = () => { pruneReplied = true; };
+          registration.active.postMessage({ type: 'PRUNE_OLD_CACHES' }, [channel.port2]);
+          const pruneDeadline = Date.now() + 3000;
+          while (!pruneReplied && Date.now() < pruneDeadline) await pause(50);
+          check('cache prune acknowledgement', pruneReplied);
+          check('stale cache removed', !(await w.caches.keys()).includes(staleCacheName));
+          channel.port1.close();
+        }
+      } else lines.push('PWA suite skipped: service worker or Cache Storage unavailable.');
+
       const reloaded = new Promise(resolve => { frame.onload = resolve; }); frame.contentWindow.location.reload(); await reloaded; await pause(200);
       check('draft survives reload', frame.contentDocument.getElementById('bangla-output').textContent, 'বোনটি 123');
       check('theme survives reload', frame.contentDocument.documentElement.dataset.theme, 'dark');
       frame.contentDocument.getElementById('clear-history').click();
       check('history cleared', JSON.parse(localStorage.getItem('bornotoron.history')).length, 0);
-      lines.push('Real UI: typing, alternatives, corrections, local learning, digits, history, tabs, themes, clipboard, download, and reload verified.');
+      lines.push('Real UI: typing, alternatives, corrections, local learning, digits, history, tabs, themes, clipboard, report actions, PWA cache, and reload verified.');
     } catch (error) { check('UI integration suite', error.message, 'no errors'); }
     finally {
       frame?.remove(); await pause(100);
