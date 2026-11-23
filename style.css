@@ -43,7 +43,7 @@
   --subtle-line: #272e36;
   --action-bg: #21262d;
   --action-hover: #30363d;
-  --control-track: #737d87;
+  --control-track: #236340;
   --control-knob: #ffffff;
   --focus-ring: rgb(255 255 255 / 7%);
   --header: rgb(13 17 23 / 94%);
@@ -1574,10 +1574,21 @@ code {
   font: 12px/1.7 var(--english);
 }
 
-.report-download {
+.report-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 13px;
+}
+
+.report-actions .copy-button {
   font: 12px var(--english);
   padding: 11px 14px;
-  margin-top: 13px;
+  margin-top: 0;
+}
+
+.report-status {
+  margin-top: 9px;
 }
 
 .accent {
