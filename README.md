@@ -99,6 +99,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 - 💾 **History & drafts** – Restore the last 10 conversions and recover your draft on reload.
 - 📊 **Live counts** – Grapheme-aware character counts where supported, plus word counts.
 - 📖 **Phonetic guide** – Collapsible, keyboard-navigable reference tabs.
+- 📲 **Installable PWA** – Manifest, service worker, app-shell caching, and offline reopening on HTTPS or localhost.
 
 ### 🎨 A considered interface
 
@@ -107,7 +108,7 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 - ♿ **Accessible controls** – Labels, visible focus, keyboard navigation, inert closed-menu content, Escape/outside-click dismissal, and reduced-motion support.
 - 🌿 **User-supplied Bengali logo** – The original green mark, with its white background removed to real transparent PNG, for the navbar and favicon; plus a self-contained **1500 × 500 (3:1) SVG banner**.
 - 🪡 **Subtle alpona-inspired texture** – SVG pattern, not a raster image.
-- 🐛 **Local issue-report preparation** – Write a report and download it; no silent upload or false submission confirmation.
+- 🐛 **Issue reporting** – Copy or download a prepared report, or open GitHub with it prefilled; editor text and history stay excluded.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
@@ -120,7 +121,8 @@ It combines phonetic rules, a bundled spelling dictionary, explicit homophone ch
 | **Styling** | CSS custom properties, Grid, Flexbox, media queries |
 | **Logic** | Vanilla JavaScript – classes, closures, event delegation |
 | **Conversion** | Dictionary lookup, longest-match-first rules, incremental token reuse |
-| **Persistence** | `localStorage` only |
+| **Persistence** | `localStorage` for user data; versioned Cache Storage app shell |
+| **Offline** | Web App Manifest, service worker, network-first app-shell cache |
 | **Text measurement** | `Intl.Segmenter` with Unicode code-point fallback |
 | **Export** | Clipboard API, Blob, object URLs |
 | **Motion** | CSS transitions/keyframes and Intersection Observer |
@@ -182,11 +184,11 @@ cd Bornotoron
 2. Open **`index.html`**.
 3. Type, choose a suggestion, or try an example chip.
 
-Unlike an ES-module application, Bornotoron uses ordered classic `defer` scripts and works directly over **`file://`**. Conversion requires no internet connection. Google Fonts is optional; installed system fonts provide a fallback.
+Unlike an ES-module application, Bornotoron uses ordered classic `defer` scripts and works directly over **`file://`**. Conversion requires no internet connection. Google Fonts is optional; installed system fonts provide a fallback. PWA installation and service-worker caching require HTTPS or localhost; `file://` remains available for conversion only.
 
 ### Optional local server
 
-A static server provides a stable browser storage origin and enables the full iframe integration suite:
+A static server provides a stable browser storage origin, enables PWA/service-worker testing, and runs the full iframe integration suite:
 
 ```bash
 # From the project root, if Python is already installed:
@@ -209,6 +211,8 @@ Bornotoron/
 │
 ├── style.css               # Themes, responsive layout, motion
 │
+├── sw.js                   # App-shell cache and offline fallback
+│
 ├── js/
 │   ├── main.js             # UI, menu, local persistence and exports
 │   ├── rules.js            # Phonetic and boundary-rule data
@@ -224,7 +228,8 @@ Bornotoron/
 ├── tests.html
 │
 ├── LICENSE
-└── README.md
+├── README.md               # English documentation
+└── README.bn.md            # Bangla documentation
 ```
 
 Redundant quick-start/asset-only README files and temporary dark-mode/navigation preview helpers have been removed. Only application files, required brand assets, the preserved source artwork, this documentation, and the regression runner remain.
@@ -337,7 +342,8 @@ No text is sent to a transliteration API. There is no server-side persistence, T
 - Personal corrections are limited to 100 characters each; initialization accepts up to 3,000 valid learned entries.
 - Storage errors do not break conversion. Private mode, browser quota, and file origins may prevent persistence.
 - Local data is **not encrypted**. Use **Privacy & Local Data** to clear history, forget corrections, or delete all app data after confirmation.
-- Issue reports contain only the description you type and a timestamp. They are downloaded locally, **not submitted**.
+- The service worker caches only static app-shell files. Drafts, history, learned spellings, and editor text are never placed in the app-shell cache.
+- Issue reports contain only the description you type and a timestamp when downloaded. They can be copied or prefilled into GitHub; editor text and history are never included.
 
 **External resources:** the app optionally requests Google Fonts from `fonts.googleapis.com` and `fonts.gstatic.com`. README badges separately use Shields.io; they are not part of the application. Font requests do not contain your editor text.
 
@@ -358,11 +364,12 @@ Open **`tests.html`** to run the browser suite.
 - PNG alpha checks for transparent outer background and inner cutout, retained artwork, no white logo tile, and the revised interface copy.
 - Arrow clearance on desktop, mobile, and after resizing the input; the new default sentence.
 - Hamburger open/close, inert closed content, theme switch inside the menu, Escape focus restoration, outside press, link selection, and desktop breakpoint recovery.
-- Issue dialog and local report download without editor text leakage.
+- Issue dialog copy/download and GitHub prefill without editor text or history leakage.
+- PWA manifest, icon paths, service-worker registration, offline app-shell cache, and stale-cache cleanup.
 
 Clipboard transport is stubbed for the automated UI check. Real permissions, the fallback copy path, native downloads, and assistive technology still deserve testing on supported devices.
 
-> **Run tests with other Bornotoron tabs closed.** The runner temporarily backs up the five storage keys, tests against clean values, and restores your data. Let it finish. On `file://`, engine/contrast checks run but same-origin iframe UI tests are skipped.
+> **Run tests with other Bornotoron tabs closed.** The runner temporarily backs up the five storage keys, tests against clean values, and restores your data. Let it finish. On `file://`, engine/contrast checks run, but same-origin iframe UI and PWA tests are skipped.
 
 Visual QA checked the **real page** at desktop (1280px) and phone (390px) widths in both themes, including the arrow's clearance from the editor cards. Hamburger opening, keyboard behavior, link selection, and responsive state are covered by the real-UI regression suite. Temporary preview helpers were removed after review.
 
@@ -396,6 +403,7 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/index.html#recent-history` | Opens history |
 | `/index.html#navigation` | Opens the hamburger at mobile widths |
 | `/tests.html` | Regression suite and banner preview |
+| `/sw.js` | Service worker and offline app-shell cache |
 | `/Assets/Banner/Bornotoron-Banner.png` | Standalone 3:1 PNG banner |
 | `/Assets/Logo/Bornotoron_Logo.png` | Transparent brand logo |
 | `/Assets/Favicon/Bornotoron-Favicon-SVG.svg` | Primary scalable vector favicon |
@@ -406,7 +414,7 @@ All listed pairs meet WCAG AA for normal text. This is not a claim of a third-pa
 | `/Assets/Favicon/Web_App_Manifest-512x512.png` | PWA icon (512×512) |
 | `/Assets/Favicon/site.webmanifest` | PWA manifest |
 
-Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, footer, and About GitHub links open the actual repository in a new tab with `noopener noreferrer`. The report dialog links to GitHub's new-issue page and also offers an optional local report download. Submission happens on GitHub, not silently inside this app.
+Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, footer, and About GitHub links open the actual repository in a new tab with `noopener noreferrer`. The report dialog can copy or download a prepared report and can prefill GitHub's new-issue page when the URL length allows. Editor text and history are never included. Final submission happens on GitHub, not silently inside this app.
 
 ### Public URLs
 
@@ -424,7 +432,7 @@ Privacy, About, and Report an Issue are in-page dialogs. Navbar, mobile-menu, fo
 | **Netlify** | No build command; publish directory `.` |
 | **GitHub Pages** | Deployment branch, source `/ (root)` |
 
-Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, its four primary JavaScript files, and the PNG files in `Assets/Logo/` and `Assets/Favicon/`.  The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
+Relative paths support repository subdirectories. No rewrite rules are needed. The app needs `index.html`, `style.css`, `sw.js`, its four primary JavaScript files, and the PNG/icon assets plus `site.webmanifest` in `Assets/Logo/` and `Assets/Favicon/`. The regression runner (`tests.html` and `js/tests.js`) may be excluded from a production upload.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
@@ -437,8 +445,8 @@ Relative paths support repository subdirectories. No rewrite rules are needed. T
 - Automatic contextual disambiguation, AI translation, reverse transliteration, or speech input.
 - Rich-text output editing; corrections are word-level.
 - Cloud accounts, collaboration, encrypted local data, or cross-device sync.
-- PWA installation, a service worker, or bundled webfonts. The downloaded files convert offline, but reopening a hosted site offline is not guaranteed.
-- In-app authenticated issue submission or an assigned production URL. Repository and issue-page links are connected; submission is handled by GitHub.
+- Bundled webfonts. The PWA app shell works offline after the first visit, but Google Fonts still falls back to installed system fonts when offline.
+- Direct authenticated issue submission inside the app. Reports can be copied, downloaded, or prefilled into GitHub; final submission happens on GitHub.
 - Legacy browser support for engines without modern JavaScript, native dialogs, or `inert`.
 
 ### Recommended development
@@ -446,9 +454,9 @@ Relative paths support repository subdirectories. No rewrite rules are needed. T
 1. Review spellings and ambiguities with a native Bangla editor; automated consistency tests are not independent linguistic proof.
 2. Expand tested contextual rules and inflection coverage.
 3. Test clipboard, downloads, IME input and screen readers across the supported browser/device matrix.
-4. Publish the static app, document its production URL, and confirm the repository's Issues feature is enabled.
+4. Keep the production URL documented and confirm the repository's Issues feature remains enabled.
 5. Add versioned learned-dictionary import/export and storage migrations if needed.
-6. Consider licensed local fonts and a tested service worker only if installable offline use becomes a requirement.
+6. Consider licensed local fonts if fully offline typography becomes a requirement; app-shell offline support is already provided by the service worker.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=236340&height=2&section=header"/>
 
